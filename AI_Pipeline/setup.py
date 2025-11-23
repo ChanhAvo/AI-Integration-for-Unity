@@ -68,19 +68,21 @@ def generate_image(scene_description, filepath, main_char_dict, sub_char_dict, l
         char2_desc = f"((({sub_bp.get('core_identity', '')}))), ({sub_bp.get('always_include', '')}:1.5)"
         
         final_prompt = (
+            f"{config.consistency_rules}. " 
             f"{style_tags}. "
-            f"Scene Action: {scene_description}. "
-            f"Characters: {char1_desc}, {char2_desc}. "
-            f"Location: {loc_bp.get('visual_identity', '')}. "
-            f"Masterpiece, best quality, 8k, highly detailed."
+            f"FOCUS CHARACTERS: {char1_desc}, {char2_desc}. "
+            f"SCENE ACTION: {scene_description}. "
+            f"ENVIRONMENT: {loc_bp.get('visual_identity', '')}. "
+            f"Masterpiece, best quality, 8k, highly detailed, consistent character design."
         )
 
-        # 3. Negative Prompt (Fixes clipping/anatomy)
+        # Negative Prompt 
         neg_prompt = (
             "ugly, deformed, noisy, blurry, low quality, text, watermark, "
             "bad anatomy, distortion, extra limbs, mutation, disconnected limbs, "
             "floating objects, objects passing through each other, bad hands, "
-            "missing fingers, extra fingers, weird eyes, dull colors, cropped"
+            "missing fingers, extra fingers, weird eyes, dull colors, "
+            "changing clothes, different face, changing hair color, morphing"
         )
         
         # Calculate combined seed for consistency
@@ -109,7 +111,7 @@ def generate_image(scene_description, filepath, main_char_dict, sub_char_dict, l
                 image = image.resize((512, 512), Image.Resampling.LANCZOS)
             
             image.save(filepath)
-            print(f"    ✓ Image saved: {filepath}")
+            print(f"Image saved: {filepath}")
             return 
 
         except Exception as e:
@@ -117,21 +119,20 @@ def generate_image(scene_description, filepath, main_char_dict, sub_char_dict, l
             if "503" in error_str or "429" in error_str:
                 if retry_count < 5:
                     wait_time = (2 ** retry_count) * 20
-                    print(f"    ⚠️ Provider Busy. Waiting {wait_time}s...")
+                    print(f"Provider Busy. Waiting {wait_time}s...")
                     time.sleep(wait_time)
                     return generate_image(scene_description, filepath, main_char_dict, sub_char_dict, location_dict, retry_count + 1)
             raise e 
 
     except Exception as e:
-        print(f"    ! Image Gen Failed: {e}")
+        print(f"Image Gen Failed: {e}")
         img = Image.new('RGB', (512, 512), color='gray')
         img.save(filepath)
-        print(f"    ⚠ Placeholder (Gray) saved")
+        print(f"Placeholder (Gray) saved")
         
 
 
 async def generate_audio(text, filepath):
-    """Generate TTS audio for story narration"""
     try:
         communicate = edge_tts.Communicate(
             text, 
