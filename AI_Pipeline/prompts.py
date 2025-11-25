@@ -47,6 +47,11 @@ Location: {location_name}
 Write the story PART in EXACTLY 3 pages. 
 CRITICAL: Use "Strong Verbs" (e.g., 'zoomed' not 'went', 'giggled' not 'said').
 
+WORD COUNT REQUIREMENTS (MANDATORY):
+- Each page MUST be between **30-40words**.
+- Total for the 3 pages MUST be between **90-120 words**.
+- This ensures the full 6-part story ends between **500–800 words**.
+
 OUTPUT (STRICT JSON):
 {{
   "pages": [
