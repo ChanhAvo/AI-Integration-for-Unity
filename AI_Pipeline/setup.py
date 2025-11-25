@@ -1,148 +1,120 @@
+import os
 import time
 import json
-import edge_tts
-from huggingface_hub import InferenceClient
-from google import genai
-from PIL import Image
+from pathlib import Path
 import config
+import prompts
+from google import genai
+from huggingface_hub import InferenceClient
+import edge_tts
+from PIL import Image
 
-# Setup APIs
-google_client = genai.Client(api_key=config.GEMINI_API_KEY)
-hf_client = InferenceClient(provider="nscale", token=config.HF_TOKEN)
-def clean_json(text):
-    return text.replace("```json", "").replace("```", "").strip()
 
-def generate_json(prompt, step_name):
-    print(f"AI Step: {step_name}...")
-    
-    while True:
+def _safe_write(path, content):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+def log_prompt(name, prompt_text):
+    safe_name = name.replace(" ", "_").replace("/", "_")
+    path = os.path.join(config.PROMPT_LOG_DIR, f"{safe_name}.txt")
+    _safe_write(path, prompt_text)
+    return path
+
+def log_response(name, obj):
+    safe_name = name.replace(" ", "_").replace("/", "_")
+    path = os.path.join(config.RESPONSE_LOG_DIR, f"{safe_name}.json")
+    _safe_write(path, json.dumps(obj, ensure_ascii=False, indent=2))
+    return path
+
+
+def _extract_json_text(text):
+    first = text.find("{")
+    last = text.rfind("}")
+    if first != -1 and last != -1 and last > first:
+        return text[first:last+1]
+    return None
+
+
+def call_llm(prompt_text, step_name):
+    log_prompt(step_name, prompt_text)
+    if genai is None or config.GEMINI_API_KEY is None:
+        fallback = {"fallback": True, "note": "genai missing or no API key"}
+        log_response(step_name, fallback)
+        return fallback
+
+    client = genai.Client(api_key=config.GEMINI_API_KEY)
+    attempts = 0
+    while attempts < config.MAX_LLM_RETRIES:
+        attempts += 1
         try:
-            response = google_client.models.generate_content(
-                model='gemini-2.0-flash', 
-                contents=prompt,
-                config={
-                    'response_mime_type': 'application/json', 
-                    'temperature': 0.7,
-                    'top_p': 0.9,
-                    'max_output_tokens': 2048
-                }
+            resp = client.models.generate_content(
+                model='gemini-2.0-flash',
+                contents=prompt_text,
+                config={'response_mime_type': 'application/json', 'temperature': 0.7}
             )
-            result = json.loads(clean_json(response.text))
-            return result
-
-        except json.JSONDecodeError:
-            print(f"JSON Parse Error. Retrying...")
-            time.sleep(2)
-            continue
-            
-        except Exception as e:
-            error_str = str(e)
-            # Safe check for error codes in both string and object attributes
-            is_rate_limit = "429" in error_str or getattr(e, 'code', 0) == 429
-            is_server_error = "503" in error_str or "500" in error_str or getattr(e, 'code', 0) in [500, 503]
-
-            if is_rate_limit:
-                print(f"Rate Limit Hit (429). Sleeping 60 seconds to reset quota...")
-                time.sleep(60) 
-                continue
-            
-            elif is_server_error:
-                print(f"Server Error. Sleeping 20 seconds...")
-                time.sleep(20)
-                continue
-            
+            text = resp.text
+            extracted = _extract_json_text(text)
+            if extracted:
+                parsed = json.loads(extracted)
+                log_response(step_name, parsed)
+                return parsed
             else:
-                print(f"Critical Error: {e}")
-                return {"fallback": True, "error": str(e)}
-
-
-def generate_image(scene_description, filepath, main_char_dict, sub_char_dict, location_dict, retry_count=0):
-    try:
-        main_bp = config.char_bp.get(main_char_dict['short_name'], {})
-        sub_bp = config.char_bp.get(sub_char_dict['short_name'], {})
-        loc_bp = config.loc_bp.get(location_dict['name'], {})
-        
-        style_tags = f"{config.global_style['art_style']}, {config.global_style['lighting']}, {config.global_style['technical']}"
-        
-        char1_desc = f"((({main_bp.get('core_identity', '')}))), ({main_bp.get('always_include', '')}:1.5)"
-        char2_desc = f"((({sub_bp.get('core_identity', '')}))), ({sub_bp.get('always_include', '')}:1.5)"
-        
-        final_prompt = (
-            f"{config.consistency_rules}. " 
-            f"{style_tags}. "
-            f"FOCUS CHARACTERS: {char1_desc}, {char2_desc}. "
-            f"SCENE ACTION: {scene_description}. "
-            f"ENVIRONMENT: {loc_bp.get('visual_identity', '')}. "
-            f"Masterpiece, best quality, 8k, highly detailed, consistent character design."
-        )
-
-        # Negative Prompt 
-        neg_prompt = (
-            "ugly, deformed, noisy, blurry, low quality, text, watermark, "
-            "bad anatomy, distortion, extra limbs, mutation, disconnected limbs, "
-            "floating objects, objects passing through each other, bad hands, "
-            "missing fingers, extra fingers, weird eyes, dull colors, "
-            "changing clothes, different face, changing hair color, morphing"
-        )
-        
-        # Calculate combined seed for consistency
-        combined_seed = (
-            main_char_dict.get('seed', 0) + 
-            sub_char_dict.get('seed', 0) + 
-            location_dict.get('seed', 0)
-        ) % 2147483647
-        
-        
-        if retry_count == 0:
-            print(f"Using combined seed: {combined_seed}")
-            print(f"Characters: {main_char_dict['short_name']} + {sub_char_dict['short_name']}")
-        
-        try:
-            image = hf_client.text_to_image(
-                final_prompt,
-                negative_prompt=neg_prompt, 
-                model=config.image_model,
-                seed=combined_seed,
-                width=1024, 
-                height=1024
-            )
-            
-            if image.size != (512, 512):
-                image = image.resize((512, 512), Image.Resampling.LANCZOS)
-            
-            image.save(filepath)
-            print(f"Image saved: {filepath}")
-            return 
-
+                log_response(step_name + "_raw", {"raw": text})
+                raise ValueError("LLM returned non-JSON / unparsable content")
         except Exception as e:
-            error_str = str(e)
-            if "503" in error_str or "429" in error_str:
-                if retry_count < 5:
-                    wait_time = (2 ** retry_count) * 20
-                    print(f"Provider Busy. Waiting {wait_time}s...")
-                    time.sleep(wait_time)
-                    return generate_image(scene_description, filepath, main_char_dict, sub_char_dict, location_dict, retry_count + 1)
-            raise e 
+            err = str(e)
+            print(f"[LLM] attempt {attempts}/{config.MAX_LLM_RETRIES} failed: {err}")
+            if "429" in err or "rate" in err.lower():
+                backoff = config.BASE_BACKOFF * (2 ** (attempts - 1))
+                print(f"[LLM] rate-limited; backing off {backoff}s")
+                time.sleep(backoff)
+                continue
+            if attempts >= config.MAX_LLM_RETRIES:
+                print("[LLM] all attempts failed; returning fallback")
+                fallback = {"fallback": True}
+                log_response(step_name + "_fallback", fallback)
+                return fallback
+            time.sleep(1)
 
-    except Exception as e:
-        print(f"Image Gen Failed: {e}")
-        img = Image.new('RGB', (512, 512), color='gray')
-        img.save(filepath)
-        print(f"Placeholder (Gray) saved")
-        
-
-
-async def generate_audio(text, filepath):
+# Image generation
+def generate_image(prompt_str, negative_prompt, seed, filepath, model_name=None):
+    model_name = model_name or config.image_model
+    _safe_write(filepath + ".prompt.txt", prompt_str)
+    if InferenceClient is None or config.HF_TOKEN is None:
+        Image.new("RGB", (512, 512), color="gray").save(filepath)
+        return {"status": "placeholder", "note": "HF client missing or token missing"}
+    client = InferenceClient(token=config.HF_TOKEN)
     try:
-        communicate = edge_tts.Communicate(
-            text, 
-            "en-US-AnaNeural",  
-            rate="-10%",  
-            pitch="+1Hz" 
+        image = client.text_to_image(
+            prompt_str,
+            negative_prompt=negative_prompt,
+            model=model_name,
+            seed=seed,
+            width=1024,
+            height=1024
         )
-        await communicate.save(filepath)
-        print(f"Audio saved: {filepath}")
-        
+        if image.size != (512, 512):
+            image = image.resize((512, 512), Image.Resampling.LANCZOS)
+        image.save(filepath)
+        return {"status": "ok"}
     except Exception as e:
-        print(f"Audio Gen Failed: {e}")
-        print(f"Audio file not created")
+        print(f"[SD] generation failed: {e}")
+        Image.new("RGB", (512, 512), color="gray").save(filepath)
+        return {"status": "failed", "error": str(e)}
+
+# Audio generation
+async def generate_audio(text, filepath):
+    _safe_write(filepath + ".txt", text)
+    if edge_tts is None:
+        open(filepath, "wb").close()
+        return {"status": "placeholder"}
+    try:
+        communicate = edge_tts.Communicate(text, "en-US-AnaNeural", rate="-10%", pitch="+1Hz")
+        await communicate.save(filepath)
+        return {"status": "ok"}
+    except Exception as e:
+        print(f"[TTS] failed: {e}")
+        open(filepath, "wb").close()
+        return {"status": "failed", "error": str(e)}
+
