@@ -10,7 +10,6 @@ HF_TOKEN = os.getenv("HF_TOKEN")
 
 
 output_dir =  "../Unity_Project/Assets/StreamingAssets/StoryData"
-Path(output_dir).mkdir(parents=True, exist_ok=True)
 image_model =  "stabilityai/stable-diffusion-xl-base-1.0"
 
 
@@ -130,16 +129,6 @@ global_style = {
 # Negative prompt
 negative_prompt = "ugly, deformed, noisy, blurry, text, watermark, bad anatomy, extra limbs, mutation, scary, gore, photorealistic, adult proportions"
 
-# Word length range
-word_min = 450
-word_max = 850
-
-# Reporting
-REPORT_DIR = os.getenv("REPORT_DIR", "./reports")
-PROMPT_LOG_DIR = os.path.join(REPORT_DIR, "prompts")
-RESPONSE_LOG_DIR = os.path.join(REPORT_DIR, "responses")
-Path(PROMPT_LOG_DIR).mkdir(parents=True, exist_ok=True)
-Path(RESPONSE_LOG_DIR).mkdir(parents=True, exist_ok=True)
 
 MAX_LLM_RETRIES = 6
-BASE_BACKOFF = 2  
+BASE_BACKOFF = 4 

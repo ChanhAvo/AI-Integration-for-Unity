@@ -27,30 +27,56 @@ Return STRICT JSON:
 }}
 
 CONSTRAINTS:
-- Avoid generic phrases like "they went to the forest." Use specifics like "they tiptoed under the humming leaves."
-- Ensure the 'Overcome' step highlights the character's unique Blueprint item (e.g., Alice's notebook, Jungle Boy's torch).
+- **Visuals First**: Do not just say "they talked." Say "they leaned over the glowing map."
+- **Safety**: The hurdle must be a "cozy problem" (e.g., a locked door, a dark corner, a lost item), never a dangerous threat.
+- **Outcome**: Ensure the 'Overcome' step highlights the character's unique Blueprint item (e.g., Alice's notebook, Jungle Boy's torch).
 """
 
 # Draft
 DRAFT_PROMPT = """
-[ROLE] You are a Master Storyteller. Tone: Whimsical, Rhythmic, Immersive, Warm.
+[ROLE] You are a Gentle Children's Book Author (resembling the style of 'Magic Kinder' or 'Paw Patrol'). 
+Your tone is sunny, descriptive, and educational. Your writing style is fluid, rhythmic, and warm. You prioritize clear grammar and storytelling flow over "fast action."
 
 [INPUT_PLAN]
 {plan_json}
 
-[CHARACTERS]
-Main: {main_short} ({main_traits})
-Supporting: {sub_short} ({sub_traits})
-Location: {location_name}
-
 [TASK]
-Write the story PART in EXACTLY 3 pages. 
-CRITICAL: Use "Strong Verbs" (e.g., 'zoomed' not 'went', 'giggled' not 'said').
+Write the story segment in EXACTLY 3 pages.
+
+[STYLE GUIDE - DO NOT IGNORE]
+1. **The Flow Rule**: Never write 3 short sentences in a row. Connect ideas using words like "Suddenly," "Meanwhile," "Next," or "But."
+2. **The Dialogue Rule**: Characters should speak to explain what is happening.
+   - BAD: "Aladdin opened the door."
+   - GOOD: "'Look at this!' Aladdin shouted as he swung the door open."
+3. **The "Wholesome" Filter**: Use gentle verbs ("tumbled" instead of "crashed", "gasped" instead of "yipped"), warm tone for children for ages ò 5 to 8. No scary or dark themes.
+
+[GRAMMAR & FLUENCY RULES - STRICT]
+1. **The "No Staccato" Rule**: 
+   - STRICTLY FORBIDDEN: Writing 3 short sentences in a row (e.g., "He ran. He jumped. It was fun."). 
+   - REQUIRED: Use **conjunctions** and **transition words** to glue ideas together (e.g., "He ran *and* jumped, which was so much fun!").
+
+2. **The "Storybook Start"**: 
+   - Do not start every sentence with "He," "She," or "The." 
+   - Start sentences with setting or time indicators: "Suddenly...", "In the garden...", "With a big smile...", "Meanwhile..."
+
+3. **Dialogue Grammar**:
+   - Always use proper dialogue tags so the child knows who is speaking.
+   - BAD: "Wow!" The box opened.
+   - GOOD: "Wow!" **shouted** Alice as the box popped open.
+
+4. **Age-Appropriate Vocabulary (5-8)**:
+   - Use standard Subject-Verb-Object grammar.
+   - Avoid "weird" verbs like "yipped," "stilled," or "ratcheted." Use clear verbs like "barked," "stopped," or "turned."
+   - Avoid violent, dark or scary words. 
+
+[SENTENCE PATTERN EXAMPLES]
+- **Bad (Choppy):** "Aladdin yipped. The badger stilled. He was confused."
+- **Good (Flowing):** "Suddenly, Aladdin let out a happy yip! The badger stopped moving and looked very confused." 
 
 WORD COUNT REQUIREMENTS (MANDATORY):
-- Each page MUST be between **30-40words**.
-- Total for the 3 pages MUST be between **90-120 words**.
-- This ensures the full 6-part story ends between **500–800 words**.
+- Each page MUST be between **60 and 70words**. (Enough to tell a story, short enough for a child to read).
+- Total for the 3 pages MUST be between **180 and 210 words**.
+- This ensures the full 6-part story ends between **600 and 800 words**.
 
 OUTPUT (STRICT JSON):
 {{
@@ -61,10 +87,6 @@ OUTPUT (STRICT JSON):
   ]
 }}
 
-STYLING RULES:
-- Sentence Rhythm: Mix short punchy sentences with one flowing sentence.
-- Vocabulary: Simple and easy to understand for children.
-- NO passive voice (e.g., "The ball was thrown"). Use active voice (e.g., "He tossed the ball").
 """
 
 # Refine
@@ -79,10 +101,15 @@ Main: {main_short}
 Location: {location_name}
 
 [TASK]
-Polishing Objectives:
-1. "Verb Booster": Replace any boring verbs (is, are, went, saw) with fun, active verbs.
-2. "Safety Shield": Ensure 100% safety (no fear, no darkness, no danger—only cozy challenges).
-3. "Flow Check": Ensure the sentences read aloud smoothly for a parent reading to a child.
+Review the draft and output a polished JSON.
+
+[EDITING CHECKLIST]
+Follow these steps STRICTLY to refine the story
+1. **Flow Check**: Read aloud. Does it sound like a song? If it sounds like a robot ("He did this. Then he did that."), fix it by adding connectors ("Suddenly," "So," "But").
+2. **Vocabulary Check**: Ensure the vocabulary is age-appropriate (5-8). REPLACE any "weird" or complex words with simple, clear alternatives. DO NOT use violent, dark, or scary words.
+3. **Safety Check**: Ensure 100% positive vibes.
+4. **Word Count Check**: Each page must be 40-50 words, total 120-150 words. Adjust as needed.
+5. **Sentence and Grammar Check **: Ensure proper, smooth and simple sentence structures. Use dialogue tags properly. Avoid complex sentences that may confuse children. 
 
 Return STRICT JSON:
 {{
@@ -92,34 +119,56 @@ Return STRICT JSON:
 """
 
 # Image
+# Image
 IMAGE_PROMPT = """
-[TASK]
-Act as an Art Director for a high-budget animated movie. 
-Convert the text below into a rich Stable Diffusion XL prompt structure.
+[ROLE]
+You are a Technical Art Director for a cohesive animated series. 
+Your goal is to generate Stable Diffusion tags that ensure strict **VISUAL CONSISTENCY** across the entire story.
 
-[PAGE_TEXT]
+[INPUT STORY]
 {page_text}
 
-[LOCATION]
+[LOCATION CONTEXT]
 {location_name} - {location_desc}
 
-[BLUEPRINTS (AUTHORITATIVE)]
+[LOCKED CHARACTER BLUEPRINTS]
+(These visuals are HARD-CODED. Do not describe them in your output.)
 Main: {main_blueprint}
 Sub: {sub_blueprint}
 
-[STYLE] {global_style}
+[GLOBAL STYLE]
+{global_style}
+
+[TASK]
+Analyze the text and output a JSON object. 
+You are acting as the "Camera & Pose" director. The "Costume" and "Art Style" departments have already finished their work.
+
+[RULES - STRICT ENFORCEMENT]
+1. **IMMUTABLE IDENTITY (Same Face Rule)**: 
+   - STRICTLY FORBIDDEN: Do not describe hair, eyes, clothes, or age in the 'action' field.
+   - The system injects these details automatically. If you repeat them, it causes conflicts (glitchy images).
+   - BAD: "Alice with brown hair runs."
+   - GOOD: "Running dynamic pose, looking forward."
+
+2. **IMMUTABLE ART STYLE (Same World Rule)**:
+   - STRICTLY FORBIDDEN: Do not use art medium keywords (e.g., "illustration," "photorealistic," "3d render," "oil painting," "sketch") in your output.
+   - The style is applied globally. If you add style tags here, you might accidentally override the global look.
+   - Describe the **OBJECTS** and **LIGHT**, not the **ART TECHNIQUE**.
+
+3. **PURE POSE & EXPRESSION**: 
+   - Your 'action' tags must describe the skeleton's movement ONLY.
+   - Use dynamic verbs: "jumping," "crouching," "pointing," "laughing."
+
+4. **LIGHTING IS KEY**: 
+   - To keep the "movie" consistent, you MUST describe the lighting in 'bg_details'.
+   - Use: "Golden hour," "Soft volumetric fog," "Cinematic rim lighting," "Dappled shadows."
 
 [OUTPUT - STRICT JSON]
 {{
-  "bg_details": "<Visuals Only: Describe the lighting (e.g., 'golden hour', 'bioluminescent glow') and the specific environmental texture>",
-  "action": "<Visuals Only: Describe the EXACT interaction. E.g., 'Alice crouching low to inspect a flower', 'Jungle Boy hanging upside down'>",
-  "composition": "<Framing: e.g., 'Low angle shot', 'Close up on hands', 'Wide cinematic shot showing scale'>"
+  "bg_details": "<Comma-separated tags for environment/lighting ONLY. E.g., 'ancient trees, singing leaves, bioluminescent moss, cinematic lighting, volumetric fog'>",
+  "action": "<Comma-separated tags for POSE and EXPRESSION ONLY. E.g., 'jumping, arms outstretched, mouth open in joy, dynamic angle, head tilted'>",
+  "composition": "<Framing keywords. E.g., 'low angle, close-up on face, wide shot, rule of thirds, depth of field'>"
 }}
-
-GUIDELINES:
-- **Lighting is Key**: Always specify the light source (e.g., 'sunlight filtering through leaves').
-- **Blueprint Adherence**: NEVER describe clothes/hair. Rely on the blueprint injection in the code.
-- **Mood**: Make it feel 'cozy', 'magical', and 'soft'.
 """
 
 # QA Prompt

@@ -10,25 +10,7 @@ import edge_tts
 from PIL import Image
 
 
-def _safe_write(path, content):
-    Path(path).parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(content)
-
-def log_prompt(name, prompt_text):
-    safe_name = name.replace(" ", "_").replace("/", "_")
-    path = os.path.join(config.PROMPT_LOG_DIR, f"{safe_name}.txt")
-    _safe_write(path, prompt_text)
-    return path
-
-def log_response(name, obj):
-    safe_name = name.replace(" ", "_").replace("/", "_")
-    path = os.path.join(config.RESPONSE_LOG_DIR, f"{safe_name}.json")
-    _safe_write(path, json.dumps(obj, ensure_ascii=False, indent=2))
-    return path
-
-
-def _extract_json_text(text):
+def extract_json_text(text):
     first = text.find("{")
     last = text.rfind("}")
     if first != -1 and last != -1 and last > first:
@@ -37,10 +19,9 @@ def _extract_json_text(text):
 
 
 def call_llm(prompt_text, step_name):
-    log_prompt(step_name, prompt_text)
+    time.sleep(4)
     if genai is None or config.GEMINI_API_KEY is None:
         fallback = {"fallback": True, "note": "genai missing or no API key"}
-        log_response(step_name, fallback)
         return fallback
 
     client = genai.Client(api_key=config.GEMINI_API_KEY)
@@ -54,13 +35,11 @@ def call_llm(prompt_text, step_name):
                 config={'response_mime_type': 'application/json', 'temperature': 0.7}
             )
             text = resp.text
-            extracted = _extract_json_text(text)
+            extracted = extract_json_text(text)
             if extracted:
                 parsed = json.loads(extracted)
-                log_response(step_name, parsed)
                 return parsed
             else:
-                log_response(step_name + "_raw", {"raw": text})
                 raise ValueError("LLM returned non-JSON / unparsable content")
         except Exception as e:
             err = str(e)
@@ -73,14 +52,12 @@ def call_llm(prompt_text, step_name):
             if attempts >= config.MAX_LLM_RETRIES:
                 print("[LLM] all attempts failed; returning fallback")
                 fallback = {"fallback": True}
-                log_response(step_name + "_fallback", fallback)
                 return fallback
             time.sleep(1)
 
 # Image generation
 def generate_image(prompt_str, negative_prompt, seed, filepath, model_name=None):
     model_name = model_name or config.image_model
-    _safe_write(filepath + ".prompt.txt", prompt_str)
     if InferenceClient is None or config.HF_TOKEN is None:
         Image.new("RGB", (512, 512), color="gray").save(filepath)
         return {"status": "placeholder", "note": "HF client missing or token missing"}
@@ -105,7 +82,6 @@ def generate_image(prompt_str, negative_prompt, seed, filepath, model_name=None)
 
 # Audio generation
 async def generate_audio(text, filepath):
-    _safe_write(filepath + ".txt", text)
     if edge_tts is None:
         open(filepath, "wb").close()
         return {"status": "placeholder"}
@@ -117,4 +93,3 @@ async def generate_audio(text, filepath):
         print(f"[TTS] failed: {e}")
         open(filepath, "wb").close()
         return {"status": "failed", "error": str(e)}
-

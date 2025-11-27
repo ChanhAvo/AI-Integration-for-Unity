@@ -1,9 +1,3 @@
-"""
-Merged plan + draft + refine pipeline per story.
-Function: generate_story(story_id, main_char, sub_char, location)
-Writes story folder with pages and returns story dict.
-"""
-
 import os
 import json
 import time
@@ -14,9 +8,10 @@ import config
 import prompts
 import setup
 
-
-def count_words(text: str) -> int:
-    return len([w for w in text.split() if w.strip()])
+def save_story_json(story_folder, story_data):
+    path = os.path.join(story_folder, "story_data.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(story_data, f, ensure_ascii=False, indent=2)
 
 def render_plan_prompt(part, main, sub, location, prev_summary):
     return prompts.PLAN_PROMPT.format(
@@ -70,7 +65,7 @@ def render_image_request(text, main, sub, location):
     )
 
 
-def generate_story(story_id: str, main: Dict, sub: Dict, location: Dict, out_root: str):
+async def generate_story(story_id: str, main: Dict, sub: Dict, location: Dict, out_root: str):
 
     story_folder = os.path.join(out_root, story_id)
     os.makedirs(story_folder, exist_ok=True)
@@ -82,7 +77,9 @@ def generate_story(story_id: str, main: Dict, sub: Dict, location: Dict, out_roo
         "location": location["name"],
         "pages": []
     }
-
+    
+    save_story_json(story_folder, story)
+    
     prev_summary = "The story begins."
     page_counter = 0
 
@@ -90,10 +87,8 @@ def generate_story(story_id: str, main: Dict, sub: Dict, location: Dict, out_roo
 
 
         # Plan
-       
         plan_prompt = render_plan_prompt(part, main, sub, location, prev_summary)
         plan_name = f"{story_id}_{part}_plan_{int(time.time())}"
-        setup.log_prompt(plan_name, plan_prompt)
         plan_resp = setup.call_llm(plan_prompt, plan_name)
 
         if plan_resp.get("fallback") or "plan" not in plan_resp:
@@ -110,31 +105,28 @@ def generate_story(story_id: str, main: Dict, sub: Dict, location: Dict, out_roo
         # Draft
         
         accepted_pages = None
-
         for attempt in range(6): 
             draft_prompt = render_draft_prompt(plan, main, sub, location)
             draft_name = f"{story_id}_{part}_draft_{int(time.time())}"
-            setup.log_prompt(draft_name, draft_prompt)
+            
+            # Call LLM
             draft_resp = setup.call_llm(draft_prompt, draft_name)
-
             pages = draft_resp.get("pages")
+            if pages and isinstance(pages, list) and len(pages) == 3:
+                accepted_pages = pages
+                print(f"   [Draft] Success on attempt {attempt+1}")
+                break 
+            
+            print(f"   [Draft] Attempt {attempt+1} failed validation. Retrying...")
 
-            if not pages or len(pages) != 3:
-                continue
-
-            # Check each page's word count
-            word_counts = [count_words(p) for p in pages]
-            if all(30 <= wc <= 40 for wc in word_counts):
-                total_words = sum(word_counts)
-                if 90 <= total_words <= 120:
-                    accepted_pages = pages
-                    break
-
-            print(f"[WordCheck] '{part}' failed word rules {word_counts}. Regenerating...")
-
-        # Fallback
+        # FALLBACK LOGIC
         if accepted_pages is None:
-            accepted_pages = pages
+            print(f"   [Draft] CRITICAL: All 6 attempts failed. Using placeholders.")
+            accepted_pages = [
+                f"The story continued in {location['name']}...",
+                "Something unexpected happened...", 
+                "And they moved on to the next adventure."
+            ]
 
     
         for page_text in accepted_pages:
@@ -142,7 +134,6 @@ def generate_story(story_id: str, main: Dict, sub: Dict, location: Dict, out_roo
             # Refine
             refine_prompt = render_refine_prompt(page_text, main, sub, location)
             refine_name = f"{story_id}_refine_{page_counter}_{int(time.time())}"
-            setup.log_prompt(refine_name, refine_prompt)
             refine_resp = setup.call_llm(refine_prompt, refine_name)
 
             final_text = refine_resp.get("final_text", page_text)
@@ -150,7 +141,6 @@ def generate_story(story_id: str, main: Dict, sub: Dict, location: Dict, out_roo
             # Image request
             imgreq_prompt = render_image_request(final_text, main, sub, location)
             imgreq_name = f"{story_id}_imgreq_{page_counter}_{int(time.time())}"
-            setup.log_prompt(imgreq_name, imgreq_prompt)
             imgreq_resp = setup.call_llm(imgreq_prompt, imgreq_name)
 
             bg = imgreq_resp.get("bg_details", location["description"])
@@ -192,11 +182,10 @@ def generate_story(story_id: str, main: Dict, sub: Dict, location: Dict, out_roo
             # Audio
             audio_name = f"page_{page_counter:03d}.mp3"
             audio_path = os.path.join(story_folder, audio_name)
-
             try:
-                asyncio.run(setup.generate_audio(final_text, audio_path))
-            except Exception:
-                pass
+                await setup.generate_audio(final_text, audio_path)
+            except Exception as e:
+                print(f"Audio failed for page {page_counter}: {e}")
 
             # Save page
             story["pages"].append({
@@ -210,11 +199,8 @@ def generate_story(story_id: str, main: Dict, sub: Dict, location: Dict, out_roo
                 "sd_prompt": sd_prompt,
                 "sd_result": sd_res
             })
-
+            
+            save_story_json(story_folder, story)
+            print(f"Saved Page {page_counter} of Story {story_id}")
             page_counter += 1
-
-    # Save story
-    with open(os.path.join(story_folder, "story_data.json"), "w", encoding="utf-8") as f:
-        json.dump(story, f, ensure_ascii=False, indent=2)
-
     return story
