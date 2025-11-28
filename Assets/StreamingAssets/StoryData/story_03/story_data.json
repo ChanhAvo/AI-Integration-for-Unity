@@ -1,0 +1,407 @@
+{
+  "storyId": "story_03",
+  "title": "Cinderella's Adventure in Treehouse Village",
+  "characters": [
+    "Cinderella (Mechanic)",
+    "Peter Pan (Pilot)"
+  ],
+  "location": "Treehouse Village",
+  "pages": [
+    {
+      "pageNumber": 0,
+      "part": "1. Setup",
+      "text": "Fuzzy moss lined the windowsills of Cinderella's treehouse, catching the warm glow of the lantern inside. In Cinderella's treehouse, gears and springs, polished to a gleam, hung from the ceiling like wind chimes. They tinkled softly in the breeze. Suddenly, high-pitched squeaks came from a locked wooden case in her workshop, echoing through the treehouse.",
+      "imageFileName": "page_000.png",
+      "audioFileName": "page_000.mp3",
+      "plan": {
+        "Details": "Fuzzy moss lined the windowsills of Cinderella's treehouse, catching the warm glow of the lantern inside. Gears and springs, polished to a gleam, hung from the ceiling like wind chimes. Outside, fireflies blinked against the backdrop of the humming trees, their light painting the rope bridges in fleeting strokes of gold.",
+        "Overcome": "Cinderella uses a tiny, pumpkin-shaped oil can to lubricate the rusty hinges of the map case. The hinges creak open smoothly, revealing the map inside.",
+        "SequenceEvents": "First [Hook: A series of high-pitched squeaks emanates from a locked wooden case in Cinderella's workshop.]... | Then [Action: Peter Pan, impatient, tries to pry open the case with his dagger, but Cinderella stops him, explaining that force will only damage the delicate mechanism inside.]... | Next [Twist: Peter Pan suggests using pixie dust to magically unlock it, but Cinderella points out the dust would probably gum up the gears.]... | Finally [Resolution: Cinderella carefully oils the hinges of the case with her pumpkin-shaped oil can, and the case swings open, revealing a glowing map of Whistlewood Forest.]"
+      },
+      "img_request": {
+        "bg_details": "cozy treehouse interior, fuzzy moss, glowing lantern, gears and springs hanging from ceiling, soft volumetric lighting, dappled shadows, wooden case",
+        "action": "looking curious, head tilted, listening intently, crouching near case",
+        "composition": "medium shot, eye-level, focus on face, slight depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: cozy treehouse interior, fuzzy moss, glowing lantern, gears and springs hanging from ceiling, soft volumetric lighting, dappled shadows, wooden case. ACTION: looking curious, head tilted, listening intently, crouching near case. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69267929-798013db7a80a8052a78d1f1;177cd687-def5-41be-b527-0f7a94b1dc2f)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 1,
+      "part": "1. Setup",
+      "text": "Peter Pan was always ready for fun! He tried to open the box, but Cinderella stopped him. \"Oh, Peter, be careful!\" she said. \"If you force it, you might break the special parts inside. We want to see what is inside, right?\" Just think, what could it be? She tapped her chin, thinking hard.",
+      "imageFileName": "page_001.png",
+      "audioFileName": "page_001.mp3",
+      "plan": {
+        "Details": "Fuzzy moss lined the windowsills of Cinderella's treehouse, catching the warm glow of the lantern inside. Gears and springs, polished to a gleam, hung from the ceiling like wind chimes. Outside, fireflies blinked against the backdrop of the humming trees, their light painting the rope bridges in fleeting strokes of gold.",
+        "Overcome": "Cinderella uses a tiny, pumpkin-shaped oil can to lubricate the rusty hinges of the map case. The hinges creak open smoothly, revealing the map inside.",
+        "SequenceEvents": "First [Hook: A series of high-pitched squeaks emanates from a locked wooden case in Cinderella's workshop.]... | Then [Action: Peter Pan, impatient, tries to pry open the case with his dagger, but Cinderella stops him, explaining that force will only damage the delicate mechanism inside.]... | Next [Twist: Peter Pan suggests using pixie dust to magically unlock it, but Cinderella points out the dust would probably gum up the gears.]... | Finally [Resolution: Cinderella carefully oils the hinges of the case with her pumpkin-shaped oil can, and the case swings open, revealing a glowing map of Whistlewood Forest.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, glowing lanterns, soft natural lighting, dappled shadows through leaves",
+        "action": "Peter Pan reaching, attempting to open, Cinderella cautioning, pointing finger, concerned expression, Peter looking mischievous, Cinderella thinking pose, chin tapping",
+        "composition": "medium shot, eye-level, focus on Peter and Cinderella, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, glowing lanterns, soft natural lighting, dappled shadows through leaves. ACTION: Peter Pan reaching, attempting to open, Cinderella cautioning, pointing finger, concerned expression, Peter looking mischievous, Cinderella thinking pose, chin tapping. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69267935-41df34cc17a2c5570f4f0b4e;bda4fd8b-d37f-4fa5-b498-7fdec67ef7b3)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 2,
+      "part": "1. Setup",
+      "text": "Page 3: Peter Pan, with a big smile, then said they could use pixie dust to magically unlock it, but Cinderella shook her head. \"While that's a fun idea, Peter,\" she giggled, \"the dust would probably make it sticky, making things even worse!\" So, carefully, Cinderella used a tiny, pumpkin-shaped oil can to oil the rusty hinges of the map case.",
+      "imageFileName": "page_002.png",
+      "audioFileName": "page_002.mp3",
+      "plan": {
+        "Details": "Fuzzy moss lined the windowsills of Cinderella's treehouse, catching the warm glow of the lantern inside. Gears and springs, polished to a gleam, hung from the ceiling like wind chimes. Outside, fireflies blinked against the backdrop of the humming trees, their light painting the rope bridges in fleeting strokes of gold.",
+        "Overcome": "Cinderella uses a tiny, pumpkin-shaped oil can to lubricate the rusty hinges of the map case. The hinges creak open smoothly, revealing the map inside.",
+        "SequenceEvents": "First [Hook: A series of high-pitched squeaks emanates from a locked wooden case in Cinderella's workshop.]... | Then [Action: Peter Pan, impatient, tries to pry open the case with his dagger, but Cinderella stops him, explaining that force will only damage the delicate mechanism inside.]... | Next [Twist: Peter Pan suggests using pixie dust to magically unlock it, but Cinderella points out the dust would probably gum up the gears.]... | Finally [Resolution: Cinderella carefully oils the hinges of the case with her pumpkin-shaped oil can, and the case swings open, revealing a glowing map of Whistlewood Forest.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, hanging lanterns, dappled sunlight through leaves, soft volumetric lighting",
+        "action": "Peter Pan smiling wide, gesturing with hand, Cinderella shaking head, giggling, Cinderella carefully oiling hinges, reaching with oil can, focused expression",
+        "composition": "medium shot, eye-level view, focus on Cinderella, Peter Pan in background, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, hanging lanterns, dappled sunlight through leaves, soft volumetric lighting. ACTION: Peter Pan smiling wide, gesturing with hand, Cinderella shaking head, giggling, Cinderella carefully oiling hinges, reaching with oil can, focused expression. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69267941-31266e911317f1a12508c057;41755fac-16ef-4881-954d-1aaadae844bd)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 3,
+      "part": "2. Conflict",
+      "text": "The lanterns made the Treehouse Village glow with warm, yellow light. Dew sparkled on the leaves, and soft moss covered the rope bridges. The air smelled like sweet pine and yummy caramel. Tick-tock, tick-tock! A sound grew louder near the tallest treehouse!",
+      "imageFileName": "page_003.png",
+      "audioFileName": "page_003.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, amber glow on the Treehouse Village, their light reflecting off dew-kissed leaves. Fuzzy moss carpets the rope bridges, making them soft underfoot. A faint scent of pine needles and caramelized sap hangs in the air, sweet and comforting.",
+        "Overcome": "Cinderella pulls out a small, pumpkin-shaped gadget with tiny gears. She adjusts the gears with her oil-stained fingers, creating a mini-vacuum that sucks the dust away from the lock, revealing the keyhole.",
+        "SequenceEvents": "First [Hook: A faint, rhythmic ticking sound echoes through the village, growing louder near the tallest treehouse.]... | Then [Action: Peter, eager to investigate, tries to force the treehouse door open, but it's stuck fast, covered in sticky sap and dust. Cinderella examines the lock with a critical eye.]... | Next [Twist: Peter, impatient, suggests blasting the door open with a small firecracker from his plane's emergency kit, but Cinderella insists on a more delicate approach.]... | Finally [Resolution: Cinderella's pumpkin-gadget reveals the keyhole; they find a small, intricately carved wooden key inside, which unlocks the door with a satisfying click.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, warm yellow lanterns, dew on leaves, soft moss, rope bridges, sweet pine scent, caramel scent, volumetric lighting, soft glow",
+        "action": "listening intently, head cocked, curious expression, pointing upwards, dynamic pose",
+        "composition": "medium shot, eye-level, focus on characters, slight upward angle"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, warm yellow lanterns, dew on leaves, soft moss, rope bridges, sweet pine scent, caramel scent, volumetric lighting, soft glow. ACTION: listening intently, head cocked, curious expression, pointing upwards, dynamic pose. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926795c-40d6ed761e67c49c7420f20f;a1989d6a-2b77-46fe-a902-9a927097cde7)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 4,
+      "part": "2. Conflict",
+      "text": "Peter wanted to see inside. He tried to open the door, but it was hard to open because of sticky sap and dust. \"Oh dear, it's stuck!\" he cried. Cinderella took a careful look at the lock. \"Hmm, this will need a gentle try,\" she said, looking closely at the dusty lock.",
+      "imageFileName": "page_004.png",
+      "audioFileName": "page_004.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, amber glow on the Treehouse Village, their light reflecting off dew-kissed leaves. Fuzzy moss carpets the rope bridges, making them soft underfoot. A faint scent of pine needles and caramelized sap hangs in the air, sweet and comforting.",
+        "Overcome": "Cinderella pulls out a small, pumpkin-shaped gadget with tiny gears. She adjusts the gears with her oil-stained fingers, creating a mini-vacuum that sucks the dust away from the lock, revealing the keyhole.",
+        "SequenceEvents": "First [Hook: A faint, rhythmic ticking sound echoes through the village, growing louder near the tallest treehouse.]... | Then [Action: Peter, eager to investigate, tries to force the treehouse door open, but it's stuck fast, covered in sticky sap and dust. Cinderella examines the lock with a critical eye.]... | Next [Twist: Peter, impatient, suggests blasting the door open with a small firecracker from his plane's emergency kit, but Cinderella insists on a more delicate approach.]... | Finally [Resolution: Cinderella's pumpkin-gadget reveals the keyhole; they find a small, intricately carved wooden key inside, which unlocks the door with a satisfying click.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, wooden walkways, rope bridges, dense foliage, dappled sunlight, warm glow, hanging lanterns, dust motes",
+        "action": "looking at lock, crouching, pointing, concerned expression, focused gaze, hand on chin",
+        "composition": "medium shot, eye-level, focus on lock, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, wooden walkways, rope bridges, dense foliage, dappled sunlight, warm glow, hanging lanterns, dust motes. ACTION: looking at lock, crouching, pointing, concerned expression, focused gaze, hand on chin. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69267968-2e4decd2793e092c416e5b70;fb916bb6-989b-4131-9110-a7400f5cfcb8)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 5,
+      "part": "2. Conflict",
+      "text": "Peter was eager! He wanted to open the door with a small sparkler from his plane, but Cinderella giggled. Instead, she held up a pumpkin! It was a tiny gadget with little gears. With her fingers, she spun the gears. Whoosh! It made a mini-vacuum that cleaned the dust away. Now they could see the keyhole!",
+      "imageFileName": "page_005.png",
+      "audioFileName": "page_005.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, amber glow on the Treehouse Village, their light reflecting off dew-kissed leaves. Fuzzy moss carpets the rope bridges, making them soft underfoot. A faint scent of pine needles and caramelized sap hangs in the air, sweet and comforting.",
+        "Overcome": "Cinderella pulls out a small, pumpkin-shaped gadget with tiny gears. She adjusts the gears with her oil-stained fingers, creating a mini-vacuum that sucks the dust away from the lock, revealing the keyhole.",
+        "SequenceEvents": "First [Hook: A faint, rhythmic ticking sound echoes through the village, growing louder near the tallest treehouse.]... | Then [Action: Peter, eager to investigate, tries to force the treehouse door open, but it's stuck fast, covered in sticky sap and dust. Cinderella examines the lock with a critical eye.]... | Next [Twist: Peter, impatient, suggests blasting the door open with a small firecracker from his plane's emergency kit, but Cinderella insists on a more delicate approach.]... | Finally [Resolution: Cinderella's pumpkin-gadget reveals the keyhole; they find a small, intricately carved wooden key inside, which unlocks the door with a satisfying click.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, hanging lanterns, soft natural lighting, dappled shadows, cozy atmosphere",
+        "action": "Peter reaching for door, excited expression, Cinderella giggling, holding up pumpkin gadget, spinning gears, focused gaze, pointing to keyhole",
+        "composition": "medium shot, eye-level, focus on Cinderella and pumpkin, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, hanging lanterns, soft natural lighting, dappled shadows, cozy atmosphere. ACTION: Peter reaching for door, excited expression, Cinderella giggling, holding up pumpkin gadget, spinning gears, focused gaze, pointing to keyhole. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69267974-4ac2277f437f33ad05054545;9e46fc2d-5338-44ce-a895-4dbc47562b5b)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 6,
+      "part": "3. Complication",
+      "text": "In the heart of the quiet woods, where lanterns cast warm, soft circles on the treehouse village, a faint, tinkling sound floated through the air. It was like tiny wind chimes, but there wasn't even a breeze! Fuzzy moss clung to the rope bridges, glowing softly with starlight, as Cinderella tilted her head. \"Oh! What could that be?\" she wondered aloud.",
+      "imageFileName": "page_006.png",
+      "audioFileName": "page_006.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm, wobbly circles on the wooden planks of the treehouse village. Fuzzy moss clings to the ropes of the bridges, glowing faintly with trapped starlight. The air smells of pine needles and sweet berries baking in a tiny oven.",
+        "Overcome": "Cinderella uses a tiny gear she crafted from a pumpkin seed to fix a stuck lever on the bridge. She carefully oils the mechanism with a miniature oil can she always carries, making it move smoothly again.",
+        "SequenceEvents": "First [Hook] A faint, tinkling sound like wind chimes drifts through the air, but there's no wind. | Then [Action] Cinderella and Peter Pan follow the sound to a rope bridge leading to a new treehouse, but the bridge is stuck halfway. | Next [Twist] Peter Pan tries to fly to the treehouse, but it's too far, even for him. He declares it's 'utterly impossible' with a dramatic sigh. | Finally [Resolution] Cinderella examines the bridge's lever system and, with a pumpkin-seed gear and a dab of oil, fixes it, allowing them to cross to the source of the tinkling sound."
+      },
+      "img_request": {
+        "bg_details": "quiet woods, treehouse village, lanterns casting circles, fuzzy moss, starlight, faint tinkling sound, rope bridges",
+        "action": "tilted head, curious expression, listening intently, slightly crouched",
+        "composition": "medium shot, eye-level, focus on Cinderella, soft focus background"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: quiet woods, treehouse village, lanterns casting circles, fuzzy moss, starlight, faint tinkling sound, rope bridges. ACTION: tilted head, curious expression, listening intently, slightly crouched. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926798e-463e967e45d2da362cd4746b;9f93d8f7-41ea-4f46-9d0d-88e96b8e964e)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 7,
+      "part": "3. Complication",
+      "text": "Page 2: Peter Pan, always ready for fun, grinned. \"Let's find out!\" Peter said. Suddenly, Cinderella and Peter followed the sound to a rope bridge. But oh dear, the bridge was stuck halfway! It wouldn't move, leaving a gap to a brand new treehouse. How would they cross?",
+      "imageFileName": "page_007.png",
+      "audioFileName": "page_007.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm, wobbly circles on the wooden planks of the treehouse village. Fuzzy moss clings to the ropes of the bridges, glowing faintly with trapped starlight. The air smells of pine needles and sweet berries baking in a tiny oven.",
+        "Overcome": "Cinderella uses a tiny gear she crafted from a pumpkin seed to fix a stuck lever on the bridge. She carefully oils the mechanism with a miniature oil can she always carries, making it move smoothly again.",
+        "SequenceEvents": "First [Hook] A faint, tinkling sound like wind chimes drifts through the air, but there's no wind. | Then [Action] Cinderella and Peter Pan follow the sound to a rope bridge leading to a new treehouse, but the bridge is stuck halfway. | Next [Twist] Peter Pan tries to fly to the treehouse, but it's too far, even for him. He declares it's 'utterly impossible' with a dramatic sigh. | Finally [Resolution] Cinderella examines the bridge's lever system and, with a pumpkin-seed gear and a dab of oil, fixes it, allowing them to cross to the source of the tinkling sound."
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridge, wooden planks, glowing lanterns, dappled shadows, soft natural lighting, distant treehouse, lush foliage",
+        "action": "Peter Pan grinning, pointing, excited expression, Cinderella looking surprised, following, dynamic pose, head turn",
+        "composition": "medium shot, eye-level, focus on the gap in the bridge, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridge, wooden planks, glowing lanterns, dappled shadows, soft natural lighting, distant treehouse, lush foliage. ACTION: Peter Pan grinning, pointing, excited expression, Cinderella looking surprised, following, dynamic pose, head turn. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926799a-0291f8ab73cd4b3e7070687a;726f2035-0d6a-4012-898a-90efee92d378)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 8,
+      "part": "3. Complication",
+      "text": "Peter Pan puffed out his chest. \"I'll just fly over!\" he said. But even with all his might, the treehouse was too far, even for him. \"I can't!\" he sighed. Suddenly, Cinderella had a twinkle in her eye. \"Maybe,\" she said with a smile, \"I can fix it!\" She pulled out a tiny gear.",
+      "imageFileName": "page_008.png",
+      "audioFileName": "page_008.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm, wobbly circles on the wooden planks of the treehouse village. Fuzzy moss clings to the ropes of the bridges, glowing faintly with trapped starlight. The air smells of pine needles and sweet berries baking in a tiny oven.",
+        "Overcome": "Cinderella uses a tiny gear she crafted from a pumpkin seed to fix a stuck lever on the bridge. She carefully oils the mechanism with a miniature oil can she always carries, making it move smoothly again.",
+        "SequenceEvents": "First [Hook] A faint, tinkling sound like wind chimes drifts through the air, but there's no wind. | Then [Action] Cinderella and Peter Pan follow the sound to a rope bridge leading to a new treehouse, but the bridge is stuck halfway. | Next [Twist] Peter Pan tries to fly to the treehouse, but it's too far, even for him. He declares it's 'utterly impossible' with a dramatic sigh. | Finally [Resolution] Cinderella examines the bridge's lever system and, with a pumpkin-seed gear and a dab of oil, fixes it, allowing them to cross to the source of the tinkling sound."
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, glowing lanterns, dappled sunlight, lush foliage, soft shadows, wooden platforms, whimsical architecture",
+        "action": "Peter Pan puffed chest, frustrated expression, looking up, arms crossed, Cinderella smiling, holding small gear, offering help, curious gaze",
+        "composition": "medium shot, eye-level, focus on both characters, dynamic composition"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, glowing lanterns, dappled sunlight, lush foliage, soft shadows, wooden platforms, whimsical architecture. ACTION: Peter Pan puffed chest, frustrated expression, looking up, arms crossed, Cinderella smiling, holding small gear, offering help, curious gaze. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692679a6-1ec6066323bc27fa12751592;1179e163-36e3-41c9-b031-5851f0edee50)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 9,
+      "part": "4. Climax",
+      "text": "Lanterns like acorns glowed with warm light over the rope bridges. Fuzzy moss covered the wood. A soft wind smelled like pine and pixie dust. Suddenly, something was wrong! Sticky sap blocked the treehouse door! \"Oh no! We can't get in!\" said Tinkerbell, sounding worried.",
+      "imageFileName": "page_009.png",
+      "audioFileName": "page_009.mp3",
+      "plan": {
+        "Details": "Lanterns shaped like acorns cast a warm, honey-colored light across the rope bridges, illuminating the fuzzy moss clinging to the wooden planks. A gentle breeze rustles through the leaves, carrying the sweet scent of pine and the faint sparkle of pixie dust. The treehouses, each unique and cozy, glow from within, promising warmth and adventure.",
+        "Overcome": "Cinderella pulls out a small, hand-cranked device from her pumpkin-shaped toolbox. With a few precise turns, the device emits a high-pitched frequency, causing the sticky sap to vibrate and loosen its grip on the door. Peter Pan gives the door a gentle nudge, and it swings open with a creak.",
+        "SequenceEvents": "First [Hook: A sticky, amber-colored sap has sealed the entrance to the most important treehouse.]... | Then [Action: Cinderella examines the sap, determining it's a magical tree resin that reacts to sound.]... | Next [Twist: Peter Pan tries to blast it with his plane's horn, but it only makes the sap stronger.]... | Finally [Resolution: Cinderella uses her sonic device to loosen the sap, allowing them to enter.]"
+      },
+      "img_request": {
+        "bg_details": "acorn lanterns, glowing light, rope bridges, fuzzy moss, pine trees, pixie dust, treehouse village, soft lighting",
+        "action": "looking worried, pointing, gesturing, frustrated expression, dynamic angle",
+        "composition": "medium shot, eye-level, focus on tinkerbell, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: acorn lanterns, glowing light, rope bridges, fuzzy moss, pine trees, pixie dust, treehouse village, soft lighting. ACTION: looking worried, pointing, gesturing, frustrated expression, dynamic angle. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692679c0-6d8ec2ce20ccee625d7088f2;1b776d2c-b394-46ac-90b9-eb821a417ac5)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 10,
+      "part": "4. Climax",
+      "text": "Page 2: Cinderella looked closely at the gooey stuff. \"Hmm,\" she said, tapping her chin. \"This looks like magic tree sap, and I think it moves when it hears sounds!\" Peter Pan, happy to help, grinned. \"Don't worry, Cindy! I'll honk my plane's horn at it!\" He flew to his plane, ready to make a loud noise.",
+      "imageFileName": "page_010.png",
+      "audioFileName": "page_010.mp3",
+      "plan": {
+        "Details": "Lanterns shaped like acorns cast a warm, honey-colored light across the rope bridges, illuminating the fuzzy moss clinging to the wooden planks. A gentle breeze rustles through the leaves, carrying the sweet scent of pine and the faint sparkle of pixie dust. The treehouses, each unique and cozy, glow from within, promising warmth and adventure.",
+        "Overcome": "Cinderella pulls out a small, hand-cranked device from her pumpkin-shaped toolbox. With a few precise turns, the device emits a high-pitched frequency, causing the sticky sap to vibrate and loosen its grip on the door. Peter Pan gives the door a gentle nudge, and it swings open with a creak.",
+        "SequenceEvents": "First [Hook: A sticky, amber-colored sap has sealed the entrance to the most important treehouse.]... | Then [Action: Cinderella examines the sap, determining it's a magical tree resin that reacts to sound.]... | Next [Twist: Peter Pan tries to blast it with his plane's horn, but it only makes the sap stronger.]... | Finally [Resolution: Cinderella uses her sonic device to loosen the sap, allowing them to enter.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, wooden walkways, rope bridges, glowing lanterns, dappled sunlight, soft volumetric fog, magic tree sap on ground",
+        "action": "crouching, examining sap, tapping chin, curious expression, Peter Pan flying in background, grinning",
+        "composition": "medium shot, eye-level, focus on Cinderella, Peter Pan blurred in background, dynamic angle"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, wooden walkways, rope bridges, glowing lanterns, dappled sunlight, soft volumetric fog, magic tree sap on ground. ACTION: crouching, examining sap, tapping chin, curious expression, Peter Pan flying in background, grinning. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692679cc-379193031b89cb3c74bb2d02;1d69eef1-f7d2-4e09-ac5a-3197892d85b9)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 11,
+      "part": "4. Climax",
+      "text": "Page 3: But instead of melting the sap, the loud horn made it stronger! \"Oh no! It's getting thicker!\" Wendy said, pointing at the goo. Cinderella quickly grabbed a small device from her toolbox. \"Stand back!\" she said. With a few turns, the device made a special sound, causing the sticky sap to shake.",
+      "imageFileName": "page_011.png",
+      "audioFileName": "page_011.mp3",
+      "plan": {
+        "Details": "Lanterns shaped like acorns cast a warm, honey-colored light across the rope bridges, illuminating the fuzzy moss clinging to the wooden planks. A gentle breeze rustles through the leaves, carrying the sweet scent of pine and the faint sparkle of pixie dust. The treehouses, each unique and cozy, glow from within, promising warmth and adventure.",
+        "Overcome": "Cinderella pulls out a small, hand-cranked device from her pumpkin-shaped toolbox. With a few precise turns, the device emits a high-pitched frequency, causing the sticky sap to vibrate and loosen its grip on the door. Peter Pan gives the door a gentle nudge, and it swings open with a creak.",
+        "SequenceEvents": "First [Hook: A sticky, amber-colored sap has sealed the entrance to the most important treehouse.]... | Then [Action: Cinderella examines the sap, determining it's a magical tree resin that reacts to sound.]... | Next [Twist: Peter Pan tries to blast it with his plane's horn, but it only makes the sap stronger.]... | Finally [Resolution: Cinderella uses her sonic device to loosen the sap, allowing them to enter.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, wooden walkways, rope bridges, glowing lanterns, thick sap dripping, soft natural lighting, dappled shadows",
+        "action": "pointing, concerned expression, device emitting sound waves, Wendy looking at sap, Cinderella turning dials, determined look",
+        "composition": "medium shot, eye-level, focus on Cinderella and the sap, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, wooden walkways, rope bridges, glowing lanterns, thick sap dripping, soft natural lighting, dappled shadows. ACTION: pointing, concerned expression, device emitting sound waves, Wendy looking at sap, Cinderella turning dials, determined look. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692679d9-2b9173092fb440a17e312faa;af96f415-bc9d-433b-b79d-fc3fd029fbd9)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 12,
+      "part": "5. Resolution",
+      "text": "A soft, rhythmic squeak caught Cinderella and Peter Pan's ears as they walked through the Treehouse Village. The tiny sound was almost lost in the forest's gentle song, but it caught their attention. So, lanterns cast a warm glow on the dewy leaves, making the village feel like a happy wonderland. \"What's that funny noise?\" asked Peter.",
+      "imageFileName": "page_012.png",
+      "audioFileName": "page_012.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, their light reflecting off the dew-kissed leaves. Fuzzy moss carpets the rope bridges, making them soft underfoot. Tiny, glowing dust motes dance in the air, swirling around the lanterns like miniature stars.",
+        "Overcome": "Cinderella uses a small, pumpkin-shaped oil can to lubricate the rusty gears of the miniature windmill, allowing it to spin freely and power the lights.",
+        "SequenceEvents": "First [Hook: The faint, rhythmic squeak of a rusty miniature windmill, barely audible above the forest's hum, catches their attention.]... | Then [Action: Peter Pan tries to fix the windmill by simply blowing on it harder, convinced it just needs more 'wind-power'. Cinderella gently stops him, explaining the need for lubrication on the gears.]... | Next [Twist: Cinderella realizes she's out of oil for her gadgets.]... | Finally [Resolution: Peter Pan spots a patch of glistening sap on a nearby tree branch. Cinderella cleverly uses the sap as a makeshift lubricant, applying it with her pumpkin-shaped oil can. The windmill spins freely, and the lights in the Treehouse Village shine brighter.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, lanterns casting warm glow, dewy leaves, soft volumetric lighting, dappled light, forest background",
+        "action": "walking, looking curious, heads tilted, listening intently, surprised expression",
+        "composition": "medium shot, eye-level, two characters, focus on faces, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, lanterns casting warm glow, dewy leaves, soft volumetric lighting, dappled light, forest background. ACTION: walking, looking curious, heads tilted, listening intently, surprised expression. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692679f3-26b267bc630ab6070826f97d;0ae9bfc9-754a-402d-ab7d-23131951d788)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 13,
+      "part": "5. Resolution",
+      "text": "Peter Pan marched toward the little windmill. It was barely turning! He puffed out his cheeks. Suddenly, he blew on the windmill with all his might, trying to make it go faster. Cinderella giggled. \"Silly Peter,\" she said gently, stopping him. \"It doesn't need more blowing; I think the gears need a little oil.\"",
+      "imageFileName": "page_013.png",
+      "audioFileName": "page_013.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, their light reflecting off the dew-kissed leaves. Fuzzy moss carpets the rope bridges, making them soft underfoot. Tiny, glowing dust motes dance in the air, swirling around the lanterns like miniature stars.",
+        "Overcome": "Cinderella uses a small, pumpkin-shaped oil can to lubricate the rusty gears of the miniature windmill, allowing it to spin freely and power the lights.",
+        "SequenceEvents": "First [Hook: The faint, rhythmic squeak of a rusty miniature windmill, barely audible above the forest's hum, catches their attention.]... | Then [Action: Peter Pan tries to fix the windmill by simply blowing on it harder, convinced it just needs more 'wind-power'. Cinderella gently stops him, explaining the need for lubrication on the gears.]... | Next [Twist: Cinderella realizes she's out of oil for her gadgets.]... | Finally [Resolution: Peter Pan spots a patch of glistening sap on a nearby tree branch. Cinderella cleverly uses the sap as a makeshift lubricant, applying it with her pumpkin-shaped oil can. The windmill spins freely, and the lights in the Treehouse Village shine brighter.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, intricate rope bridges, glowing lanterns, soft volumetric lighting, windmill, dappled shadows, lush foliage",
+        "action": "marching, puffing cheeks, blowing, frustrated expression, Cinderella giggling, pointing, gentle expression",
+        "composition": "medium shot, eye-level, two characters, focused composition"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, intricate rope bridges, glowing lanterns, soft volumetric lighting, windmill, dappled shadows, lush foliage. ACTION: marching, puffing cheeks, blowing, frustrated expression, Cinderella giggling, pointing, gentle expression. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692679ff-636055b2328491e652ce8cd5;73315933-03c7-4699-88fe-69cc39284c53)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 14,
+      "part": "5. Resolution",
+      "text": "Page 3: Cinderella looked in her tool bag, but she looked sad. \"Oh no!\" she gasped. \"I'm all out of oil! How will we get the windmill to spin and power the lights?\" Just then, Peter Pan pointed to a tree branch. \"Look!\" he said. \"That glistening sap looks like sticky honey! Could we use that instead?\"",
+      "imageFileName": "page_014.png",
+      "audioFileName": "page_014.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, their light reflecting off the dew-kissed leaves. Fuzzy moss carpets the rope bridges, making them soft underfoot. Tiny, glowing dust motes dance in the air, swirling around the lanterns like miniature stars.",
+        "Overcome": "Cinderella uses a small, pumpkin-shaped oil can to lubricate the rusty gears of the miniature windmill, allowing it to spin freely and power the lights.",
+        "SequenceEvents": "First [Hook: The faint, rhythmic squeak of a rusty miniature windmill, barely audible above the forest's hum, catches their attention.]... | Then [Action: Peter Pan tries to fix the windmill by simply blowing on it harder, convinced it just needs more 'wind-power'. Cinderella gently stops him, explaining the need for lubrication on the gears.]... | Next [Twist: Cinderella realizes she's out of oil for her gadgets.]... | Finally [Resolution: Peter Pan spots a patch of glistening sap on a nearby tree branch. Cinderella cleverly uses the sap as a makeshift lubricant, applying it with her pumpkin-shaped oil can. The windmill spins freely, and the lights in the Treehouse Village shine brighter.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, wooden walkways, glowing lanterns, sunbeams through leaves, dappled shadows, glistening tree sap, cinematic lighting",
+        "action": "crouching, looking into open toolbox, sad expression, Peter Pan pointing, surprised expression, reaching for tree branch",
+        "composition": "medium shot, eye-level angle, focus on Cinderella, Peter Pan in frame, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, wooden walkways, glowing lanterns, sunbeams through leaves, dappled shadows, glistening tree sap, cinematic lighting. ACTION: crouching, looking into open toolbox, sad expression, Peter Pan pointing, surprised expression, reaching for tree branch. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69267a0c-015766f4026758842cd3a675;e47c3161-c5bf-46ea-91c8-45a0ecf55e0d)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 15,
+      "part": "6. Moral",
+      "text": "Lanterns made the Treehouse Village glow. The air smelled of sweet pine and berries, like pie baking! Fuzzy moss made soft carpets on the rope bridges. It felt like walking on a green path. Suddenly, a tinkling sound, like glass wind chimes, floated from a hidden treehouse. It's magic!",
+      "imageFileName": "page_015.png",
+      "audioFileName": "page_015.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm, wobbly light on the Treehouse Village. The air smells of pine needles and sweet berries baking somewhere nearby. Fuzzy moss carpets the rope bridges, making them feel like soft, green pathways.",
+        "Overcome": "Cinderella uses her pumpkin-powered mini-drill, usually used for fine-tuning clockwork gears, to carefully unlock the tiny latch on the treasure chest. She adjusts the drill's speed to avoid damaging the delicate lock.",
+        "SequenceEvents": "First [Hook: A faint, tinkling sound, like wind chimes made of glass, drifts from a hidden treehouse.]... | Then [Action: Peter Pan, convinced it's fairy treasure, tries to yank the door open, nearly pulling the treehouse down.]... | Next [Twist: Cinderella notices a tiny, intricate lock on a miniature treasure chest inside, too delicate for brute force.]... | Finally [Resolution: Cinderella uses her pumpkin-powered mini-drill to unlock the chest, revealing not gold, but a collection of shiny buttons and colorful thread, delighting Peter Pan who declares them perfect for decorating his plane.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, glowing lanterns, soft lighting, fuzzy moss carpets, rope bridges, sweet pine scent, berry aroma, hidden treehouse, glass wind chimes, dappled shadows, warm glow",
+        "action": "looking curious, tilting head, listening intently, smiling slightly, relaxed pose",
+        "composition": "medium shot, eye-level, focus on the hidden treehouse, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, glowing lanterns, soft lighting, fuzzy moss carpets, rope bridges, sweet pine scent, berry aroma, hidden treehouse, glass wind chimes, dappled shadows, warm glow. ACTION: looking curious, tilting head, listening intently, smiling slightly, relaxed pose. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69267a25-1bc4fafc7d40a24d00f22ec9;35126cc4-9fa3-47e0-8568-f7574a165de8)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 16,
+      "part": "6. Moral",
+      "text": "Peter Pan was sure it was fairy treasure! He reached for the treehouse door, trying to open it, but it was stuck. \"I know treasure is in there!\" Peter called out, tugging as hard as he could. He tugged so hard, the whole treehouse wobbled a bit! \"Careful, Peter!\" Cinderella said. \"You might pull it down!\"",
+      "imageFileName": "page_016.png",
+      "audioFileName": "page_016.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm, wobbly light on the Treehouse Village. The air smells of pine needles and sweet berries baking somewhere nearby. Fuzzy moss carpets the rope bridges, making them feel like soft, green pathways.",
+        "Overcome": "Cinderella uses her pumpkin-powered mini-drill, usually used for fine-tuning clockwork gears, to carefully unlock the tiny latch on the treasure chest. She adjusts the drill's speed to avoid damaging the delicate lock.",
+        "SequenceEvents": "First [Hook: A faint, tinkling sound, like wind chimes made of glass, drifts from a hidden treehouse.]... | Then [Action: Peter Pan, convinced it's fairy treasure, tries to yank the door open, nearly pulling the treehouse down.]... | Next [Twist: Cinderella notices a tiny, intricate lock on a miniature treasure chest inside, too delicate for brute force.]... | Finally [Resolution: Cinderella uses her pumpkin-powered mini-drill to unlock the chest, revealing not gold, but a collection of shiny buttons and colorful thread, delighting Peter Pan who declares them perfect for decorating his plane.]"
+      },
+      "img_request": {
+        "bg_details": "lush green trees, rope bridges, glowing lanterns, dappled sunlight, soft shadows, whimsical architecture",
+        "action": "pulling, tugging, determined expression, straining, dynamic pose, wobbling",
+        "composition": "medium shot, eye-level angle, focus on Peter, Cinderella in background, slightly tilted frame"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green trees, rope bridges, glowing lanterns, dappled sunlight, soft shadows, whimsical architecture. ACTION: pulling, tugging, determined expression, straining, dynamic pose, wobbling. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69267a32-33fe0b266eb0152a4416bc16;3d260109-abb0-4138-b3e0-782d65e23458)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 17,
+      "part": "6. Moral",
+      "text": "Page 3: Cinderella saw a small lock on a tiny treasure chest in the treehouse. It was too delicate for Peter's strong hands. \"I see a lock,\" she said, \"but it’s very small!\" Cinderella used her pumpkin drill, which she used for fixing toys, to unlock it. She was careful not to break the lock.",
+      "imageFileName": "page_017.png",
+      "audioFileName": "page_017.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm, wobbly light on the Treehouse Village. The air smells of pine needles and sweet berries baking somewhere nearby. Fuzzy moss carpets the rope bridges, making them feel like soft, green pathways.",
+        "Overcome": "Cinderella uses her pumpkin-powered mini-drill, usually used for fine-tuning clockwork gears, to carefully unlock the tiny latch on the treasure chest. She adjusts the drill's speed to avoid damaging the delicate lock.",
+        "SequenceEvents": "First [Hook: A faint, tinkling sound, like wind chimes made of glass, drifts from a hidden treehouse.]... | Then [Action: Peter Pan, convinced it's fairy treasure, tries to yank the door open, nearly pulling the treehouse down.]... | Next [Twist: Cinderella notices a tiny, intricate lock on a miniature treasure chest inside, too delicate for brute force.]... | Finally [Resolution: Cinderella uses her pumpkin-powered mini-drill to unlock the chest, revealing not gold, but a collection of shiny buttons and colorful thread, delighting Peter Pan who declares them perfect for decorating his plane.]"
+      },
+      "img_request": {
+        "bg_details": "lush treehouse village, rope bridges, hanging lanterns, dappled sunlight, soft shadows, wooden planks, treasure chest on branch",
+        "action": "crouching, carefully unlocking small lock, focused expression, reaching with pumpkin drill, concentrated gaze, gentle touch",
+        "composition": "medium shot, eye-level angle, focus on hands, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush treehouse village, rope bridges, hanging lanterns, dappled sunlight, soft shadows, wooden planks, treasure chest on branch. ACTION: crouching, carefully unlocking small lock, focused expression, reaching with pumpkin drill, concentrated gaze, gentle touch. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69267a3e-4c6c28485e13409636012210;2d4293f8-3b4f-4480-8bea-9c8397a727e9)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    }
+  ]
+}

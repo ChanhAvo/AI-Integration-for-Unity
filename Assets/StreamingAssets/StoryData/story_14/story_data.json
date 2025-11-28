@@ -1,0 +1,407 @@
+{
+  "storyId": "story_14",
+  "title": "Jungle Boy's Adventure in Echo Falls",
+  "characters": [
+    "Aladdin (Jungle Boy)",
+    "Cinderella (Mechanic)"
+  ],
+  "location": "Echo Falls",
+  "pages": [
+    {
+      "pageNumber": 0,
+      "part": "1. Setup",
+      "text": "Sunlight shone through the green leaves, spotting the mossy rocks all around Echo Falls. Little rainbows danced in the cool mist from the shiny pool. The air filled with the waterfall's gentle music, carrying the sweet smell of wet dirt and yummy berries. Suddenly, silly animal sounds came from behind the falls!",
+      "imageFileName": "page_000.png",
+      "audioFileName": "page_000.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, dappling the moss-covered rocks around Echo Falls. Tiny rainbows danced in the mist rising from the pool below. The air hummed with the waterfall's song, carrying the scent of damp earth and sweet berries.",
+        "Overcome": "Aladdin, using his climbing skills honed from his life with wolves, swiftly scales the slick rocks beside the waterfall. He reaches the lantern, carefully dislodges the branch, and hands the lantern down to Cinderella, who then reignites it with a spark from her oil-powered gadget.",
+        "SequenceEvents": "First [Hook: The waterfall echoes a series of increasingly silly animal sounds, ending in a confused squawk.]... | Then [Action: Cinderella, attempting to study the waterfall's power for a new invention, finds her oil-powered lantern has snagged on a high, slippery branch.]... | Next [Twist: Each attempt to reach the lantern causes even more ridiculous echoes from the falls, drawing curious forest creatures.]... | Finally [Resolution: Aladdin uses his agility to retrieve the lantern, and together they illuminate a hidden inscription on the rocks behind the waterfall, written in animal glyphs.]"
+      },
+      "img_request": {
+        "bg_details": "echo falls, mossy rocks, cool mist, rainbow, waterfall, wet dirt, berries, sunlight, dappled shadows, green leaves, pool",
+        "action": "listening pose, curious expression, head turned, smiling",
+        "composition": "medium shot, eye-level, focus on character, looking towards waterfall"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: echo falls, mossy rocks, cool mist, rainbow, waterfall, wet dirt, berries, sunlight, dappled shadows, green leaves, pool. ACTION: listening pose, curious expression, head turned, smiling. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e2c1-63ba936b2099f3ae0f6ef244;863e5653-68a0-4cec-a1eb-bba42b337b35)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 1,
+      "part": "1. Setup",
+      "text": "Page 2: \"What was that?\" Cinderella giggled. Suddenly, they heard a frog say, \"Oink!\" and a pig say, \"Moo!\" Cinderella, who was looking at the waterfall for a new idea, saw her lantern stuck on a high branch. \"Oh no!\" she said. \"How will I reach it?\"",
+      "imageFileName": "page_001.png",
+      "audioFileName": "page_001.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, dappling the moss-covered rocks around Echo Falls. Tiny rainbows danced in the mist rising from the pool below. The air hummed with the waterfall's song, carrying the scent of damp earth and sweet berries.",
+        "Overcome": "Aladdin, using his climbing skills honed from his life with wolves, swiftly scales the slick rocks beside the waterfall. He reaches the lantern, carefully dislodges the branch, and hands the lantern down to Cinderella, who then reignites it with a spark from her oil-powered gadget.",
+        "SequenceEvents": "First [Hook: The waterfall echoes a series of increasingly silly animal sounds, ending in a confused squawk.]... | Then [Action: Cinderella, attempting to study the waterfall's power for a new invention, finds her oil-powered lantern has snagged on a high, slippery branch.]... | Next [Twist: Each attempt to reach the lantern causes even more ridiculous echoes from the falls, drawing curious forest creatures.]... | Finally [Resolution: Aladdin uses his agility to retrieve the lantern, and together they illuminate a hidden inscription on the rocks behind the waterfall, written in animal glyphs.]"
+      },
+      "img_request": {
+        "bg_details": "lush vegetation, tropical plants, mist, Echo Falls waterfall background, high branch, lantern glowing, dappled sunlight, soft volumetric fog",
+        "action": "Cinderella giggling, looking up, pointing, surprised expression, reaching",
+        "composition": "medium shot, eye-level angle"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush vegetation, tropical plants, mist, Echo Falls waterfall background, high branch, lantern glowing, dappled sunlight, soft volumetric fog. ACTION: Cinderella giggling, looking up, pointing, surprised expression, reaching. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e2d0-7c6d5f7618ce228614b07131;46fe4ec3-47ef-4b5f-b7f7-92c7975a0442)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 2,
+      "part": "1. Setup",
+      "text": "Page 3: Each try to grab the lantern made funny echoes at the falls. A squirrel went 'Woof!' like a dog, and a dog went 'Meow!' like a cat! Suddenly, the funny sounds brought forest friends from everywhere. \"We need a good idea,\" said Cinderella to Aladdin. \"This is too silly!\"",
+      "imageFileName": "page_002.png",
+      "audioFileName": "page_002.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, dappling the moss-covered rocks around Echo Falls. Tiny rainbows danced in the mist rising from the pool below. The air hummed with the waterfall's song, carrying the scent of damp earth and sweet berries.",
+        "Overcome": "Aladdin, using his climbing skills honed from his life with wolves, swiftly scales the slick rocks beside the waterfall. He reaches the lantern, carefully dislodges the branch, and hands the lantern down to Cinderella, who then reignites it with a spark from her oil-powered gadget.",
+        "SequenceEvents": "First [Hook: The waterfall echoes a series of increasingly silly animal sounds, ending in a confused squawk.]... | Then [Action: Cinderella, attempting to study the waterfall's power for a new invention, finds her oil-powered lantern has snagged on a high, slippery branch.]... | Next [Twist: Each attempt to reach the lantern causes even more ridiculous echoes from the falls, drawing curious forest creatures.]... | Finally [Resolution: Aladdin uses his agility to retrieve the lantern, and together they illuminate a hidden inscription on the rocks behind the waterfall, written in animal glyphs.]"
+      },
+      "img_request": {
+        "bg_details": "lush green ferns, mossy rocks, cascading waterfall, echoing chamber, dappled sunlight through trees, soft volumetric lighting",
+        "action": "reaching for lantern, surprised expression, looking upwards, dynamic poses, gesturing wildly",
+        "composition": "medium shot, eye-level view, focus on lantern, group dynamic, sense of wonder"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green ferns, mossy rocks, cascading waterfall, echoing chamber, dappled sunlight through trees, soft volumetric lighting. ACTION: reaching for lantern, surprised expression, looking upwards, dynamic poses, gesturing wildly. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e2de-6f717dce2c3893da32ee55b1;e79ad06c-b369-40a4-9574-23acd244007f)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 3,
+      "part": "2. Conflict",
+      "text": "Page 1: Sunlight shines through the leafy trees, painting pretty spots on the green rocks near Echo Falls. The air smells sweet, like wild berries and the cool mist rising from the splashing water! But under the waterfall's loud roar, a soft, steady clicking sound, like tiny gears turning, can be heard. Suddenly, \"What's that funny noise?\" asked Cinderella, cocking her head.",
+      "imageFileName": "page_003.png",
+      "audioFileName": "page_003.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting dappled patterns on the mossy rocks surrounding Echo Falls. The air hangs thick with the sweet scent of wild berries and the cool mist rising from the churning water. A faint, rhythmic clicking sound, like tiny gears turning, can be heard beneath the waterfall's roar.",
+        "Overcome": "Aladdin, hearing the faint clicking, scales the slick rock face beside the falls with ease. Using his wolf-honed senses, he pinpoints a loose stone partially obscuring a small opening. He wedges a sturdy branch into the crevice as leverage to dislodge it, revealing a hidden chamber entrance.",
+        "SequenceEvents": "First [Hook: Clicking sound of gears]... | Then [Action: Aladdin climbs the falls and finds a hidden opening]... | Next [Twist: The entrance is too small for either of them to enter comfortably]... | Finally [Resolution: Cinderella pulls a small, foldable ladder from her pumpkin-gadget bag, allowing them to safely climb into the chamber]."
+      },
+      "img_request": {
+        "bg_details": "sunlight streaming through trees, dappled sunlight, green rocks, echo falls, mist rising from water, volumetric lighting",
+        "action": "cocking head, listening intently, curious expression, slight smile, head tilt",
+        "composition": "medium shot, child eye-level, focus on face, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sunlight streaming through trees, dappled sunlight, green rocks, echo falls, mist rising from water, volumetric lighting. ACTION: cocking head, listening intently, curious expression, slight smile, head tilt. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e2fb-10ebaa914cdd4559631310a8;c0ef3e9b-7ca3-4b2d-9c84-0f3742f3fc7d)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 4,
+      "part": "2. Conflict",
+      "text": "Page 2: Hearing the tiny clicking, Aladdin carefully began to climb the wet rock face beside the falls. He climbed with ease! Using his good senses, he found a loose stone. It was hiding a small opening. \"I think I found something!\" Aladdin called to Cinderella. So, he smiled, eager to show her what he discovered behind the rocks.",
+      "imageFileName": "page_004.png",
+      "audioFileName": "page_004.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting dappled patterns on the mossy rocks surrounding Echo Falls. The air hangs thick with the sweet scent of wild berries and the cool mist rising from the churning water. A faint, rhythmic clicking sound, like tiny gears turning, can be heard beneath the waterfall's roar.",
+        "Overcome": "Aladdin, hearing the faint clicking, scales the slick rock face beside the falls with ease. Using his wolf-honed senses, he pinpoints a loose stone partially obscuring a small opening. He wedges a sturdy branch into the crevice as leverage to dislodge it, revealing a hidden chamber entrance.",
+        "SequenceEvents": "First [Hook: Clicking sound of gears]... | Then [Action: Aladdin climbs the falls and finds a hidden opening]... | Next [Twist: The entrance is too small for either of them to enter comfortably]... | Finally [Resolution: Cinderella pulls a small, foldable ladder from her pumpkin-gadget bag, allowing them to safely climb into the chamber]."
+      },
+      "img_request": {
+        "bg_details": "waterfall cascading, glistening wet rocks, hidden cave entrance, lush green foliage, dappled sunlight, soft shadows, echoing mist, cinematic lighting",
+        "action": "climbing, reaching, looking upward, smiling, eager expression, dynamic pose, one hand gripping rock, one hand reaching into opening",
+        "composition": "medium shot, eye-level angle, focus on aladdin, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: waterfall cascading, glistening wet rocks, hidden cave entrance, lush green foliage, dappled sunlight, soft shadows, echoing mist, cinematic lighting. ACTION: climbing, reaching, looking upward, smiling, eager expression, dynamic pose, one hand gripping rock, one hand reaching into opening. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e30a-62bca6384310436a47a1aa54;9f6c5348-38c2-49cc-9a63-6c3cd03c364f)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 5,
+      "part": "2. Conflict",
+      "text": "Page 3: Aladdin stuck a sturdy branch into the crevice for help to move the stone. Then, suddenly, the stone tumbled free! It revealed a secret door. \"Oh, my!\" gasped Cinderella, clapping her hands. But then, she frowned. \"The door is too small for us to enter,\" she said with a sigh.",
+      "imageFileName": "page_005.png",
+      "audioFileName": "page_005.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting dappled patterns on the mossy rocks surrounding Echo Falls. The air hangs thick with the sweet scent of wild berries and the cool mist rising from the churning water. A faint, rhythmic clicking sound, like tiny gears turning, can be heard beneath the waterfall's roar.",
+        "Overcome": "Aladdin, hearing the faint clicking, scales the slick rock face beside the falls with ease. Using his wolf-honed senses, he pinpoints a loose stone partially obscuring a small opening. He wedges a sturdy branch into the crevice as leverage to dislodge it, revealing a hidden chamber entrance.",
+        "SequenceEvents": "First [Hook: Clicking sound of gears]... | Then [Action: Aladdin climbs the falls and finds a hidden opening]... | Next [Twist: The entrance is too small for either of them to enter comfortably]... | Finally [Resolution: Cinderella pulls a small, foldable ladder from her pumpkin-gadget bag, allowing them to safely climb into the chamber]."
+      },
+      "img_request": {
+        "bg_details": "lush overgrowth, Echo Falls, cascading waterfall, moss-covered stones, dappled sunlight, volumetric lighting, cave entrance",
+        "action": "Aladdin pushing large stone, straining, Cinderella clapping hands, surprised expression, then frowning, disappointed sigh, pointing at small door",
+        "composition": "medium shot, eye-level angle, focus on the secret door, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush overgrowth, Echo Falls, cascading waterfall, moss-covered stones, dappled sunlight, volumetric lighting, cave entrance. ACTION: Aladdin pushing large stone, straining, Cinderella clapping hands, surprised expression, then frowning, disappointed sigh, pointing at small door. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e319-01332ee9518e6ccf59fea260;1a43c368-6b60-4036-9654-7c732ffe0aa6)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 6,
+      "part": "3. Complication",
+      "text": "Sunlight dripped like honey through the leaves, making the mossy banks of Echo Falls shiny. A gentle mist floated in the air, smelling like wet dirt and sweet moonpetal flowers. The waterfall tumbled into a clear pool, its surface sparkling with rainbow bubbles. Suddenly, a shiny, rainbow echo repeated their laughter, but it sounded funny, like it was sung underwater!",
+      "imageFileName": "page_006.png",
+      "audioFileName": "page_006.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, dappling the mossy banks of Echo Falls in shimmering light. A fine mist hangs in the air, carrying the scent of damp earth and blooming moonpetal flowers. The waterfall itself tumbles into a crystal-clear pool, its surface scattered with iridescent bubbles.",
+        "Overcome": "Aladdin, relying on his wolf-honed sense of smell, sniffs the air and points towards a faint, metallic odor coming from behind the waterfall. Cinderella, skeptical but trusting, uses a wrench from her pumpkin-gadget belt to loosen a cleverly disguised panel, revealing a hidden passage.",
+        "SequenceEvents": "First [Hook: A shimmering, rainbow-colored echo repeats their laughter, slightly distorted]... | Then [Action: Cinderella tries to use her compass to navigate, but the waterfall's magic interferes with the needle, sending it spinning wildly. Aladdin observes the confused Cinderella.]... | Next [Twist: Aladdin, noticing Cinderella's mechanical frustration, realizes that scent is a better guide in this place and sniffs the air]... | Finally [Resolution: Following the metallic scent, they discover the hidden passage, their combined skills leading them forward.]"
+      },
+      "img_request": {
+        "bg_details": "sunlight streaming through leaves, mossy riverbank, echo falls, gentle mist, moonpetal flowers, waterfall, clear pool, rainbow bubbles, dappled sunlight, soft lighting",
+        "action": "laughing, looking at waterfall, surprised expression, pointing towards echo, head turned",
+        "composition": "medium shot, eye-level, focus on waterfall, vibrant colors"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sunlight streaming through leaves, mossy riverbank, echo falls, gentle mist, moonpetal flowers, waterfall, clear pool, rainbow bubbles, dappled sunlight, soft lighting. ACTION: laughing, looking at waterfall, surprised expression, pointing towards echo, head turned. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e336-7247441331db594e75adb33b;47e0d9e7-4857-4a98-9bd4-1b2d6674c911)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 7,
+      "part": "3. Complication",
+      "text": "Page 2: Cinderella held up her special map, trying to find their way. But the waterfall's magic made the needle spin around! \"Oh dear!\" Cinderella said. Aladdin watched her with a curious look. \"This place is too magical for my tools!\" she added with a sigh. Just then, Aladdin thought there might be another way to find what they needed!",
+      "imageFileName": "page_007.png",
+      "audioFileName": "page_007.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, dappling the mossy banks of Echo Falls in shimmering light. A fine mist hangs in the air, carrying the scent of damp earth and blooming moonpetal flowers. The waterfall itself tumbles into a crystal-clear pool, its surface scattered with iridescent bubbles.",
+        "Overcome": "Aladdin, relying on his wolf-honed sense of smell, sniffs the air and points towards a faint, metallic odor coming from behind the waterfall. Cinderella, skeptical but trusting, uses a wrench from her pumpkin-gadget belt to loosen a cleverly disguised panel, revealing a hidden passage.",
+        "SequenceEvents": "First [Hook: A shimmering, rainbow-colored echo repeats their laughter, slightly distorted]... | Then [Action: Cinderella tries to use her compass to navigate, but the waterfall's magic interferes with the needle, sending it spinning wildly. Aladdin observes the confused Cinderella.]... | Next [Twist: Aladdin, noticing Cinderella's mechanical frustration, realizes that scent is a better guide in this place and sniffs the air]... | Finally [Resolution: Following the metallic scent, they discover the hidden passage, their combined skills leading them forward.]"
+      },
+      "img_request": {
+        "bg_details": "lush jungle foliage, cascading waterfall, misty air, dappled sunlight, magical glowing particles, echoing cave, soft volumetric lighting",
+        "action": "Cinderella holding a map, looking concerned, Aladdin watching curiously, slight frown, hands gesturing, head tilt",
+        "composition": "medium shot, eye-level, focus on Cinderella and Aladdin, slight depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush jungle foliage, cascading waterfall, misty air, dappled sunlight, magical glowing particles, echoing cave, soft volumetric lighting. ACTION: Cinderella holding a map, looking concerned, Aladdin watching curiously, slight frown, hands gesturing, head tilt. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e345-2dec222808d4d2247aace0f5;a34fe6b4-eae2-4864-8c02-7c4ab050c05f)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 8,
+      "part": "3. Complication",
+      "text": "Aladdin, with his tail wagging, sniffed the air like a little detective. He closed his eyes and then pointed behind the waterfall. \"Woof!\" he barked, so happy. \"I smell something shiny!\" Cinderella remembered Aladdin's super nose and smiled. \"Then let's follow your nose, Aladdin!\" she said. Together, they went closer to the splashing water.",
+      "imageFileName": "page_008.png",
+      "audioFileName": "page_008.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, dappling the mossy banks of Echo Falls in shimmering light. A fine mist hangs in the air, carrying the scent of damp earth and blooming moonpetal flowers. The waterfall itself tumbles into a crystal-clear pool, its surface scattered with iridescent bubbles.",
+        "Overcome": "Aladdin, relying on his wolf-honed sense of smell, sniffs the air and points towards a faint, metallic odor coming from behind the waterfall. Cinderella, skeptical but trusting, uses a wrench from her pumpkin-gadget belt to loosen a cleverly disguised panel, revealing a hidden passage.",
+        "SequenceEvents": "First [Hook: A shimmering, rainbow-colored echo repeats their laughter, slightly distorted]... | Then [Action: Cinderella tries to use her compass to navigate, but the waterfall's magic interferes with the needle, sending it spinning wildly. Aladdin observes the confused Cinderella.]... | Next [Twist: Aladdin, noticing Cinderella's mechanical frustration, realizes that scent is a better guide in this place and sniffs the air]... | Finally [Resolution: Following the metallic scent, they discover the hidden passage, their combined skills leading them forward.]"
+      },
+      "img_request": {
+        "bg_details": "lush jungle, cascading waterfall, hidden cave entrance, dappled sunlight, mist rising from the water, echoing sounds, shiny reflections on wet rocks",
+        "action": "sniffing, wagging tail, pointing, smiling, walking, looking curious, happy expression, dynamic movement",
+        "composition": "medium shot, eye-level, focus on characters, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush jungle, cascading waterfall, hidden cave entrance, dappled sunlight, mist rising from the water, echoing sounds, shiny reflections on wet rocks. ACTION: sniffing, wagging tail, pointing, smiling, walking, looking curious, happy expression, dynamic movement. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e354-26fc10c534b1a6da51165f89;052a9068-ed5e-49d8-afd3-4a99ac5f3169)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 9,
+      "part": "4. Climax",
+      "text": "Page 1: Sunlight shines through the trees, making golden spots on the green rocks near Echo Falls. The air smells like wet dirt and sweet berries, made stronger by the mist from the falls. *Sigh,* Cinderella whispered, but the echo of the waterfall made it sound like a laugh! Suddenly, she frowned, feeling a bit sad.",
+      "imageFileName": "page_009.png",
+      "audioFileName": "page_009.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting the moss-covered rocks around Echo Falls in dappled gold. The air smells of damp earth and sweet wild berries, a scent intensified by the mist rising from the falls. Tiny, shimmering sprites flit around Cinderella's goggles, drawn to the polished metal.",
+        "Overcome": "Aladdin, accustomed to navigating dense jungle foliage, uses his keen eyesight to spot a hidden crevice behind the waterfall. He climbs the slick rocks with ease, securing a vine for Cinderella to use as a makeshift rope. She then swings across, her pumpkin-powered wrench glinting in the light, to reach the keyhole hidden behind the falls.",
+        "SequenceEvents": "First [Hook - The waterfall's echo repeats Cinderella's frustrated sigh, making it sound like a mocking laugh.]... | Then [Action - Aladdin tries to interpret the 'echo-laugh', thinking it a clue, while Cinderella focuses on the intricate lock mechanism.]... | Next [Twist - Cinderella realizes the lock is too complex, while Aladdin notices a pattern in the way the sunlight hits the waterfall.]... | Finally [Resolution - Aladdin's climbing skills and Cinderella's wrench work together to reveal a hidden keyhole and unlock the passage.]"
+      },
+      "img_request": {
+        "bg_details": "sunlight streaming through trees, dappled shadows on rocks, echo falls, mist, wet dirt, sweet berries scent, green rocks",
+        "action": "whispering, sighing, looking sad, slight frown, head tilted down",
+        "composition": "medium shot, eye-level angle, focus on face, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sunlight streaming through trees, dappled shadows on rocks, echo falls, mist, wet dirt, sweet berries scent, green rocks. ACTION: whispering, sighing, looking sad, slight frown, head tilted down. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e374-2d7b30537fcf7dc54f7734af;ed070723-c5b6-45fb-b52b-4975cf5baaca)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 10,
+      "part": "4. Climax",
+      "text": "Page 2: Aladdin listened closely, trying to hear the echo-laugh. \"Maybe it's a clue, Cinderella!\" he said. So, Cinderella looked at the fancy lock on the stone door. Tiny, shiny sprites flew around her goggles, liking the shiny metal. She tried her pumpkin wrench, but the lock was too hard.",
+      "imageFileName": "page_010.png",
+      "audioFileName": "page_010.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting the moss-covered rocks around Echo Falls in dappled gold. The air smells of damp earth and sweet wild berries, a scent intensified by the mist rising from the falls. Tiny, shimmering sprites flit around Cinderella's goggles, drawn to the polished metal.",
+        "Overcome": "Aladdin, accustomed to navigating dense jungle foliage, uses his keen eyesight to spot a hidden crevice behind the waterfall. He climbs the slick rocks with ease, securing a vine for Cinderella to use as a makeshift rope. She then swings across, her pumpkin-powered wrench glinting in the light, to reach the keyhole hidden behind the falls.",
+        "SequenceEvents": "First [Hook - The waterfall's echo repeats Cinderella's frustrated sigh, making it sound like a mocking laugh.]... | Then [Action - Aladdin tries to interpret the 'echo-laugh', thinking it a clue, while Cinderella focuses on the intricate lock mechanism.]... | Next [Twist - Cinderella realizes the lock is too complex, while Aladdin notices a pattern in the way the sunlight hits the waterfall.]... | Finally [Resolution - Aladdin's climbing skills and Cinderella's wrench work together to reveal a hidden keyhole and unlock the passage.]"
+      },
+      "img_request": {
+        "bg_details": "lush ferns, mossy rocks, Echo Falls in background, cascading water, soft dappled light, golden hour, sunbeams through mist",
+        "action": "Aladdin listening intently, head cocked, Cinderella examining lock, crouching, focused expression, sprites fluttering around her, reaching for lock with wrench",
+        "composition": "medium shot, eye-level, focus on Cinderella and the lock, Aladdin slightly behind, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush ferns, mossy rocks, Echo Falls in background, cascading water, soft dappled light, golden hour, sunbeams through mist. ACTION: Aladdin listening intently, head cocked, Cinderella examining lock, crouching, focused expression, sprites fluttering around her, reaching for lock with wrench. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e385-4dcbb9b754710ecc159eb3cf;8fadb66b-dc36-4d74-8ca3-65238ff2a4f7)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 11,
+      "part": "4. Climax",
+      "text": "Page 3: Suddenly, Cinderella gasped. \"This lock is too hard!\" she cried. Just then, Aladdin saw something cool! The sunlight hit the waterfall in a funny way, making it sparkle. So, he climbed up the rocks and found a hidden keyhole behind the falls! \"I found it!\" he shouted happily.",
+      "imageFileName": "page_011.png",
+      "audioFileName": "page_011.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting the moss-covered rocks around Echo Falls in dappled gold. The air smells of damp earth and sweet wild berries, a scent intensified by the mist rising from the falls. Tiny, shimmering sprites flit around Cinderella's goggles, drawn to the polished metal.",
+        "Overcome": "Aladdin, accustomed to navigating dense jungle foliage, uses his keen eyesight to spot a hidden crevice behind the waterfall. He climbs the slick rocks with ease, securing a vine for Cinderella to use as a makeshift rope. She then swings across, her pumpkin-powered wrench glinting in the light, to reach the keyhole hidden behind the falls.",
+        "SequenceEvents": "First [Hook - The waterfall's echo repeats Cinderella's frustrated sigh, making it sound like a mocking laugh.]... | Then [Action - Aladdin tries to interpret the 'echo-laugh', thinking it a clue, while Cinderella focuses on the intricate lock mechanism.]... | Next [Twist - Cinderella realizes the lock is too complex, while Aladdin notices a pattern in the way the sunlight hits the waterfall.]... | Finally [Resolution - Aladdin's climbing skills and Cinderella's wrench work together to reveal a hidden keyhole and unlock the passage.]"
+      },
+      "img_request": {
+        "bg_details": "lush waterfall, glistening rocks, sunlight reflecting, rainbow mist, dappled light, cascading water, echoing cave, hidden keyhole",
+        "action": "Cinderella gasping, surprised expression, Aladdin climbing, pointing excitedly, shouting happily, triumphant pose",
+        "composition": "medium shot, eye-level angle, dynamic composition"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush waterfall, glistening rocks, sunlight reflecting, rainbow mist, dappled light, cascading water, echoing cave, hidden keyhole. ACTION: Cinderella gasping, surprised expression, Aladdin climbing, pointing excitedly, shouting happily, triumphant pose. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e399-7fe823627768ec83636d9187;090c8fd0-159a-4354-ba1a-4a00009b2661)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 12,
+      "part": "5. Resolution",
+      "text": "Sunlight shines through the leafy treetops, making the mossy rocks around Echo Falls sparkle like gold! The air smells of wet dirt and lovely water lilies. It’s heavy and sweet, like Grandma’s perfume! Suddenly, Aladdin listened carefully. He heard a faint, rhythmic splashing, like a hidden drum calling to him.",
+      "imageFileName": "page_012.png",
+      "audioFileName": "page_012.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, dappling the mossy rocks around Echo Falls in shimmering gold. The air smells of damp earth and blooming water lilies, heavy and sweet. A fine mist hangs in the air, catching the light and creating tiny rainbows that dance and disappear.",
+        "Overcome": "Aladdin, with his wolf-honed senses, notices a faint tremor in the ground near the waterfall, something Cinderella's mechanical earplugs block out. He realizes the tremor is rhythmic and corresponds to a specific sequence of splashing sounds. He climbs the slippery rocks, mimicking the rhythm by splashing the water with his hands, finally hitting the correct sequence. A hidden panel in the rock face slides open, revealing a small, glowing geode.",
+        "SequenceEvents": "First [Hook: The sound of faint, rhythmic splashing, almost like a hidden drumbeat, catches Aladdin's attention.]... | Then [Action: Cinderella, focused on adjusting her gear-powered backpack, dismisses it as simply the waterfall.]... | Next [Twist: Aladdin tries to explain, but Cinderella's earplugs, designed to filter out loud noises, block him out. He uses gestures, mimicking the splashing, leading to a comical charade.]... | Finally [Resolution: Aladdin, remembering a wolf game of mimicking sounds, successfully replicates the pattern, opening the hidden panel and revealing the geode, proving his unique skills are valuable.]"
+      },
+      "img_request": {
+        "bg_details": "sunbeams through leaves, mossy rocks, echo falls, water lilies, dappled sunlight, wet dirt, heavy sweet air",
+        "action": "listening intently, head cocked, curious expression, slight smile",
+        "composition": "medium shot, child eye-level, focus on ears, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sunbeams through leaves, mossy rocks, echo falls, water lilies, dappled sunlight, wet dirt, heavy sweet air. ACTION: listening intently, head cocked, curious expression, slight smile. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e3b7-1232b6df3e62af1c540c5eea;be96a598-ff64-40f0-9211-d375d6ae8e6d)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 13,
+      "part": "5. Resolution",
+      "text": "Page 2: Cinderella, busy fixing her backpack, didn't hear a thing. \"It's just the waterfall, Aladdin,\" she said, smiling. But Aladdin shook his head. \"Uh oh!\" he tried to say. Cinderella’s earplugs blocked loud sounds! He made big hand motions, like splashing, turning it into a funny game.",
+      "imageFileName": "page_013.png",
+      "audioFileName": "page_013.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, dappling the mossy rocks around Echo Falls in shimmering gold. The air smells of damp earth and blooming water lilies, heavy and sweet. A fine mist hangs in the air, catching the light and creating tiny rainbows that dance and disappear.",
+        "Overcome": "Aladdin, with his wolf-honed senses, notices a faint tremor in the ground near the waterfall, something Cinderella's mechanical earplugs block out. He realizes the tremor is rhythmic and corresponds to a specific sequence of splashing sounds. He climbs the slippery rocks, mimicking the rhythm by splashing the water with his hands, finally hitting the correct sequence. A hidden panel in the rock face slides open, revealing a small, glowing geode.",
+        "SequenceEvents": "First [Hook: The sound of faint, rhythmic splashing, almost like a hidden drumbeat, catches Aladdin's attention.]... | Then [Action: Cinderella, focused on adjusting her gear-powered backpack, dismisses it as simply the waterfall.]... | Next [Twist: Aladdin tries to explain, but Cinderella's earplugs, designed to filter out loud noises, block him out. He uses gestures, mimicking the splashing, leading to a comical charade.]... | Finally [Resolution: Aladdin, remembering a wolf game of mimicking sounds, successfully replicates the pattern, opening the hidden panel and revealing the geode, proving his unique skills are valuable.]"
+      },
+      "img_request": {
+        "bg_details": "lush green foliage, mist rising from waterfall, dappled sunlight, rainbow, echo falls, rocks covered in moss, cinematic lighting",
+        "action": "pointing, making splashing gestures with hands, exaggerated expression, trying to communicate, laughing, dynamic angle, surprised expression",
+        "composition": "medium shot, eye-level, two characters, focus on aladdin, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green foliage, mist rising from waterfall, dappled sunlight, rainbow, echo falls, rocks covered in moss, cinematic lighting. ACTION: pointing, making splashing gestures with hands, exaggerated expression, trying to communicate, laughing, dynamic angle, surprised expression. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e3c5-2d2302e64b3d00005ff498e7;1db88f61-af77-4665-8d15-75158e7b66cf)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 14,
+      "part": "5. Resolution",
+      "text": "Aladdin remembered a fun game! They copied sounds to find each other. So, he climbed the wet rocks. Then, he splashed his hands, copying the water's sound. Splash, splash, splash! Suddenly, a rock door opened! \"Wow!\" he shouted. Inside, a shiny rock glowed. His special skills helped!",
+      "imageFileName": "page_014.png",
+      "audioFileName": "page_014.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, dappling the mossy rocks around Echo Falls in shimmering gold. The air smells of damp earth and blooming water lilies, heavy and sweet. A fine mist hangs in the air, catching the light and creating tiny rainbows that dance and disappear.",
+        "Overcome": "Aladdin, with his wolf-honed senses, notices a faint tremor in the ground near the waterfall, something Cinderella's mechanical earplugs block out. He realizes the tremor is rhythmic and corresponds to a specific sequence of splashing sounds. He climbs the slippery rocks, mimicking the rhythm by splashing the water with his hands, finally hitting the correct sequence. A hidden panel in the rock face slides open, revealing a small, glowing geode.",
+        "SequenceEvents": "First [Hook: The sound of faint, rhythmic splashing, almost like a hidden drumbeat, catches Aladdin's attention.]... | Then [Action: Cinderella, focused on adjusting her gear-powered backpack, dismisses it as simply the waterfall.]... | Next [Twist: Aladdin tries to explain, but Cinderella's earplugs, designed to filter out loud noises, block him out. He uses gestures, mimicking the splashing, leading to a comical charade.]... | Finally [Resolution: Aladdin, remembering a wolf game of mimicking sounds, successfully replicates the pattern, opening the hidden panel and revealing the geode, proving his unique skills are valuable.]"
+      },
+      "img_request": {
+        "bg_details": "wet rocks, mossy stones, echoing cavern, waterfall in background, dappled sunlight, volumetric lighting, glowing rock",
+        "action": "climbing, reaching, splashing water, surprised expression, shouting, pointing",
+        "composition": "medium shot, eye-level angle, focus on aladdin, cinematic framing"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: wet rocks, mossy stones, echoing cavern, waterfall in background, dappled sunlight, volumetric lighting, glowing rock. ACTION: climbing, reaching, splashing water, surprised expression, shouting, pointing. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e3d6-4340de3561b38a6943f63dbb;7935eb69-ca71-479f-85b0-a86c68e3e806)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 15,
+      "part": "6. Moral",
+      "text": "Page 1: Sunlight shines through the leaves, making bright shapes on the green banks of Echo Falls. A light mist floats in the air, making tiny rainbows. The air smells like wet dirt and sweet honeysuckle flowers. Suddenly, Cinderella coughed, and a funny echo repeated her voice in a silly way. \"That sounds funny!\" she giggled.",
+      "imageFileName": "page_015.png",
+      "audioFileName": "page_015.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting shifting patterns on the mossy banks of Echo Falls. A fine mist hangs in the air, catching the light and creating miniature rainbows. The air smells of damp earth and sweet, blooming honeysuckle.",
+        "Overcome": "Aladdin, using his climbing skills, scales the slippery rocks behind the waterfall. He locates a hidden crevice where the echo mechanism is located. With a final push, he dislodges a twig that was jamming the gears, restoring the echo.",
+        "SequenceEvents": "First [Hook: A delayed echo repeats Cinderella's cough in a distorted, comical way.]... | Then [Action: Cinderella examines the waterfall's mechanism, a series of gears and pipes, but can't reach a crucial part behind the falls.]... | Next [Twist: Aladdin realizes the echo is being disrupted by something lodged in the machinery.]... | Finally [Resolution: The waterfall's echo returns, now mimicking their laughter perfectly, creating a symphony of joy.]"
+      },
+      "img_request": {
+        "bg_details": "lush green forest, echo falls, bright sunlight, dappled sunlight through leaves, light mist, tiny rainbows, wet dirt, honeysuckle flowers, volumetric lighting",
+        "action": "coughing, hand to mouth, surprised expression, giggling, head tilted, looking sideways",
+        "composition": "medium shot, eye-level angle, focus on character, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green forest, echo falls, bright sunlight, dappled sunlight through leaves, light mist, tiny rainbows, wet dirt, honeysuckle flowers, volumetric lighting. ACTION: coughing, hand to mouth, surprised expression, giggling, head tilted, looking sideways. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e3f4-10a9f57d579cf22b50b05655;5bd14ab4-1519-4b26-baad-a0e40f62c169)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 16,
+      "part": "6. Moral",
+      "text": "Page 2: Cinderella walked closer to the waterfall, looking at the way it worked. She saw gears and pipes that made the echoes. \"I wonder how it works?\" she wondered. But a part was just out of reach, behind the water. \"Oh dear, I can't reach it!\" she said with a sigh. \"Maybe I can help!\" Aladdin said with a grin. ",
+      "imageFileName": "page_016.png",
+      "audioFileName": "page_016.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting shifting patterns on the mossy banks of Echo Falls. A fine mist hangs in the air, catching the light and creating miniature rainbows. The air smells of damp earth and sweet, blooming honeysuckle.",
+        "Overcome": "Aladdin, using his climbing skills, scales the slippery rocks behind the waterfall. He locates a hidden crevice where the echo mechanism is located. With a final push, he dislodges a twig that was jamming the gears, restoring the echo.",
+        "SequenceEvents": "First [Hook: A delayed echo repeats Cinderella's cough in a distorted, comical way.]... | Then [Action: Cinderella examines the waterfall's mechanism, a series of gears and pipes, but can't reach a crucial part behind the falls.]... | Next [Twist: Aladdin realizes the echo is being disrupted by something lodged in the machinery.]... | Finally [Resolution: The waterfall's echo returns, now mimicking their laughter perfectly, creating a symphony of joy.]"
+      },
+      "img_request": {
+        "bg_details": "waterfall, gears and pipes, lush foliage, mist, dappled sunlight, cavernous space, echoing chamber, soft lighting",
+        "action": "reaching, looking up, sighing, frustrated expression, pointing, grinning, confident pose",
+        "composition": "medium shot, eye-level, focus on Cinderella, Aladdin entering the frame"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: waterfall, gears and pipes, lush foliage, mist, dappled sunlight, cavernous space, echoing chamber, soft lighting. ACTION: reaching, looking up, sighing, frustrated expression, pointing, grinning, confident pose. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e402-167a2e855dc7a8ee6f8e2fbd;a2ec422d-973f-4297-b61b-e0076bcfeae1)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 17,
+      "part": "6. Moral",
+      "text": "Aladdin climbed the slippery rocks behind the waterfall. Next, he found a small space where the echo maker was. \"Aha! I see what's wrong!\" he said. So, with a final push, he pushed out a twig that was stuck in the wheels, fixing the echo. Now, the waterfall's echo returned, copying their laughter perfectly, making a happy sound.",
+      "imageFileName": "page_017.png",
+      "audioFileName": "page_017.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting shifting patterns on the mossy banks of Echo Falls. A fine mist hangs in the air, catching the light and creating miniature rainbows. The air smells of damp earth and sweet, blooming honeysuckle.",
+        "Overcome": "Aladdin, using his climbing skills, scales the slippery rocks behind the waterfall. He locates a hidden crevice where the echo mechanism is located. With a final push, he dislodges a twig that was jamming the gears, restoring the echo.",
+        "SequenceEvents": "First [Hook: A delayed echo repeats Cinderella's cough in a distorted, comical way.]... | Then [Action: Cinderella examines the waterfall's mechanism, a series of gears and pipes, but can't reach a crucial part behind the falls.]... | Next [Twist: Aladdin realizes the echo is being disrupted by something lodged in the machinery.]... | Finally [Resolution: The waterfall's echo returns, now mimicking their laughter perfectly, creating a symphony of joy.]"
+      },
+      "img_request": {
+        "bg_details": "slippery rocks, waterfall cascading, hidden alcove, lush green moss, dappled sunlight, soft water reflections, echoing mist, golden hour",
+        "action": "climbing, reaching, focused expression, determined gaze, pushing, straining, fixing something, smiling, laughing, joyful",
+        "composition": "medium shot, eye-level, focus on hands, dynamic angle, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: slippery rocks, waterfall cascading, hidden alcove, lush green moss, dappled sunlight, soft water reflections, echoing mist, golden hour. ACTION: climbing, reaching, focused expression, determined gaze, pushing, straining, fixing something, smiling, laughing, joyful. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e412-1802176b5ab86784240ca19c;662d146d-d51c-426d-bc27-c7015219ace7)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    }
+  ]
+}

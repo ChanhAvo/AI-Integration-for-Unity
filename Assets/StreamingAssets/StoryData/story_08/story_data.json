@@ -1,0 +1,407 @@
+{
+  "storyId": "story_08",
+  "title": "Peter Pan's Adventure in Treehouse Village",
+  "characters": [
+    "Peter Pan (Pilot)",
+    "Aladdin (Jungle Boy)"
+  ],
+  "location": "Treehouse Village",
+  "pages": [
+    {
+      "pageNumber": 0,
+      "part": "1. Setup",
+      "text": "High in the Treehouse Village, firefly lights twinkled. They made the rope bridges glow. Fuzzy moss felt soft on the wood. A gentle breeze carried sweet smells. Then, a hum came from a pretty wooden chest by the tree roots. It seemed to sing with the forest.",
+      "imageFileName": "page_000.png",
+      "audioFileName": "page_000.mp3",
+      "plan": {
+        "Details": "The Treehouse Village twinkles with firefly lanterns, casting a warm glow on the woven rope bridges. Fuzzy moss carpets the wooden platforms, damp with evening dew. A gentle breeze rustles through the leaves, carrying the sweet scent of honeysuckle and woodsmoke.",
+        "Overcome": "Peter, impatient with the locked chest, tries to use his plane's propeller (detached, of course!) as a makeshift screwdriver, but it's too big and clumsy. Aladdin, seeing this, quickly fashions a small key using a sharp stone and a piece of sturdy vine, remembering how Baloo taught him to pick locks in the jungle. He unlocks the chest with ease.",
+        "SequenceEvents": "First [Hook: A melodic hum emanates from a small, ornately carved wooden chest nestled amongst the tree roots, seemingly resonating with the forest's song.]... | Then [Action: Peter and Aladdin discover the chest and try to open it. Peter attempts a quick, forceful solution while Aladdin examines the lock carefully.]... | Next [Twist: Peter's attempts fail comically, nearly damaging the chest. Aladdin's careful approach reveals a complex but manageable lock.]... | Finally [Resolution: Aladdin unlocks the chest, revealing a collection of glowing seeds, each pulsing with soft light. They realize the seeds are the source of the melodic hum and decide to plant them to spread the forest's magic.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, firefly lights, glowing lanterns, fuzzy moss, wooden chest, tree roots, soft breeze, dappled shadows, gentle glow",
+        "action": "looking at chest, curious expression, tilting head, pointing, smiling slightly",
+        "composition": "medium shot, eye-level, focus on chest, cinematic angle"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, firefly lights, glowing lanterns, fuzzy moss, wooden chest, tree roots, soft breeze, dappled shadows, gentle glow. ACTION: looking at chest, curious expression, tilting head, pointing, smiling slightly. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c416-0dd51d1949b748e527d43ec2;7173cacc-77b0-4c6a-8949-229a2afe3394)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 1,
+      "part": "1. Setup",
+      "text": "Page 2: Peter and Aladdin looked at the chest carefully. \"Let's see what's inside!\" Peter said. He grabbed a propeller from his toy airplane. So, he tried to use it as a screwdriver, but it was too big! Meanwhile, Aladdin looked at the lock gently. He remembered how Baloo taught him to pick locks. He looked for a way to open it.",
+      "imageFileName": "page_001.png",
+      "audioFileName": "page_001.mp3",
+      "plan": {
+        "Details": "The Treehouse Village twinkles with firefly lanterns, casting a warm glow on the woven rope bridges. Fuzzy moss carpets the wooden platforms, damp with evening dew. A gentle breeze rustles through the leaves, carrying the sweet scent of honeysuckle and woodsmoke.",
+        "Overcome": "Peter, impatient with the locked chest, tries to use his plane's propeller (detached, of course!) as a makeshift screwdriver, but it's too big and clumsy. Aladdin, seeing this, quickly fashions a small key using a sharp stone and a piece of sturdy vine, remembering how Baloo taught him to pick locks in the jungle. He unlocks the chest with ease.",
+        "SequenceEvents": "First [Hook: A melodic hum emanates from a small, ornately carved wooden chest nestled amongst the tree roots, seemingly resonating with the forest's song.]... | Then [Action: Peter and Aladdin discover the chest and try to open it. Peter attempts a quick, forceful solution while Aladdin examines the lock carefully.]... | Next [Twist: Peter's attempts fail comically, nearly damaging the chest. Aladdin's careful approach reveals a complex but manageable lock.]... | Finally [Resolution: Aladdin unlocks the chest, revealing a collection of glowing seeds, each pulsing with soft light. They realize the seeds are the source of the melodic hum and decide to plant them to spread the forest's magic.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, wooden chest, rope bridge, soft natural lighting, dappled shadows, warm glow",
+        "action": "looking carefully, crouching, examining, reaching, gentle expression, curious gaze",
+        "composition": "medium shot, eye-level, focus on chest, two characters"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, wooden chest, rope bridge, soft natural lighting, dappled shadows, warm glow. ACTION: looking carefully, crouching, examining, reaching, gentle expression, curious gaze. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c426-56a1c0056fcaff4648cca0b0;44fe55c1-03b0-446b-9800-f008781b624f)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 2,
+      "part": "1. Setup",
+      "text": "Page 3: Peter tried and tried, but he almost scratched the wooden chest! Aladdin quickly made a small key with a sharp stone and a strong vine. \"I think I've got it!\" Aladdin whispered. With a soft click, the chest opened. Inside were glowing seeds, shining with light. The seeds made the forest sing!",
+      "imageFileName": "page_002.png",
+      "audioFileName": "page_002.mp3",
+      "plan": {
+        "Details": "The Treehouse Village twinkles with firefly lanterns, casting a warm glow on the woven rope bridges. Fuzzy moss carpets the wooden platforms, damp with evening dew. A gentle breeze rustles through the leaves, carrying the sweet scent of honeysuckle and woodsmoke.",
+        "Overcome": "Peter, impatient with the locked chest, tries to use his plane's propeller (detached, of course!) as a makeshift screwdriver, but it's too big and clumsy. Aladdin, seeing this, quickly fashions a small key using a sharp stone and a piece of sturdy vine, remembering how Baloo taught him to pick locks in the jungle. He unlocks the chest with ease.",
+        "SequenceEvents": "First [Hook: A melodic hum emanates from a small, ornately carved wooden chest nestled amongst the tree roots, seemingly resonating with the forest's song.]... | Then [Action: Peter and Aladdin discover the chest and try to open it. Peter attempts a quick, forceful solution while Aladdin examines the lock carefully.]... | Next [Twist: Peter's attempts fail comically, nearly damaging the chest. Aladdin's careful approach reveals a complex but manageable lock.]... | Finally [Resolution: Aladdin unlocks the chest, revealing a collection of glowing seeds, each pulsing with soft light. They realize the seeds are the source of the melodic hum and decide to plant them to spread the forest's magic.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, wooden chest, glowing seeds, soft light, dappled shadows, forest ambiance, bioluminescent glow",
+        "action": "aladdin making a key, crouching, whispering, peter watching, reaching for chest, frustrated expression, aladdin smiling, opening chest, surprised expression",
+        "composition": "medium shot, eye-level, focus on chest, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, wooden chest, glowing seeds, soft light, dappled shadows, forest ambiance, bioluminescent glow. ACTION: aladdin making a key, crouching, whispering, peter watching, reaching for chest, frustrated expression, aladdin smiling, opening chest, surprised expression. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c437-70fb39b40fc5e8086812d467;a3d6b800-bd07-46a4-8308-cdef8647d135)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 3,
+      "part": "2. Conflict",
+      "text": "Warm lanterns made golden circles on the walls of Aladdin's treehouse. A big wooden case was on the table. Its bright latches winked in the light. 'Tick-tock' sounds came from inside. Aladdin and Peter tilted their heads. 'What's in there?' asked Aladdin. His tail wagged as they looked at the case together, wondering what secrets it held.",
+      "imageFileName": "page_003.png",
+      "audioFileName": "page_003.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm circles of light on the woven walls of Aladdin's treehouse. A large wooden map case sits on a table, its brass latches gleaming invitingly. Fuzzy moss clings to the window frames, catching the faint, silvery moonlight.",
+        "Overcome": "Peter, impatient, tries to fly his mini wooden plane at the lock. It bounces off harmlessly, but the noise startles a nearby monkey who drops a set of old keys into Aladdin's waiting hand. Aladdin, recognizing the keys from his wolf pack's stash, quickly finds the right one, opening the map case.",
+        "SequenceEvents": "First [Hook: A faint, rhythmic 'tick-tock' sound emanates from the locked map case.]... | Then [Action: Peter, ever impatient, tries to pick the lock with a twig, failing miserably.]... | Next [Twist: Peter declares he'll 'blast it open' with his mini-plane, much to Aladdin's dismay.]... | Finally [Resolution: The monkey's accidental key-drop and Aladdin's quick thinking unlock the case, revealing a beautifully illustrated map of Whistlewood Forest.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse interior, warm lanterns, golden light circles, wooden table, large wooden case, bright latches, soft shadows",
+        "action": "tilting heads, looking at case, tail wagging, curious expressions, wondering",
+        "composition": "medium shot, eye-level, focus on case, two characters"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse interior, warm lanterns, golden light circles, wooden table, large wooden case, bright latches, soft shadows. ACTION: tilting heads, looking at case, tail wagging, curious expressions, wondering. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c455-786cdf5f7bb2db6442d755d8;0c13d002-0334-49c3-b649-f4123e41ff2f)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 4,
+      "part": "2. Conflict",
+      "text": "Page 2: Then, Peter, so eager, tried to open the lock with a twig he found. But oh no, the twig snapped with a tiny 'pop'! Peter frowned. \"Hmm, that didn't work,\" Peter said, scratching his head. \"So, I know! I'll open it with my mini-plane!\" he said, holding up his little airplane. Aladdin gasped, \"Oh, Peter, maybe not!\"",
+      "imageFileName": "page_004.png",
+      "audioFileName": "page_004.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm circles of light on the woven walls of Aladdin's treehouse. A large wooden map case sits on a table, its brass latches gleaming invitingly. Fuzzy moss clings to the window frames, catching the faint, silvery moonlight.",
+        "Overcome": "Peter, impatient, tries to fly his mini wooden plane at the lock. It bounces off harmlessly, but the noise startles a nearby monkey who drops a set of old keys into Aladdin's waiting hand. Aladdin, recognizing the keys from his wolf pack's stash, quickly finds the right one, opening the map case.",
+        "SequenceEvents": "First [Hook: A faint, rhythmic 'tick-tock' sound emanates from the locked map case.]... | Then [Action: Peter, ever impatient, tries to pick the lock with a twig, failing miserably.]... | Next [Twist: Peter declares he'll 'blast it open' with his mini-plane, much to Aladdin's dismay.]... | Finally [Resolution: The monkey's accidental key-drop and Aladdin's quick thinking unlock the case, revealing a beautifully illustrated map of Whistlewood Forest.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, lanterns, dappled sunlight through leaves, soft volumetric fog, warm glow",
+        "action": "Peter trying to open lock, crouching, twig in hand, frowning, twig snapping, Aladdin gasping, pointing at Peter, concerned expression, holding toy airplane",
+        "composition": "medium shot, eye-level, focus on Peter and Aladdin, slight depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, lanterns, dappled sunlight through leaves, soft volumetric fog, warm glow. ACTION: Peter trying to open lock, crouching, twig in hand, frowning, twig snapping, Aladdin gasping, pointing at Peter, concerned expression, holding toy airplane. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c464-6f4f64ba14a572cd1e3e40c1;d7365a93-372d-4e57-ace0-35d154d1ecdf)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 5,
+      "part": "2. Conflict",
+      "text": "Suddenly, a playful monkey swung by and dropped some old, jingling keys! They fell right to Aladdin. \"Keys!\" Aladdin said. He knew they were from his friends. He tried each one, and with a happy 'click', the map case popped open. Inside was a pretty map of Whistlewood Forest.",
+      "imageFileName": "page_005.png",
+      "audioFileName": "page_005.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm circles of light on the woven walls of Aladdin's treehouse. A large wooden map case sits on a table, its brass latches gleaming invitingly. Fuzzy moss clings to the window frames, catching the faint, silvery moonlight.",
+        "Overcome": "Peter, impatient, tries to fly his mini wooden plane at the lock. It bounces off harmlessly, but the noise startles a nearby monkey who drops a set of old keys into Aladdin's waiting hand. Aladdin, recognizing the keys from his wolf pack's stash, quickly finds the right one, opening the map case.",
+        "SequenceEvents": "First [Hook: A faint, rhythmic 'tick-tock' sound emanates from the locked map case.]... | Then [Action: Peter, ever impatient, tries to pick the lock with a twig, failing miserably.]... | Next [Twist: Peter declares he'll 'blast it open' with his mini-plane, much to Aladdin's dismay.]... | Finally [Resolution: The monkey's accidental key-drop and Aladdin's quick thinking unlock the case, revealing a beautifully illustrated map of Whistlewood Forest.]"
+      },
+      "img_request": {
+        "bg_details": "lush treehouse village, rope bridges, twinkling lanterns, soft volumetric lighting, dappled shadows, dense foliage, wooden platforms",
+        "action": "reaching for keys, surprised expression, looking down, crouching, pointing towards map case, smiling",
+        "composition": "medium shot, eye-level, focus on hands and keys, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush treehouse village, rope bridges, twinkling lanterns, soft volumetric lighting, dappled shadows, dense foliage, wooden platforms. ACTION: reaching for keys, surprised expression, looking down, crouching, pointing towards map case, smiling. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c473-6da692452ea26d580041f4ce;8022b588-66cd-411a-815f-3f3dbcaaec96)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 6,
+      "part": "3. Complication",
+      "text": "Page 1: Softly, a sweet hum, like a lullaby on a flute, floated through Treehouse Village. Lanterns made a warm, golden glow, shining on the shiny leaves. Fuzzy moss made the rope bridges soft and quiet. Specks of glowing dust danced in the air, catching the golden light.",
+      "imageFileName": "page_006.png",
+      "audioFileName": "page_006.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, amber glow on the Treehouse Village, their light reflecting in the polished leaves of the surrounding trees. Fuzzy moss carpets the rope bridges, muffling the sound of footsteps. A faint shimmer of glowing dust motes dances in the air, catching the light and creating an ethereal atmosphere.",
+        "Overcome": "Peter, using his wooden plane, directs the beam of its headlight like a spotlight. The focused light reveals a nearly invisible seam in the wall, indicating a hidden passage. Aladdin, seeing the seam, uses his climbing skills to scale the wall, finding a small lever camouflaged with leaves and vines.",
+        "SequenceEvents": "First [Hook]... A melodic hum, like a lullaby played on a flute, drifts through the Treehouse Village. | Then [Action]... Peter, piloting his miniature wooden plane, tries to 'buzz' a high window, searching for a landmark mentioned in an old rhyme. Aladdin, more grounded, searches for clues among the roots of the giant tree that holds the village. | Next [Twist]... Peter's plane's headlight catches a glint of something unusual on the wall of a treehouse – a shimmer that Aladdin missed. They argue playfully about whether it's fairy dust or a reflection. | Finally [Resolution]... Peter uses the plane's headlight to pinpoint a hidden passage, and Aladdin's knowledge of the forest helps him discover the camouflaged lever that opens it."
+      },
+      "img_request": {
+        "bg_details": "treehouse village, glowing lanterns, rope bridges, fuzzy moss, glowing dust motes, warm golden light, soft shadows",
+        "action": "looking around, smiling gently, calm expression, relaxed pose, head slightly tilted",
+        "composition": "medium shot, eye-level, soft focus"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, glowing lanterns, rope bridges, fuzzy moss, glowing dust motes, warm golden light, soft shadows. ACTION: looking around, smiling gently, calm expression, relaxed pose, head slightly tilted. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c492-0dd13e9f50bfc723540f673c;b6bc4b2c-fcc4-4926-89b1-5a6cf3a75d5f)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 7,
+      "part": "3. Complication",
+      "text": "Page 2: Peter, flying his little wooden plane, tried to fly close to a high window. He hoped to find a special mark from an old rhyme. Aladdin looked for clues by the big tree's roots, his fingers touching the bark. \"Anything, Aladdin?\" Peter called from above. So his voice echoed softly.",
+      "imageFileName": "page_007.png",
+      "audioFileName": "page_007.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, amber glow on the Treehouse Village, their light reflecting in the polished leaves of the surrounding trees. Fuzzy moss carpets the rope bridges, muffling the sound of footsteps. A faint shimmer of glowing dust motes dances in the air, catching the light and creating an ethereal atmosphere.",
+        "Overcome": "Peter, using his wooden plane, directs the beam of its headlight like a spotlight. The focused light reveals a nearly invisible seam in the wall, indicating a hidden passage. Aladdin, seeing the seam, uses his climbing skills to scale the wall, finding a small lever camouflaged with leaves and vines.",
+        "SequenceEvents": "First [Hook]... A melodic hum, like a lullaby played on a flute, drifts through the Treehouse Village. | Then [Action]... Peter, piloting his miniature wooden plane, tries to 'buzz' a high window, searching for a landmark mentioned in an old rhyme. Aladdin, more grounded, searches for clues among the roots of the giant tree that holds the village. | Next [Twist]... Peter's plane's headlight catches a glint of something unusual on the wall of a treehouse – a shimmer that Aladdin missed. They argue playfully about whether it's fairy dust or a reflection. | Finally [Resolution]... Peter uses the plane's headlight to pinpoint a hidden passage, and Aladdin's knowledge of the forest helps him discover the camouflaged lever that opens it."
+      },
+      "img_request": {
+        "bg_details": "lush tree canopy, dappled sunlight, rope bridges, glowing lanterns, soft volumetric fog, giant tree roots, winding vines",
+        "action": "flying wooden airplane, looking down, calling out, smiling, Aladdin crouching, examining tree bark, curious expression, touching bark",
+        "composition": "medium shot, eye-level, Peter above Aladdin, focus on both characters, establishing shot"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush tree canopy, dappled sunlight, rope bridges, glowing lanterns, soft volumetric fog, giant tree roots, winding vines. ACTION: flying wooden airplane, looking down, calling out, smiling, Aladdin crouching, examining tree bark, curious expression, touching bark. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c4a0-63db73023d539a2511e42a9f;da922b9c-0b46-44f8-8cad-1948148111ad)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 8,
+      "part": "3. Complication",
+      "text": "Page 3: Just then, Peter's plane light found something shiny on the treehouse wall – a shimmer Aladdin missed! \"Fairy dust?\" Peter asked. Aladdin giggled. \"Or just light?\" he said. They wanted to look at the shiny spot, hoping for a clue.",
+      "imageFileName": "page_008.png",
+      "audioFileName": "page_008.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, amber glow on the Treehouse Village, their light reflecting in the polished leaves of the surrounding trees. Fuzzy moss carpets the rope bridges, muffling the sound of footsteps. A faint shimmer of glowing dust motes dances in the air, catching the light and creating an ethereal atmosphere.",
+        "Overcome": "Peter, using his wooden plane, directs the beam of its headlight like a spotlight. The focused light reveals a nearly invisible seam in the wall, indicating a hidden passage. Aladdin, seeing the seam, uses his climbing skills to scale the wall, finding a small lever camouflaged with leaves and vines.",
+        "SequenceEvents": "First [Hook]... A melodic hum, like a lullaby played on a flute, drifts through the Treehouse Village. | Then [Action]... Peter, piloting his miniature wooden plane, tries to 'buzz' a high window, searching for a landmark mentioned in an old rhyme. Aladdin, more grounded, searches for clues among the roots of the giant tree that holds the village. | Next [Twist]... Peter's plane's headlight catches a glint of something unusual on the wall of a treehouse – a shimmer that Aladdin missed. They argue playfully about whether it's fairy dust or a reflection. | Finally [Resolution]... Peter uses the plane's headlight to pinpoint a hidden passage, and Aladdin's knowledge of the forest helps him discover the camouflaged lever that opens it."
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, hanging lanterns, dappled light through leaves, shiny spot on wall, soft volumetric lighting",
+        "action": "pointing, looking up, curious expressions, giggling, slight tilt of head, holding toy airplane",
+        "composition": "medium shot, eye-level angle, focus on shiny spot, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, hanging lanterns, dappled light through leaves, shiny spot on wall, soft volumetric lighting. ACTION: pointing, looking up, curious expressions, giggling, slight tilt of head, holding toy airplane. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c4af-11fb83ea0aa8ee932b35d804;ab2ae09c-d20e-4252-98e4-4d16c8c20352)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 9,
+      "part": "4. Climax",
+      "text": "The Treehouse Village sparkled with lanterns, making the rope bridges look golden. The air smelled like yummy pine and berry pies. Suddenly, the chimes rang with a strange sound! It was like someone playing a song, but all the notes were wrong. What was happening?",
+      "imageFileName": "page_009.png",
+      "audioFileName": "page_009.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, illuminating the intricately woven rope bridges. The air smells of sweet pine sap and freshly baked berry pies wafting from open windows. Fuzzy moss clings to the wooden platforms, soft underfoot.",
+        "Overcome": "Peter Pan uses his wooden plane to create a gust of wind, aiming it perfectly to blow the correct sequence of chimes, unlocking the door.",
+        "SequenceEvents": "First [Hook: A series of mis-tuned chimes echoes through the village, hinting at a puzzle.] | Then [Action: Peter and Aladdin discover a locked door to the village's library, adorned with chime-activated locks. Aladdin tries to climb the wall, while Peter fiddles with the chimes.] | Next [Twist: Peter accidentally triggers a wrong chime sequence, causing a pile of soft pillows to tumble from above.] | Finally [Resolution: Peter uses his plane to generate precise gusts of wind, activating the chimes in the correct order to unlock the door, as Aladdin steadies the plane with his strong grip.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, glowing lanterns, rope bridges, pine trees, berry pies, soft natural lighting, gentle glow, strange chimes",
+        "action": "looking curious, head tilt, listening intently, slight frown, hands near ears",
+        "composition": "medium shot, child eye-level, focus on face, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, glowing lanterns, rope bridges, pine trees, berry pies, soft natural lighting, gentle glow, strange chimes. ACTION: looking curious, head tilt, listening intently, slight frown, hands near ears. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c4cb-6afd2ab9121f52321a5a927b;ac887df0-3fd5-4bd4-8723-0f650e3a2474)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 10,
+      "part": "4. Climax",
+      "text": "Page 2: Peter Pan and Aladdin saw a locked door to the village library. Sparkly bells hung all around! \"I'll climb over!\" Aladdin said, reaching up. Then, Peter gently touched a bell. Bong! Suddenly, soft pillows tumbled down, giggling as they fell.",
+      "imageFileName": "page_010.png",
+      "audioFileName": "page_010.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, illuminating the intricately woven rope bridges. The air smells of sweet pine sap and freshly baked berry pies wafting from open windows. Fuzzy moss clings to the wooden platforms, soft underfoot.",
+        "Overcome": "Peter Pan uses his wooden plane to create a gust of wind, aiming it perfectly to blow the correct sequence of chimes, unlocking the door.",
+        "SequenceEvents": "First [Hook: A series of mis-tuned chimes echoes through the village, hinting at a puzzle.] | Then [Action: Peter and Aladdin discover a locked door to the village's library, adorned with chime-activated locks. Aladdin tries to climb the wall, while Peter fiddles with the chimes.] | Next [Twist: Peter accidentally triggers a wrong chime sequence, causing a pile of soft pillows to tumble from above.] | Finally [Resolution: Peter uses his plane to generate precise gusts of wind, activating the chimes in the correct order to unlock the door, as Aladdin steadies the plane with his strong grip.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, glowing lanterns, locked wooden door, sparkly bells, soft ambient lighting, dappled shadows",
+        "action": "reaching up, climbing, determined expression, touching a bell, surprised expression, looking down",
+        "composition": "medium shot, eye-level angle, focus on Peter and Aladdin, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, glowing lanterns, locked wooden door, sparkly bells, soft ambient lighting, dappled shadows. ACTION: reaching up, climbing, determined expression, touching a bell, surprised expression, looking down. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c4d9-2a141b5b4e0c684367c49aeb;0e75ea9b-3baf-4353-89f4-54395acc11b2)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 11,
+      "part": "4. Climax",
+      "text": "Page 3: \"Oops! Wrong chime,\" Peter laughed. So, he had an idea! Peter used his wooden airplane to make a gentle breeze. Aladdin held the plane. The wind blew on the chimes in just the right order. Ding, Dong, Ding! Click! \"We did it!\" Aladdin shouted as the door swung open.",
+      "imageFileName": "page_011.png",
+      "audioFileName": "page_011.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, illuminating the intricately woven rope bridges. The air smells of sweet pine sap and freshly baked berry pies wafting from open windows. Fuzzy moss clings to the wooden platforms, soft underfoot.",
+        "Overcome": "Peter Pan uses his wooden plane to create a gust of wind, aiming it perfectly to blow the correct sequence of chimes, unlocking the door.",
+        "SequenceEvents": "First [Hook: A series of mis-tuned chimes echoes through the village, hinting at a puzzle.] | Then [Action: Peter and Aladdin discover a locked door to the village's library, adorned with chime-activated locks. Aladdin tries to climb the wall, while Peter fiddles with the chimes.] | Next [Twist: Peter accidentally triggers a wrong chime sequence, causing a pile of soft pillows to tumble from above.] | Finally [Resolution: Peter uses his plane to generate precise gusts of wind, activating the chimes in the correct order to unlock the door, as Aladdin steadies the plane with his strong grip.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, wooden walkways, rope bridges, glowing lanterns, dappled sunlight through leaves, soft natural lighting",
+        "action": "Peter laughing, Aladdin holding airplane, blowing wind, pointing, door swinging open, excited expression, celebrating, dynamic pose",
+        "composition": "medium shot, eye-level angle, focus on characters, open doorway in background, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, wooden walkways, rope bridges, glowing lanterns, dappled sunlight through leaves, soft natural lighting. ACTION: Peter laughing, Aladdin holding airplane, blowing wind, pointing, door swinging open, excited expression, celebrating, dynamic pose. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c4e7-55ca9086035b0f8e1b0541f0;0a57534c-3136-4341-bf13-c547aa17fd5a)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 12,
+      "part": "5. Resolution",
+      "text": "Lanterns made the Treehouse Village glow like honey, shining on the leaves. Soft chimes rang from the rope bridges. But then, the chimes began to play a funny, strange tune. Uh oh! It was like the wind was trying to sing a song, but all mixed up!",
+      "imageFileName": "page_012.png",
+      "audioFileName": "page_012.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, their light reflecting off the dew-kissed leaves. Soft, melodic chimes drift from wind-catchers hanging near the rope bridges. A faint scent of wild berries and woodsmoke hangs in the air, promising comfort and adventure.",
+        "Overcome": "Aladdin, remembering Baloo's teachings, identifies the specific sequence of chimes by listening to the vibrations on the tree trunk. Peter, using his pilot's knowledge of air currents, directs the chime's sound waves with his wooden plane's wing, amplifying the signal to unlock the door.",
+        "SequenceEvents": "First [Hook: The soft, melodic chimes of wind-catchers begin playing an unusual, discordant tune]... | Then [Action: Peter scoffs, thinking it's just the wind; Aladdin recognizes a pattern and climbs the tree to listen closely]... | Next [Twist: They realize the chimes are a lock mechanism, but the signal is too weak to activate it]... | Finally [Resolution: Working together, Aladdin deciphers the tune and Peter amplifies it, unlocking a secret door to a hidden room filled with glowing maps]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, glowing lanterns, rope bridges, soft chimes, wind blowing, strange tune, honey light, singing leaves, dappled shadows",
+        "action": "looking up, concerned expression, tilting head, listening intently, slight frown",
+        "composition": "medium shot, eye-level, focus on face, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, glowing lanterns, rope bridges, soft chimes, wind blowing, strange tune, honey light, singing leaves, dappled shadows. ACTION: looking up, concerned expression, tilting head, listening intently, slight frown. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c504-689cd46b5d40529e160ec513;3ef5368a-7711-4167-85cc-b484de07237e)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 13,
+      "part": "5. Resolution",
+      "text": "Page 2: Peter giggled. He thought it was just the wind. \"It's only the breeze, Aladdin!\" he said. But Aladdin knew better. Suddenly, he climbed the tree to listen. \"No, Peter, listen!\" Aladdin called. \"There's a secret message! I hear music!\"",
+      "imageFileName": "page_013.png",
+      "audioFileName": "page_013.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, their light reflecting off the dew-kissed leaves. Soft, melodic chimes drift from wind-catchers hanging near the rope bridges. A faint scent of wild berries and woodsmoke hangs in the air, promising comfort and adventure.",
+        "Overcome": "Aladdin, remembering Baloo's teachings, identifies the specific sequence of chimes by listening to the vibrations on the tree trunk. Peter, using his pilot's knowledge of air currents, directs the chime's sound waves with his wooden plane's wing, amplifying the signal to unlock the door.",
+        "SequenceEvents": "First [Hook: The soft, melodic chimes of wind-catchers begin playing an unusual, discordant tune]... | Then [Action: Peter scoffs, thinking it's just the wind; Aladdin recognizes a pattern and climbs the tree to listen closely]... | Next [Twist: They realize the chimes are a lock mechanism, but the signal is too weak to activate it]... | Finally [Resolution: Working together, Aladdin deciphers the tune and Peter amplifies it, unlocking a secret door to a hidden room filled with glowing maps]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, wooden platforms, rope bridges, glowing lanterns, dappled shadows, soft natural lighting",
+        "action": "giggling, pointing, listening intently, climbing tree, dynamic pose, curious expression",
+        "composition": "medium shot, eye-level, focus on Aladdin climbing, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, wooden platforms, rope bridges, glowing lanterns, dappled shadows, soft natural lighting. ACTION: giggling, pointing, listening intently, climbing tree, dynamic pose, curious expression. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c512-6982207f4875e95161e43484;623d99cc-06e7-4099-845d-a77c2b1d0da0)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 14,
+      "part": "5. Resolution",
+      "text": "They knew the chimes were like a lock, but the sound was too soft. \"Oh no!\" said Peter. \"The music is there, but it's too quiet!\" Aladdin thought hard. So, his eyes lit up. \"I have an idea!\" he said. \"Let's help each other!\"",
+      "imageFileName": "page_014.png",
+      "audioFileName": "page_014.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, their light reflecting off the dew-kissed leaves. Soft, melodic chimes drift from wind-catchers hanging near the rope bridges. A faint scent of wild berries and woodsmoke hangs in the air, promising comfort and adventure.",
+        "Overcome": "Aladdin, remembering Baloo's teachings, identifies the specific sequence of chimes by listening to the vibrations on the tree trunk. Peter, using his pilot's knowledge of air currents, directs the chime's sound waves with his wooden plane's wing, amplifying the signal to unlock the door.",
+        "SequenceEvents": "First [Hook: The soft, melodic chimes of wind-catchers begin playing an unusual, discordant tune]... | Then [Action: Peter scoffs, thinking it's just the wind; Aladdin recognizes a pattern and climbs the tree to listen closely]... | Next [Twist: They realize the chimes are a lock mechanism, but the signal is too weak to activate it]... | Finally [Resolution: Working together, Aladdin deciphers the tune and Peter amplifies it, unlocking a secret door to a hidden room filled with glowing maps]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, glowing lanterns, soft volumetric lighting, dappled shadows, lush green foliage, warm sunlight",
+        "action": "Peter looking worried, Aladdin smiling, Peter shrugging, Aladdin pointing upwards, helping each other, determined expressions",
+        "composition": "medium shot, eye-level angle, focus on Peter and Aladdin, dynamic composition"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, glowing lanterns, soft volumetric lighting, dappled shadows, lush green foliage, warm sunlight. ACTION: Peter looking worried, Aladdin smiling, Peter shrugging, Aladdin pointing upwards, helping each other, determined expressions. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c520-403cf40b66080f340f353b2c;d8ba081f-57c8-40f7-af42-b9f2a3ee7696)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 15,
+      "part": "6. Moral",
+      "text": "Lanterns made warm shadows dance on the treehouse walls. A half-eaten honeycomb rested on a windowsill, buzzing softly with sleepy bees. Suddenly, a sweet sound, like tiny bells, came from a small, locked music box. \"Oh, what could be inside?\" asked Peter, his eyes full of wonder. Just then, he saw something move.",
+      "imageFileName": "page_015.png",
+      "audioFileName": "page_015.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm, dancing shadows on the woven walls of the treehouse. A half-eaten honeycomb sits on a windowsill, buzzing gently with drowsy bees. Dust motes swirl in the shafts of sunlight filtering through the leaves, illuminating a small, ornately carved wooden music box.",
+        "Overcome": "Peter Pan, unable to pick the lock, uses his piloting goggles to magnify the tiny keyhole. Aladdin, with his nimble fingers and knowledge of jungle knots, quickly fashions a makeshift key from a twig and vine, unlocking the box.",
+        "SequenceEvents": "First [Hook: A delicate, tinkling sound, like wind chimes, drifts from within the locked music box.]... | Then [Action: Aladdin tries to pick the lock with a thorn, but it snaps. Peter Pan scoffs, pulls out his goggles, and tries to see inside the keyhole.]... | Next [Twist: Peter Pan declares he sees tiny dancing fairies inside, but Aladdin, with his wolf-enhanced senses, insists he only hears a complex locking mechanism.]... | Finally [Resolution: Combining Peter's magnified view and Aladdin's knowledge of knots, they unlock the box, revealing a miniature Whistlewood Forest inside that plays a soothing lullaby.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, warm lantern light, soft shadows, honeycomb on windowsill, buzzing bees, dappled light, glowing music box",
+        "action": "Peter looking at music box, eyes wide with wonder, curious expression, reaching hand, slight smile",
+        "composition": "medium shot, eye-level, focus on Peter, music box in foreground"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, warm lantern light, soft shadows, honeycomb on windowsill, buzzing bees, dappled light, glowing music box. ACTION: Peter looking at music box, eyes wide with wonder, curious expression, reaching hand, slight smile. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c53d-645343d23d7a665978ce0594;e99c2d26-a67a-4321-bdfc-acbeecaaf846)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 16,
+      "part": "6. Moral",
+      "text": "Page 2: Aladdin tried to open the lock with a little thorn, but snap! It broke. Peter Pan giggled. Then, he pulled out his flying goggles, looking closely at the keyhole. \"I'll peek!\" he said with a grin. \"Maybe I can see how to open it!\"",
+      "imageFileName": "page_016.png",
+      "audioFileName": "page_016.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm, dancing shadows on the woven walls of the treehouse. A half-eaten honeycomb sits on a windowsill, buzzing gently with drowsy bees. Dust motes swirl in the shafts of sunlight filtering through the leaves, illuminating a small, ornately carved wooden music box.",
+        "Overcome": "Peter Pan, unable to pick the lock, uses his piloting goggles to magnify the tiny keyhole. Aladdin, with his nimble fingers and knowledge of jungle knots, quickly fashions a makeshift key from a twig and vine, unlocking the box.",
+        "SequenceEvents": "First [Hook: A delicate, tinkling sound, like wind chimes, drifts from within the locked music box.]... | Then [Action: Aladdin tries to pick the lock with a thorn, but it snaps. Peter Pan scoffs, pulls out his goggles, and tries to see inside the keyhole.]... | Next [Twist: Peter Pan declares he sees tiny dancing fairies inside, but Aladdin, with his wolf-enhanced senses, insists he only hears a complex locking mechanism.]... | Finally [Resolution: Combining Peter's magnified view and Aladdin's knowledge of knots, they unlock the box, revealing a miniature Whistlewood Forest inside that plays a soothing lullaby.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, glowing lanterns, dappled shadows, soft natural lighting",
+        "action": "crouching, peering through keyhole, aviator goggles on head, grinning mischievously, curious expression",
+        "composition": "close-up on face, eye-level, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, glowing lanterns, dappled shadows, soft natural lighting. ACTION: crouching, peering through keyhole, aviator goggles on head, grinning mischievously, curious expression. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c54b-2dba233d26a03ec7109f76b9;ee726de8-70ab-478c-91c4-9b9e47b2cee6)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 17,
+      "part": "6. Moral",
+      "text": "Page 3: \"I see tiny dancing fairies!\" Peter Pan said, his voice full of joy. \"They're twirling around a tiny key!\" Suddenly, Aladdin, with his good ears, shook his head. \"I don't hear fairies, Peter,\" he said gently. \"I hear a very complicated lock!\"",
+      "imageFileName": "page_017.png",
+      "audioFileName": "page_017.mp3",
+      "plan": {
+        "Details": "Lanterns cast warm, dancing shadows on the woven walls of the treehouse. A half-eaten honeycomb sits on a windowsill, buzzing gently with drowsy bees. Dust motes swirl in the shafts of sunlight filtering through the leaves, illuminating a small, ornately carved wooden music box.",
+        "Overcome": "Peter Pan, unable to pick the lock, uses his piloting goggles to magnify the tiny keyhole. Aladdin, with his nimble fingers and knowledge of jungle knots, quickly fashions a makeshift key from a twig and vine, unlocking the box.",
+        "SequenceEvents": "First [Hook: A delicate, tinkling sound, like wind chimes, drifts from within the locked music box.]... | Then [Action: Aladdin tries to pick the lock with a thorn, but it snaps. Peter Pan scoffs, pulls out his goggles, and tries to see inside the keyhole.]... | Next [Twist: Peter Pan declares he sees tiny dancing fairies inside, but Aladdin, with his wolf-enhanced senses, insists he only hears a complex locking mechanism.]... | Finally [Resolution: Combining Peter's magnified view and Aladdin's knowledge of knots, they unlock the box, revealing a miniature Whistlewood Forest inside that plays a soothing lullaby.]"
+      },
+      "img_request": {
+        "bg_details": "lush green canopy, dappled sunlight filtering through leaves, glowing lanterns hanging from branches, rope bridges swaying gently, soft volumetric lighting, golden hour",
+        "action": "Peter Pan pointing excitedly, mouth open in awe, Aladdin shaking head gently, concerned expression, Peter Pan looking up, Aladdin looking down, listening intently",
+        "composition": "medium shot, eye-level, focus on Peter Pan and Aladdin, depth of field, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green canopy, dappled sunlight filtering through leaves, glowing lanterns hanging from branches, rope bridges swaying gently, soft volumetric lighting, golden hour. ACTION: Peter Pan pointing excitedly, mouth open in awe, Aladdin shaking head gently, concerned expression, Peter Pan looking up, Aladdin looking down, listening intently. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927c559-3b2c48df769e77936fa5f018;1829a4f8-1e5d-451a-8285-eb40a5e50cd4)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    }
+  ]
+}

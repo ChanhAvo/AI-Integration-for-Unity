@@ -1,0 +1,385 @@
+{
+  "storyId": "story_07",
+  "title": "Cinderella's Adventure in Berry Patch",
+  "characters": [
+    "Cinderella (Mechanic)",
+    "Little Red Riding Hood (Alice)"
+  ],
+  "location": "Berry Patch",
+  "pages": [
+    {
+      "pageNumber": 0,
+      "part": "1. Setup",
+      "text": "Sunlight streamed through the berry bushes, making the red berries glow with golden light. A thick carpet of moss tickled their feet, smelling a little like sweet earth. Sparkling dust danced in the air, making tiny rainbows around each berry. Suddenly, a sweet humming sound happened! It drifted from the edge of the berry patch, like a flower singing a tune!",
+      "imageFileName": "page_000.png",
+      "audioFileName": "page_000.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the red fruit with golden light. A thick carpet of moss cushioned their feet, smelling faintly of sweet earth. Sparkling dust motes danced in the air, creating tiny rainbows around each berry.",
+        "Overcome": "Cinderella rummages in her pumpkin-gadget bag, pulls out a tiny gear-shaped wrench, and adjusts a hidden valve on the flower. The flower rotates, revealing a small, berry-sized key.",
+        "SequenceEvents": "First [Hook]...A strange, melodic humming emanates from a giant, luminous flower at the edge of the patch.| Then [Action]...Little Red Riding Hood approaches the flower, notebook in hand, and tries to decipher the humming, asking the flower questions. Cinderella, covered in grease, examines the flower's stem for mechanical parts.| Next [Twist]...Little Red Riding Hood believes the flower is singing a secret song, but Cinderella realizes it's a complex pressure release valve stuck in place.| Finally [Resolution]...Cinderella's adjustment releases the valve, and the flower opens, revealing a tiny key. Little Red Riding Hood exclaims, 'What a curious delight!'"
+      },
+      "img_request": {
+        "bg_details": "berry bushes, red berries, golden light, mossy ground, sweet earth scent, sparkling dust motes, tiny rainbows, dappled sunlight, soft lighting",
+        "action": "looking down, curious expression, pointing, smiling gently, head tilted, relaxed pose",
+        "composition": "medium shot, child eye-level, focus on berries, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry bushes, red berries, golden light, mossy ground, sweet earth scent, sparkling dust motes, tiny rainbows, dappled sunlight, soft lighting. ACTION: looking down, curious expression, pointing, smiling gently, head tilted, relaxed pose. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692702a6-64f44fde7671823c0ed68518;737b66ce-0ba9-4962-b5d5-4306b657baf5)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 1,
+      "part": "1. Setup",
+      "text": "Little Red Riding Hood walked to the big flower. She held her notebook. \"Hello, flower!\" she said nicely, trying to understand its humming. Cinderella had a little grease on her nose. She looked closely at the flower's stem, looking for parts. \"Hmm,\" she said. \"This is very strange.\"",
+      "imageFileName": "page_001.png",
+      "audioFileName": "page_001.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the red fruit with golden light. A thick carpet of moss cushioned their feet, smelling faintly of sweet earth. Sparkling dust motes danced in the air, creating tiny rainbows around each berry.",
+        "Overcome": "Cinderella rummages in her pumpkin-gadget bag, pulls out a tiny gear-shaped wrench, and adjusts a hidden valve on the flower. The flower rotates, revealing a small, berry-sized key.",
+        "SequenceEvents": "First [Hook]...A strange, melodic humming emanates from a giant, luminous flower at the edge of the patch.| Then [Action]...Little Red Riding Hood approaches the flower, notebook in hand, and tries to decipher the humming, asking the flower questions. Cinderella, covered in grease, examines the flower's stem for mechanical parts.| Next [Twist]...Little Red Riding Hood believes the flower is singing a secret song, but Cinderella realizes it's a complex pressure release valve stuck in place.| Finally [Resolution]...Cinderella's adjustment releases the valve, and the flower opens, revealing a tiny key. Little Red Riding Hood exclaims, 'What a curious delight!'"
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, sweet-smelling field, soft natural lighting, gentle glows, dappled sunlight, lush greenery",
+        "action": "walking, holding notebook, looking at flower, curious expression",
+        "composition": "medium shot, child eye-level, clear focal point"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, sweet-smelling field, soft natural lighting, gentle glows, dappled sunlight, lush greenery. ACTION: walking, holding notebook, looking at flower, curious expression. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692702b8-774ed76700d72d2f370e44ed;c03af339-952a-407b-a4ba-a78cd7439d55)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 2,
+      "part": "1. Setup",
+      "text": "Little Red Riding Hood thought the flower sang a secret song, but Cinderella had a different idea! \"I think it's a tricky button,\" she said happily. Cinderella then looked in her pumpkin bag, found a small wrench, and carefully fixed the flower. The flower turned, showing a tiny, berry-sized key!",
+      "imageFileName": "page_002.png",
+      "audioFileName": "page_002.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the red fruit with golden light. A thick carpet of moss cushioned their feet, smelling faintly of sweet earth. Sparkling dust motes danced in the air, creating tiny rainbows around each berry.",
+        "Overcome": "Cinderella rummages in her pumpkin-gadget bag, pulls out a tiny gear-shaped wrench, and adjusts a hidden valve on the flower. The flower rotates, revealing a small, berry-sized key.",
+        "SequenceEvents": "First [Hook]...A strange, melodic humming emanates from a giant, luminous flower at the edge of the patch.| Then [Action]...Little Red Riding Hood approaches the flower, notebook in hand, and tries to decipher the humming, asking the flower questions. Cinderella, covered in grease, examines the flower's stem for mechanical parts.| Next [Twist]...Little Red Riding Hood believes the flower is singing a secret song, but Cinderella realizes it's a complex pressure release valve stuck in place.| Finally [Resolution]...Cinderella's adjustment releases the valve, and the flower opens, revealing a tiny key. Little Red Riding Hood exclaims, 'What a curious delight!'"
+      },
+      "img_request": {
+        "bg_details": "berry patch, ripe wild berries, lush green foliage, soft natural lighting, gentle glowing sunlight, sweet-smelling air, dappled shadows through leaves",
+        "action": "Cinderella looking down, head tilted, smiling, holding wrench, Little Red Riding Hood pointing, curious expression, mouth slightly open, looking at flower",
+        "composition": "medium shot, eye-level, two characters, focus on flower, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, ripe wild berries, lush green foliage, soft natural lighting, gentle glowing sunlight, sweet-smelling air, dappled shadows through leaves. ACTION: Cinderella looking down, head tilted, smiling, holding wrench, Little Red Riding Hood pointing, curious expression, mouth slightly open, looking at flower. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692702c7-44266d226a65d9c052a94640;53722127-5f72-4def-a5ef-4e40aa303232)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 3,
+      "part": "2. Conflict",
+      "text": "Sunlight shines through the leaves, making bright patterns on the berry patch. The berries are big and juicy, like little jewels! Their sweet smell fills the air. Suddenly, a rainbow bubble floats by. Cinderella and Little Red Riding Hood stare. \"Oh, my!\" said Cinderella. Her eyes were wide. \"Where do you think it's going? Let's follow it!\"",
+      "imageFileName": "page_003.png",
+      "audioFileName": "page_003.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, painting the berry patch in shifting mosaics of light. Fat, juicy berries gleam like tiny jewels, their sweet scent heavy in the air. A gentle breeze rustles through the berry bushes, carrying whispers of forgotten songs.",
+        "Overcome": "Cinderella produces a miniature pump from her apron, crafted from polished gourds and tiny gears. She carefully pumps air into the deflated berry, inflating it until it's buoyant enough for them to float across the syrup. Little Red Riding Hood diligently records the process in her notebook, sketching the pump's intricate design and marveling at the physics involved.",
+        "SequenceEvents": "First [Hook]... A shimmering, rainbow-colored bubble drifts lazily through the berry patch, catching Cinderella and Little Red Riding Hood's attention. | Then [Action]... They follow the bubble to a section of the patch overflowing with berries, but it's separated from them by a thick pool of shimmering, super-sweet berry syrup. | Next [Twist]... Little Red Riding Hood tries to step across, but her boot gets stuck fast in the sticky goo, eliciting a surprised 'What a curious delight!'. Cinderella observes that the syrup is too viscous to wade through. | Finally [Resolution]... Cinderella uses her gourd-pump to inflate a giant berry, creating a makeshift raft, which allows them to safely cross the syrup pool, while Little Red Riding Hood documents the event."
+      },
+      "img_request": {
+        "bg_details": "berry patch, sunlight through leaves, dappled shadows, bright patterns, juicy berries, sweet smell, rainbow bubble, soft lighting",
+        "action": "staring, wide eyes, pointing, curious expression, side-by-side, following",
+        "composition": "medium shot, eye-level, two characters, focus on bubble, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, sunlight through leaves, dappled shadows, bright patterns, juicy berries, sweet smell, rainbow bubble, soft lighting. ACTION: staring, wide eyes, pointing, curious expression, side-by-side, following. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692702e5-5f20f39201ea5ff41296e6cf;6b84cc18-80c4-43dd-92a5-791bd7928d70)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 4,
+      "part": "2. Conflict",
+      "text": "Little Red Riding Hood giggled as she watched the bubble. It floated to a part of the berry patch filled with the biggest, juiciest berries ever! Oh no! A sticky pool of berry syrup blocked the way. \"How will we cross this?\" Little Red Riding Hood wondered.",
+      "imageFileName": "page_004.png",
+      "audioFileName": "page_004.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, painting the berry patch in shifting mosaics of light. Fat, juicy berries gleam like tiny jewels, their sweet scent heavy in the air. A gentle breeze rustles through the berry bushes, carrying whispers of forgotten songs.",
+        "Overcome": "Cinderella produces a miniature pump from her apron, crafted from polished gourds and tiny gears. She carefully pumps air into the deflated berry, inflating it until it's buoyant enough for them to float across the syrup. Little Red Riding Hood diligently records the process in her notebook, sketching the pump's intricate design and marveling at the physics involved.",
+        "SequenceEvents": "First [Hook]... A shimmering, rainbow-colored bubble drifts lazily through the berry patch, catching Cinderella and Little Red Riding Hood's attention. | Then [Action]... They follow the bubble to a section of the patch overflowing with berries, but it's separated from them by a thick pool of shimmering, super-sweet berry syrup. | Next [Twist]... Little Red Riding Hood tries to step across, but her boot gets stuck fast in the sticky goo, eliciting a surprised 'What a curious delight!'. Cinderella observes that the syrup is too viscous to wade through. | Finally [Resolution]... Cinderella uses her gourd-pump to inflate a giant berry, creating a makeshift raft, which allows them to safely cross the syrup pool, while Little Red Riding Hood documents the event."
+      },
+      "img_request": {
+        "bg_details": "berry patch, large juicy berries, pool of berry syrup, dappled sunlight, sweet-smelling air, soft natural lighting",
+        "action": "giggling, watching a bubble, pointing, curious expression, head tilted, dynamic angle",
+        "composition": "medium shot, child eye-level, clear focal point, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, large juicy berries, pool of berry syrup, dappled sunlight, sweet-smelling air, soft natural lighting. ACTION: giggling, watching a bubble, pointing, curious expression, head tilted, dynamic angle. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692702f3-3b3258b33e65116f02cc22b8;73edccbc-aaa7-410a-9e84-13ae023e4e67)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 5,
+      "part": "2. Conflict",
+      "text": "Page 3: Little Red Riding Hood stepped forward, eager to reach the berries. But, oh no! Her boot got stuck fast in the sticky goo! \"What a funny mess!\" she said with surprise. Just then, Cinderella, always watching, saw that the syrup was far too thick to walk through. \"Hmm,\" she said thoughtfully. \"I have an idea!\"",
+      "imageFileName": "page_005.png",
+      "audioFileName": "page_005.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, painting the berry patch in shifting mosaics of light. Fat, juicy berries gleam like tiny jewels, their sweet scent heavy in the air. A gentle breeze rustles through the berry bushes, carrying whispers of forgotten songs.",
+        "Overcome": "Cinderella produces a miniature pump from her apron, crafted from polished gourds and tiny gears. She carefully pumps air into the deflated berry, inflating it until it's buoyant enough for them to float across the syrup. Little Red Riding Hood diligently records the process in her notebook, sketching the pump's intricate design and marveling at the physics involved.",
+        "SequenceEvents": "First [Hook]... A shimmering, rainbow-colored bubble drifts lazily through the berry patch, catching Cinderella and Little Red Riding Hood's attention. | Then [Action]... They follow the bubble to a section of the patch overflowing with berries, but it's separated from them by a thick pool of shimmering, super-sweet berry syrup. | Next [Twist]... Little Red Riding Hood tries to step across, but her boot gets stuck fast in the sticky goo, eliciting a surprised 'What a curious delight!'. Cinderella observes that the syrup is too viscous to wade through. | Finally [Resolution]... Cinderella uses her gourd-pump to inflate a giant berry, creating a makeshift raft, which allows them to safely cross the syrup pool, while Little Red Riding Hood documents the event."
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, tall grass, dappled sunlight, soft volumetric fog, sweet-smelling air",
+        "action": "stepping forward, boot stuck, surprised expression, looking down, struggling, Cinderella watching, thoughtful expression, hand on chin, having an idea",
+        "composition": "medium shot, eye-level, focus on Little Red Riding Hood's boot, Cinderella in background"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, tall grass, dappled sunlight, soft volumetric fog, sweet-smelling air. ACTION: stepping forward, boot stuck, surprised expression, looking down, struggling, Cinderella watching, thoughtful expression, hand on chin, having an idea. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69270302-2ac4b8ab1a86bb2600a9c6d7;c24374ea-56f8-457c-894e-1440fb4928b2)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 6,
+      "part": "3. Complication",
+      "text": "Sunlight peeked through the leaves above, making light spots in the Berry Patch. So, the air filled with the yummy smell of ripe berries and the faint scent of berry-picking buckets, tickling their noses. Soft moss tickled their feet as they stepped into a sunny spot. It was a perfect day for berry picking!",
+      "imageFileName": "page_006.png",
+      "audioFileName": "page_006.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, painting the Berry Patch in shifting patterns of light. The air shimmered with the scent of ripe berries and something faintly metallic. Fuzzy moss cushioned their feet as they stepped into a clearing where vines, thick as pythons, guarded the plumpest berries.",
+        "Overcome": "Cinderella pulls out her pumpkin-powered vine clipper, a contraption of gears and polished gourds. With a whir and a snip, it trims back the vines, revealing a hidden path to the sweetest berries.",
+        "SequenceEvents": "First [Hook]... The air crackles with a faint, sweet-metallic scent, drawing them deeper into the Berry Patch. | Then [Action]... Alice, spotting the overgrown vines, tries to sketch them in her notebook, exclaiming, 'What a curious delight! But how will we ever get to the berries?' | Next [Twist]... Cinderella examines the vines closely, noticing tiny gears hidden within the thorny stems – a sign of mischievous forest sprites. | Finally [Resolution]... Cinderella uses her pumpkin-powered vine clipper to carefully trim the vines, revealing a path and unlocking the way to the sweetest berries, which they happily gather."
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, sunlight filtering through leaves, dappled shadows, soft moss, sunny spot",
+        "action": "walking, looking around curiously, smiling, holding bucket, relaxed pose",
+        "composition": "medium shot, eye-level, focus on characters, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, sunlight filtering through leaves, dappled shadows, soft moss, sunny spot. ACTION: walking, looking around curiously, smiling, holding bucket, relaxed pose. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69270320-0f7b17b571c4f7d1653705b7;7026e468-0913-4831-af02-1c9474395324)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 7,
+      "part": "3. Complication",
+      "text": "Page 2: Alice saw the big vines. She opened her notebook with a gasp. \"What an amazing sight!\" she said. Alice started to draw the twisting vines. But then she frowned. \"Oh dear, how will we get to the berries if we can't get past this wall?\"",
+      "imageFileName": "page_007.png",
+      "audioFileName": "page_007.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, painting the Berry Patch in shifting patterns of light. The air shimmered with the scent of ripe berries and something faintly metallic. Fuzzy moss cushioned their feet as they stepped into a clearing where vines, thick as pythons, guarded the plumpest berries.",
+        "Overcome": "Cinderella pulls out her pumpkin-powered vine clipper, a contraption of gears and polished gourds. With a whir and a snip, it trims back the vines, revealing a hidden path to the sweetest berries.",
+        "SequenceEvents": "First [Hook]... The air crackles with a faint, sweet-metallic scent, drawing them deeper into the Berry Patch. | Then [Action]... Alice, spotting the overgrown vines, tries to sketch them in her notebook, exclaiming, 'What a curious delight! But how will we ever get to the berries?' | Next [Twist]... Cinderella examines the vines closely, noticing tiny gears hidden within the thorny stems – a sign of mischievous forest sprites. | Finally [Resolution]... Cinderella uses her pumpkin-powered vine clipper to carefully trim the vines, revealing a path and unlocking the way to the sweetest berries, which they happily gather."
+      },
+      "img_request": {
+        "bg_details": "lush berry patch, tangled vines, dappled sunlight, soft shadows, sweet-smelling air, bright berries, golden hour",
+        "action": "gasping, opening notebook, drawing with pencil, frowning, looking concerned, reaching out",
+        "composition": "medium shot, child eye-level, focus on vines, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush berry patch, tangled vines, dappled sunlight, soft shadows, sweet-smelling air, bright berries, golden hour. ACTION: gasping, opening notebook, drawing with pencil, frowning, looking concerned, reaching out. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927032f-3fda48cb5a434a103614569f;7766fa9a-8471-4da7-920f-7f01d2843691)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 8,
+      "part": "3. Complication",
+      "text": "Page 3: Cinderella looked at the vines very closely, her eyes wide with wonder. \"Look!\" she cried, pointing to tiny gears hidden in the stems. \"These vines are magic! So, I have just the thing to help us get through.\"",
+      "imageFileName": "page_008.png",
+      "audioFileName": "page_008.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, painting the Berry Patch in shifting patterns of light. The air shimmered with the scent of ripe berries and something faintly metallic. Fuzzy moss cushioned their feet as they stepped into a clearing where vines, thick as pythons, guarded the plumpest berries.",
+        "Overcome": "Cinderella pulls out her pumpkin-powered vine clipper, a contraption of gears and polished gourds. With a whir and a snip, it trims back the vines, revealing a hidden path to the sweetest berries.",
+        "SequenceEvents": "First [Hook]... The air crackles with a faint, sweet-metallic scent, drawing them deeper into the Berry Patch. | Then [Action]... Alice, spotting the overgrown vines, tries to sketch them in her notebook, exclaiming, 'What a curious delight! But how will we ever get to the berries?' | Next [Twist]... Cinderella examines the vines closely, noticing tiny gears hidden within the thorny stems – a sign of mischievous forest sprites. | Finally [Resolution]... Cinderella uses her pumpkin-powered vine clipper to carefully trim the vines, revealing a path and unlocking the way to the sweetest berries, which they happily gather."
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, green vines, tiny gears, soft natural lighting, gentle glow, dappled shadows",
+        "action": "looking closely, pointing, eyes wide with wonder, smiling slightly, head tilted",
+        "composition": "medium shot, child eye-level, focus on vines, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, green vines, tiny gears, soft natural lighting, gentle glow, dappled shadows. ACTION: looking closely, pointing, eyes wide with wonder, smiling slightly, head tilted. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927033e-189d29266475665f530a9a77;3df3cea8-69e7-4030-98b1-084bc36c72c1)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 9,
+      "part": "4. Climax",
+      "text": "The sun peeked through the berry bushes, making sunny spots on the ground! The sweet smell of yummy strawberries was everywhere. But what's this? The air wiggled above some big, red berries, making them look like they were floating! What a silly thing to see!",
+      "imageFileName": "page_009.png",
+      "audioFileName": "page_009.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry bushes, painting the ground in dancing polka dots of light. The air smells overwhelmingly of ripe strawberries and damp earth. A low-hanging fog clings to the ground, making the berry patch feel like a secret, hidden room.",
+        "Overcome": "Cinderella uses her 'Berry-Picking Automaton,' a gear-driven contraption with soft, padded claws, to gently lift the fog. The automaton's gears whir softly as it dispels the fog, revealing a hidden path.",
+        "SequenceEvents": "First [Hook: The air shimmers with heat above a cluster of plump, red berries, causing them to appear to float.]... | Then [Action: Little Red, eyes wide, tries to catch the 'floating' berries in her notebook, exclaiming, 'What a curious delight!'. Cinderella, unimpressed by the magic, starts checking the berry patch for structural integrity.]... | Next [Twist: The 'floating' berries are not magic, but heat mirages caused by a hidden geyser of warm air.]... | Finally [Resolution: Cinderella, realizing the geyser is blocking their path, uses her automaton to redirect the warm air, clearing the way to the next location, the Candy Cane Cottage.]"
+      },
+      "img_request": {
+        "bg_details": "berry bushes, sunny patches, strawberry field, dappled sunlight, soft natural lighting, air shimmering, heat haze",
+        "action": "looking up, curious expression, pointing, slight smile, head tilted",
+        "composition": "medium shot, child eye-level, focus on berries, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry bushes, sunny patches, strawberry field, dappled sunlight, soft natural lighting, air shimmering, heat haze. ACTION: looking up, curious expression, pointing, slight smile, head tilted. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927035a-35472b981badd7bf79f7ecd9;37a0f15f-f5f5-4b21-8dc1-517fd14a072c)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 10,
+      "part": "4. Climax",
+      "text": "Page 2: Little Red's eyes were big as she tried to draw the floating berries. \"How fun!\" she said, giggling. Her pencil moved fast. Cinderella, always thinking, looked closely at the berry patch. She wanted to make sure it was strong and safe.",
+      "imageFileName": "page_010.png",
+      "audioFileName": "page_010.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry bushes, painting the ground in dancing polka dots of light. The air smells overwhelmingly of ripe strawberries and damp earth. A low-hanging fog clings to the ground, making the berry patch feel like a secret, hidden room.",
+        "Overcome": "Cinderella uses her 'Berry-Picking Automaton,' a gear-driven contraption with soft, padded claws, to gently lift the fog. The automaton's gears whir softly as it dispels the fog, revealing a hidden path.",
+        "SequenceEvents": "First [Hook: The air shimmers with heat above a cluster of plump, red berries, causing them to appear to float.]... | Then [Action: Little Red, eyes wide, tries to catch the 'floating' berries in her notebook, exclaiming, 'What a curious delight!'. Cinderella, unimpressed by the magic, starts checking the berry patch for structural integrity.]... | Next [Twist: The 'floating' berries are not magic, but heat mirages caused by a hidden geyser of warm air.]... | Finally [Resolution: Cinderella, realizing the geyser is blocking their path, uses her automaton to redirect the warm air, clearing the way to the next location, the Candy Cane Cottage.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, sweet-smelling field, soft natural lighting, dappled shadows, gentle glow",
+        "action": "drawing, big eyes, giggling, fast movement, looking closely, thinking pose",
+        "composition": "medium shot, child eye-level, clear focal point, two characters, side-by-side"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, sweet-smelling field, soft natural lighting, dappled shadows, gentle glow. ACTION: drawing, big eyes, giggling, fast movement, looking closely, thinking pose. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69270368-1615fba64753543d386a5056;7244118d-e447-4d2b-88dc-a6586c3ebf2c)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 11,
+      "part": "4. Climax",
+      "text": "But the floating berries weren't magic! Cinderella saw they were tricks of the light from warm air. \"Aha!\" she said, smiling. The warm air blocked the path! Luckily, Cinderella used her Berry-Picking Automaton to move the warm air. Now, they could get to the Candy Cane Cottage.",
+      "imageFileName": "page_011.png",
+      "audioFileName": "page_011.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry bushes, painting the ground in dancing polka dots of light. The air smells overwhelmingly of ripe strawberries and damp earth. A low-hanging fog clings to the ground, making the berry patch feel like a secret, hidden room.",
+        "Overcome": "Cinderella uses her 'Berry-Picking Automaton,' a gear-driven contraption with soft, padded claws, to gently lift the fog. The automaton's gears whir softly as it dispels the fog, revealing a hidden path.",
+        "SequenceEvents": "First [Hook: The air shimmers with heat above a cluster of plump, red berries, causing them to appear to float.]... | Then [Action: Little Red, eyes wide, tries to catch the 'floating' berries in her notebook, exclaiming, 'What a curious delight!'. Cinderella, unimpressed by the magic, starts checking the berry patch for structural integrity.]... | Next [Twist: The 'floating' berries are not magic, but heat mirages caused by a hidden geyser of warm air.]... | Finally [Resolution: Cinderella, realizing the geyser is blocking their path, uses her automaton to redirect the warm air, clearing the way to the next location, the Candy Cane Cottage.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, sweet-smelling field, warm air, dappled sunlight, candy cane cottage in distance, soft glow",
+        "action": "cinderella pointing, smiling, aha expression, berry-picking automaton, pushing warm air, determined, dynamic pose",
+        "composition": "medium shot, eye-level, clear focal point, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, sweet-smelling field, warm air, dappled sunlight, candy cane cottage in distance, soft glow. ACTION: cinderella pointing, smiling, aha expression, berry-picking automaton, pushing warm air, determined, dynamic pose. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69270376-507e3675064e33ad5c3bdca9;acafd937-c94a-4932-b79d-1ada6eaa9099)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 12,
+      "part": "5. Resolution",
+      "text": "Sunlight peeked through the leaves, making the berry patch glow. Shiny, plump wild berries covered the ground, wet with morning dew. The air smelled sweet, like sugar, and buzzed with tiny, sparkly fairy-flies. Just then, a soft humming sound came from a giant bush covered in berries. So, Alice went to look.",
+      "imageFileName": "page_012.png",
+      "audioFileName": "page_012.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in dappled gold. Wild berries, plump and glistening with morning dew, carpeted the ground. A sweet, sugary scent hung heavy in the air, buzzing with tiny, iridescent fairy-flies.",
+        "Overcome": "Cinderella (Mechanic) pulls a tiny, specialized gear from her pumpkin-gadget bag. Alice carefully holds a sun-reflecting petal to illuminate the keyhole as Cinderella (Mechanic) uses the gear to gently turn the lock. A soft click echoes in the berry patch.",
+        "SequenceEvents": "First [Hook]...A faint, melodic hum rises from a giant, berry-laden bush, drawing Alice's attention. | Then [Action]...Alice discovers a small, ornate door woven into the bush's trunk, but it's locked. She calls Cinderella (Mechanic) over, exclaiming, 'What a curious delight!'. | Next [Twist]...Cinderella (Mechanic) examines the lock, noting it's an unusual mechanism, not one she's seen before. | Finally [Resolution]...Working together, they unlock the door, revealing a tiny, glowing mushroom staircase leading downwards."
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, morning dew, fairy-flies, giant bush, sunlight filtering through leaves, dappled sunlight, soft glow",
+        "action": "looking curiously, approaching bush, reaching out, head tilted, gentle expression",
+        "composition": "medium shot, eye-level, focus on Alice, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, morning dew, fairy-flies, giant bush, sunlight filtering through leaves, dappled sunlight, soft glow. ACTION: looking curiously, approaching bush, reaching out, head tilted, gentle expression. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69270394-0773f113034558274246d3e0;f88c0818-7f35-4232-a5fb-d58c33ebcf6c)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 13,
+      "part": "5. Resolution",
+      "text": "Alice skipped to the bush, eyes wide. There, among the berries, was a pretty little door in the tree! But it was locked. \"Oh, my!\" Alice said. She called Cinderella (Mechanic) to look at the tiny door.",
+      "imageFileName": "page_013.png",
+      "audioFileName": "page_013.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in dappled gold. Wild berries, plump and glistening with morning dew, carpeted the ground. A sweet, sugary scent hung heavy in the air, buzzing with tiny, iridescent fairy-flies.",
+        "Overcome": "Cinderella (Mechanic) pulls a tiny, specialized gear from her pumpkin-gadget bag. Alice carefully holds a sun-reflecting petal to illuminate the keyhole as Cinderella (Mechanic) uses the gear to gently turn the lock. A soft click echoes in the berry patch.",
+        "SequenceEvents": "First [Hook]...A faint, melodic hum rises from a giant, berry-laden bush, drawing Alice's attention. | Then [Action]...Alice discovers a small, ornate door woven into the bush's trunk, but it's locked. She calls Cinderella (Mechanic) over, exclaiming, 'What a curious delight!'. | Next [Twist]...Cinderella (Mechanic) examines the lock, noting it's an unusual mechanism, not one she's seen before. | Finally [Resolution]...Working together, they unlock the door, revealing a tiny, glowing mushroom staircase leading downwards."
+      },
+      "img_request": {
+        "bg_details": "lush berry bushes, ripe berries, dappled sunlight, soft glow, whimsical atmosphere, tiny wooden door, vibrant colors",
+        "action": "Alice skipping, looking curious, pointing, mouth open in surprise, Cinderella crouching, examining door, focused expression",
+        "composition": "medium shot, eye-level, focus on the door, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush berry bushes, ripe berries, dappled sunlight, soft glow, whimsical atmosphere, tiny wooden door, vibrant colors. ACTION: Alice skipping, looking curious, pointing, mouth open in surprise, Cinderella crouching, examining door, focused expression. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692703a3-66e889d75d7beaea094a1aef;373669f1-53ab-4c78-a15b-9177e0b62c7d)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 14,
+      "part": "5. Resolution",
+      "text": "Page 3: Cinderella (Mechanic) knelt, looking at the lock. \"Hmm, this lock part is unusual,\" she said. It was new to her! But Cinderella (Mechanic) wasn't stopped! So, she took a small tool from her pumpkin-gadget bag. Alice held a shiny petal to light up the lock as Cinderella turned it. Click!",
+      "imageFileName": "page_014.png",
+      "audioFileName": "page_014.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in dappled gold. Wild berries, plump and glistening with morning dew, carpeted the ground. A sweet, sugary scent hung heavy in the air, buzzing with tiny, iridescent fairy-flies.",
+        "Overcome": "Cinderella (Mechanic) pulls a tiny, specialized gear from her pumpkin-gadget bag. Alice carefully holds a sun-reflecting petal to illuminate the keyhole as Cinderella (Mechanic) uses the gear to gently turn the lock. A soft click echoes in the berry patch.",
+        "SequenceEvents": "First [Hook]...A faint, melodic hum rises from a giant, berry-laden bush, drawing Alice's attention. | Then [Action]...Alice discovers a small, ornate door woven into the bush's trunk, but it's locked. She calls Cinderella (Mechanic) over, exclaiming, 'What a curious delight!'. | Next [Twist]...Cinderella (Mechanic) examines the lock, noting it's an unusual mechanism, not one she's seen before. | Finally [Resolution]...Working together, they unlock the door, revealing a tiny, glowing mushroom staircase leading downwards."
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, soft natural lighting, gentle glows, sweet-smelling air, dappled shadows",
+        "action": "kneeling, looking at lock, holding small tool, concentrating, Alice holding petal for light, turning lock, focused expression",
+        "composition": "medium shot, child eye-level, clear focal point, focus on hands and lock"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, soft natural lighting, gentle glows, sweet-smelling air, dappled shadows. ACTION: kneeling, looking at lock, holding small tool, concentrating, Alice holding petal for light, turning lock, focused expression. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692703b3-62cfdc5d4625c37315defd41;c6da1577-0870-4481-a30a-00634fe53b04)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 15,
+      "part": "6. Moral",
+      "text": "Page 1: Sunlight shines through the berry patch, making the juicy berries glow. A soft breeze carries the sweet smell of berries and flowers, tickling Cinderella's nose. Suddenly, a Flutterwing's sparkly dust landed on a patch of berries. They looked very big! \"Wow!\" Cinderella said.",
+      "imageFileName": "page_015.png",
+      "audioFileName": "page_015.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry patch, painting the plump berries in a warm, inviting glow. A gentle breeze carries the sweet scent of ripe berries and wildflowers, tickling Cinderella's nose. Fuzzy bumblebees buzz lazily around, their wings shimmering like tiny rainbows.",
+        "Overcome": "Cinderella uses her mini-pumpkin-oil-powered magnifying glass (a gadget she built) to focus the sunlight onto a specific cluster of berries. The heat causes the berries to release a concentrated burst of their sweet scent, attracting a shy Flutterwing from its hiding place.",
+        "SequenceEvents": "First [Hook: A Flutterwing's shimmering dust settles on a patch of unusually large berries, catching Alice's eye.]... | Then [Action: Alice, noting the berries in her book, tries to reach them, but they are just out of reach, nestled among thorny vines.]... | Next [Twist: Cinderella notices the Flutterwing is hesitant, as if guarding something.]... | Finally [Resolution: Cinderella uses her pumpkin-oil magnifying glass to release the berries' scent, attracting the Flutterwing closer. It reveals a tiny, lost button from Cinderella's dress, which Alice then carefully returns, earning the Flutterwing's trust. The Flutterwing then leads them to an even bigger patch of berries.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, sunlight filtering through leaves, dappled shadows, glowing berries, soft breeze, wildflowers, sweet smell, cinematic lighting",
+        "action": "looking surprised, pointing at berries, mouth open in awe, dynamic pose, head tilted",
+        "composition": "medium shot, child eye-level, focus on berries, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, sunlight filtering through leaves, dappled shadows, glowing berries, soft breeze, wildflowers, sweet smell, cinematic lighting. ACTION: looking surprised, pointing at berries, mouth open in awe, dynamic pose, head tilted. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692703e4-0fcc10526882636b0425bb33;192b5dcd-2023-48da-be1c-114a2a3bdecf)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 16,
+      "part": "6. Moral",
+      "text": "Alice saw the berries in her book and tried to reach them, but they were too far away! The biggest, juiciest ones were hiding among thorny vines. \"Oh, dear!\" said Alice with a sigh. \"These berries look especially good, but they are so hard to get!\"",
+      "imageFileName": "page_016.png",
+      "audioFileName": "page_016.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry patch, painting the plump berries in a warm, inviting glow. A gentle breeze carries the sweet scent of ripe berries and wildflowers, tickling Cinderella's nose. Fuzzy bumblebees buzz lazily around, their wings shimmering like tiny rainbows.",
+        "Overcome": "Cinderella uses her mini-pumpkin-oil-powered magnifying glass (a gadget she built) to focus the sunlight onto a specific cluster of berries. The heat causes the berries to release a concentrated burst of their sweet scent, attracting a shy Flutterwing from its hiding place.",
+        "SequenceEvents": "First [Hook: A Flutterwing's shimmering dust settles on a patch of unusually large berries, catching Alice's eye.]... | Then [Action: Alice, noting the berries in her book, tries to reach them, but they are just out of reach, nestled among thorny vines.]... | Next [Twist: Cinderella notices the Flutterwing is hesitant, as if guarding something.]... | Finally [Resolution: Cinderella uses her pumpkin-oil magnifying glass to release the berries' scent, attracting the Flutterwing closer. It reveals a tiny, lost button from Cinderella's dress, which Alice then carefully returns, earning the Flutterwing's trust. The Flutterwing then leads them to an even bigger patch of berries.]"
+      },
+      "img_request": {
+        "bg_details": "lush berry patch, thorny vines, dappled sunlight, sweet-smelling wildflowers, warm color palette",
+        "action": "reaching, stretching arm, frustrated expression, sighing, looking upward",
+        "composition": "medium shot, eye-level, focus on berries, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush berry patch, thorny vines, dappled sunlight, sweet-smelling wildflowers, warm color palette. ACTION: reaching, stretching arm, frustrated expression, sighing, looking upward. CHARACTER_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69270401-5e53ce770290beb373d33197;42c9e8ec-621b-4f9b-be36-e1beb69dca9e)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    }
+  ]
+}

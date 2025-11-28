@@ -1,0 +1,407 @@
+{
+  "storyId": "story_13",
+  "title": "Alice's Adventure in Treehouse Village",
+  "characters": [
+    "Little Red Riding Hood (Alice)",
+    "Aladdin (Jungle Boy)"
+  ],
+  "location": "Treehouse Village",
+  "pages": [
+    {
+      "pageNumber": 0,
+      "part": "1. Setup",
+      "text": "Page 1: Sunlight shone through the leafy trees, making spots of sunshine on the rope bridges. Alice hopped ahead, her bright red cloak a bright spot against the green leaves. A soft wind carried the sweet smell of honeysuckle and the tiny sparkle of pixie dust. So, from somewhere far away, Alice could hear a beautiful song being sung.",
+      "imageFileName": "page_000.png",
+      "audioFileName": "page_000.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, painting dappled patterns on the rope bridges. Alice skipped ahead, her red cloak a bright splash of color against the emerald leaves. A gentle breeze carried the scent of honeysuckle and the faint shimmer of pixie dust.",
+        "Overcome": "Alice uses her notebook to create a small sketch of the lock mechanism based on Aladdin's verbal description, and by process of elimination, they figure out that the flower petals must be pressed in a specific order to unlock the door.",
+        "SequenceEvents": "First [Hook - 'Melody']... | Then [Action - 'Bridge']... | Next [Twist - 'Door']... | Finally [Resolution - 'Sketch']..."
+      },
+      "img_request": {
+        "bg_details": "sunlight filtering through leaves, dappled sunlight, rope bridges, treehouse village, honeysuckle, pixie dust, soft wind, distant trees, sunny day, bright atmosphere",
+        "action": "hopping, looking ahead, smiling, dynamic pose, full shot",
+        "composition": "medium shot, eye-level angle, clear focal point"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sunlight filtering through leaves, dappled sunlight, rope bridges, treehouse village, honeysuckle, pixie dust, soft wind, distant trees, sunny day, bright atmosphere. ACTION: hopping, looking ahead, smiling, dynamic pose, full shot. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e158-348b3aac4f6e07736befd857;285dde7c-c3b7-49a3-aa27-04826a81e239)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 1,
+      "part": "1. Setup",
+      "text": "Page 2: \"That's the melody we need!\" Aladdin shouted, smiling. Then, he skipped along the bridge, humming. Alice followed, her eyes so wide! The bridge bounced as she walked. She giggled, looking at all the beautiful things around her.",
+      "imageFileName": "page_001.png",
+      "audioFileName": "page_001.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, painting dappled patterns on the rope bridges. Alice skipped ahead, her red cloak a bright splash of color against the emerald leaves. A gentle breeze carried the scent of honeysuckle and the faint shimmer of pixie dust.",
+        "Overcome": "Alice uses her notebook to create a small sketch of the lock mechanism based on Aladdin's verbal description, and by process of elimination, they figure out that the flower petals must be pressed in a specific order to unlock the door.",
+        "SequenceEvents": "First [Hook - 'Melody']... | Then [Action - 'Bridge']... | Next [Twist - 'Door']... | Finally [Resolution - 'Sketch']..."
+      },
+      "img_request": {
+        "bg_details": "rope bridge, glowing lanterns, lush green foliage, soft dappled sunlight, treehouse village, whimsical architecture",
+        "action": "skipping, smiling, humming, following behind, eyes wide, giggling, looking around",
+        "composition": "medium shot, eye-level, focus on both characters, slight depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: rope bridge, glowing lanterns, lush green foliage, soft dappled sunlight, treehouse village, whimsical architecture. ACTION: skipping, smiling, humming, following behind, eyes wide, giggling, looking around. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e166-5a70a8934e3b7e2d0bcecf4b;30f81c58-97e4-4d3c-a059-4d72b46ff92b)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 2,
+      "part": "1. Setup",
+      "text": "Page 3: Suddenly, they arrived at a big wooden door with pretty flowers. \"Oh my!\" Alice said, looking at the tricky lock. Aladdin looked closely too. \"We need to press the flowers in order!\" he said. Alice smiled, pulling out her notebook to make a plan.",
+      "imageFileName": "page_002.png",
+      "audioFileName": "page_002.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, painting dappled patterns on the rope bridges. Alice skipped ahead, her red cloak a bright splash of color against the emerald leaves. A gentle breeze carried the scent of honeysuckle and the faint shimmer of pixie dust.",
+        "Overcome": "Alice uses her notebook to create a small sketch of the lock mechanism based on Aladdin's verbal description, and by process of elimination, they figure out that the flower petals must be pressed in a specific order to unlock the door.",
+        "SequenceEvents": "First [Hook - 'Melody']... | Then [Action - 'Bridge']... | Next [Twist - 'Door']... | Finally [Resolution - 'Sketch']..."
+      },
+      "img_request": {
+        "bg_details": "large wooden door, intricate flower carvings, treehouse village, rope bridges, soft natural lighting, dappled shadows, warm glow",
+        "action": "two children looking up, aladdin pointing, alice holding notebook, alice smiling, aladdin examining lock, curious expression, thinking pose",
+        "composition": "medium shot, eye-level, focus on the door, balanced composition"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: large wooden door, intricate flower carvings, treehouse village, rope bridges, soft natural lighting, dappled shadows, warm glow. ACTION: two children looking up, aladdin pointing, alice holding notebook, alice smiling, aladdin examining lock, curious expression, thinking pose. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e176-0110291225a6aeba36381d37;ad0c201a-7a47-4b81-9ed0-d53f885595ec)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 3,
+      "part": "2. Conflict",
+      "text": "Alice woke up to the soft sound of wind chimes. They were made of nuts! It was a new day in the Treehouse Village. The lanterns made the rope bridges glow. Soft moss felt good on bare feet. The air smelled like pine and sweet berries. Time for fun!",
+      "imageFileName": "page_003.png",
+      "audioFileName": "page_003.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, making the rope bridges shimmer with a soft light. Fuzzy moss carpets the wooden platforms, tickling bare feet. The air smells of pine needles and sweet berries, a comforting aroma that invites adventure.",
+        "Overcome": "Alice, using her notebook, carefully sketches the lock mechanism. Aladdin, recalling how he's seen wolves manipulate latches with their paws, guides her hand, helping her translate the sketch into a practical solution. Together, they fashion a makeshift key from a twig and a berry stem.",
+        "SequenceEvents": "First [Hook]... The soft chime of wind chimes crafted from hollow nuts signals the start of a new day in the Treehouse Village. | Then [Action]... Alice, eager to explore, finds a beautifully carved wooden door blocking her path, adorned with an intricate lock. Aladdin swings down from a nearby tree, equally curious. | Next [Twist]... Alice tries to pick the lock with a hairpin, but it's too complicated. Aladdin attempts to force it open, but the door remains stubbornly shut, humming a low, protesting tune. | Finally [Resolution]... Alice sketches the lock, and Aladdin, recalling wolf-paw dexterity, translates the sketch into a twig-and-berry key. The door clicks open, revealing a hidden garden filled with glowing mushrooms."
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, glowing lanterns, soft moss, pine trees, sweet berry bushes, wind chimes made of nuts, dappled sunlight, soft shadows",
+        "action": "waking up, stretching arms, smiling gently, sitting up, looking around curiously",
+        "composition": "medium shot, eye-level, focus on face, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, glowing lanterns, soft moss, pine trees, sweet berry bushes, wind chimes made of nuts, dappled sunlight, soft shadows. ACTION: waking up, stretching arms, smiling gently, sitting up, looking around curiously. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e195-55bd1e854dea1c9b72ad803f;c1c09144-a915-44b4-b3ac-80c1e1fc767a)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 4,
+      "part": "2. Conflict",
+      "text": "Page 2: Alice wanted to look around, so she saw a pretty wooden door in her way with a tricky lock. Suddenly, Aladdin happily swung down from a tree. He wanted to know what was behind it too! \"Let's see what's behind here!\" he said happily.",
+      "imageFileName": "page_004.png",
+      "audioFileName": "page_004.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, making the rope bridges shimmer with a soft light. Fuzzy moss carpets the wooden platforms, tickling bare feet. The air smells of pine needles and sweet berries, a comforting aroma that invites adventure.",
+        "Overcome": "Alice, using her notebook, carefully sketches the lock mechanism. Aladdin, recalling how he's seen wolves manipulate latches with their paws, guides her hand, helping her translate the sketch into a practical solution. Together, they fashion a makeshift key from a twig and a berry stem.",
+        "SequenceEvents": "First [Hook]... The soft chime of wind chimes crafted from hollow nuts signals the start of a new day in the Treehouse Village. | Then [Action]... Alice, eager to explore, finds a beautifully carved wooden door blocking her path, adorned with an intricate lock. Aladdin swings down from a nearby tree, equally curious. | Next [Twist]... Alice tries to pick the lock with a hairpin, but it's too complicated. Aladdin attempts to force it open, but the door remains stubbornly shut, humming a low, protesting tune. | Finally [Resolution]... Alice sketches the lock, and Aladdin, recalling wolf-paw dexterity, translates the sketch into a twig-and-berry key. The door clicks open, revealing a hidden garden filled with glowing mushrooms."
+      },
+      "img_request": {
+        "bg_details": "treehouse village, wooden door with tricky lock, lush green foliage, dappled sunlight filtering through leaves, lanterns hanging from branches, soft volumetric lighting",
+        "action": "Alice reaching for door handle, curious expression, Aladdin swinging from a tree, happy expression, pointing towards the door, dynamic pose, looking excited",
+        "composition": "medium shot, eye-level angle, focus on the door and characters, slight depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, wooden door with tricky lock, lush green foliage, dappled sunlight filtering through leaves, lanterns hanging from branches, soft volumetric lighting. ACTION: Alice reaching for door handle, curious expression, Aladdin swinging from a tree, happy expression, pointing towards the door, dynamic pose, looking excited. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e1a4-7a51fd187acb107d15f858c4;2125b43b-b1c1-4cff-874a-7ddd93f97109)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 5,
+      "part": "2. Conflict",
+      "text": "Page 3: Alice tried to pick the lock with a hairpin, but it was too tricky. So, Aladdin tried to push it open, but the door wouldn't open, humming a funny noise. \"Hmm, this is trickier than it looks!\" Alice said with a gasp.",
+      "imageFileName": "page_005.png",
+      "audioFileName": "page_005.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, making the rope bridges shimmer with a soft light. Fuzzy moss carpets the wooden platforms, tickling bare feet. The air smells of pine needles and sweet berries, a comforting aroma that invites adventure.",
+        "Overcome": "Alice, using her notebook, carefully sketches the lock mechanism. Aladdin, recalling how he's seen wolves manipulate latches with their paws, guides her hand, helping her translate the sketch into a practical solution. Together, they fashion a makeshift key from a twig and a berry stem.",
+        "SequenceEvents": "First [Hook]... The soft chime of wind chimes crafted from hollow nuts signals the start of a new day in the Treehouse Village. | Then [Action]... Alice, eager to explore, finds a beautifully carved wooden door blocking her path, adorned with an intricate lock. Aladdin swings down from a nearby tree, equally curious. | Next [Twist]... Alice tries to pick the lock with a hairpin, but it's too complicated. Aladdin attempts to force it open, but the door remains stubbornly shut, humming a low, protesting tune. | Finally [Resolution]... Alice sketches the lock, and Aladdin, recalling wolf-paw dexterity, translates the sketch into a twig-and-berry key. The door clicks open, revealing a hidden garden filled with glowing mushrooms."
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, glowing lanterns, dappled shadows, soft volumetric fog, wooden door, intricate lock",
+        "action": "picking lock with hairpin, frustrated expression, pushing door, determined expression, pointing, surprised gasp, dynamic angle, head tilt",
+        "composition": "medium shot, eye-level, focus on door, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, glowing lanterns, dappled shadows, soft volumetric fog, wooden door, intricate lock. ACTION: picking lock with hairpin, frustrated expression, pushing door, determined expression, pointing, surprised gasp, dynamic angle, head tilt. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e1b3-645374a83c20856a14e1dff5;045eaf5e-cd50-4f88-a02f-87d9f4e58ae9)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 6,
+      "part": "3. Complication",
+      "text": "Page 1: The Treehouse Village glowed orange with warm lanterns, turning the rope bridges into golden paths. Fuzzy moss tickled Alice's feet as she crossed the wooden platforms. A light mist shimmered around each lantern. So, a sweet chime rang from a gate covered in glowing flowers! ",
+      "imageFileName": "page_006.png",
+      "audioFileName": "page_006.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, orange glow on the Treehouse Village, making the rope bridges look like pathways of gold. Fuzzy moss carpets the wooden platforms, tickling Alice's ankles as she walks. A fine mist hangs in the air, catching the light and creating shimmering halos around each lantern.",
+        "Overcome": "Alice opens her notebook to a page filled with sketches of unusual knots and hitches she'd observed earlier. Comparing the drawing to the lock's mechanism, she directs Aladdin to adjust a specific knot. Aladdin, using his knowledge of jungle vines (similar to the rope), expertly unties the intricate knot securing the gate. They realize the knot was a safety feature, preventing curious little ones from wandering too far.",
+        "SequenceEvents": "First [Hook: A melodic chime emanates from a gate adorned with glowing flowers.]... | Then [Action: Alice, intrigued, approaches the gate, notebook in hand. Aladdin, more cautious, examines the sturdy rope mechanism.]... | Next [Twist: They discover the gate is locked with a complex knot, seemingly impossible to untangle.]... | Finally [Resolution: Alice and Aladdin combine their skills, using Alice's sketches and Aladdin's knot-tying expertise to open the gate and enter a hidden garden filled with singing plants.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, glowing lanterns, rope bridges, golden paths, fuzzy moss, light mist, shimmering, glowing flowers, cinematic lighting, soft glow",
+        "action": "walking, looking forward, curious expression, reaching out, dynamic pose",
+        "composition": "medium shot, child eye-level, depth of field, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, glowing lanterns, rope bridges, golden paths, fuzzy moss, light mist, shimmering, glowing flowers, cinematic lighting, soft glow. ACTION: walking, looking forward, curious expression, reaching out, dynamic pose. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e1d1-6d1d715e6df6c17f4a62991a;610eb9ca-a577-4c12-975b-00739ca7cf34)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 7,
+      "part": "3. Complication",
+      "text": "Page 2: Alice, with her notebook, walked to the gate, eyes wide with wonder. Aladdin, always careful, looked closely at the strong rope holding the gate. \"Look at the pretty flowers!\" she said. So, they found the gate locked with a tricky knot, hard to undo. \"Oh no!\" said Aladdin.",
+      "imageFileName": "page_007.png",
+      "audioFileName": "page_007.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, orange glow on the Treehouse Village, making the rope bridges look like pathways of gold. Fuzzy moss carpets the wooden platforms, tickling Alice's ankles as she walks. A fine mist hangs in the air, catching the light and creating shimmering halos around each lantern.",
+        "Overcome": "Alice opens her notebook to a page filled with sketches of unusual knots and hitches she'd observed earlier. Comparing the drawing to the lock's mechanism, she directs Aladdin to adjust a specific knot. Aladdin, using his knowledge of jungle vines (similar to the rope), expertly unties the intricate knot securing the gate. They realize the knot was a safety feature, preventing curious little ones from wandering too far.",
+        "SequenceEvents": "First [Hook: A melodic chime emanates from a gate adorned with glowing flowers.]... | Then [Action: Alice, intrigued, approaches the gate, notebook in hand. Aladdin, more cautious, examines the sturdy rope mechanism.]... | Next [Twist: They discover the gate is locked with a complex knot, seemingly impossible to untangle.]... | Finally [Resolution: Alice and Aladdin combine their skills, using Alice's sketches and Aladdin's knot-tying expertise to open the gate and enter a hidden garden filled with singing plants.]"
+      },
+      "img_request": {
+        "bg_details": "lush green foliage, dappled sunlight, wooden gate, intricate knot, vibrant flowers, soft glow, fantasy setting",
+        "action": "walking, looking, pointing, examining, concerned expression, curious expression, reaching",
+        "composition": "medium shot, eye-level, focus on the gate, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green foliage, dappled sunlight, wooden gate, intricate knot, vibrant flowers, soft glow, fantasy setting. ACTION: walking, looking, pointing, examining, concerned expression, curious expression, reaching. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e1e3-7f5703e600d47b11083df895;5eee8443-5e78-459b-9d4f-e2698a2fb585)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 8,
+      "part": "3. Complication",
+      "text": "Page 3: Alice opened her notebook. It had pictures of knots she saw. She looked at the lock. \"Then, I know how to open it!\" she said. Aladdin knew about jungle vines. He untied the tricky knot on the gate. \"We did it!\" he said. They went into a secret garden.",
+      "imageFileName": "page_008.png",
+      "audioFileName": "page_008.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, orange glow on the Treehouse Village, making the rope bridges look like pathways of gold. Fuzzy moss carpets the wooden platforms, tickling Alice's ankles as she walks. A fine mist hangs in the air, catching the light and creating shimmering halos around each lantern.",
+        "Overcome": "Alice opens her notebook to a page filled with sketches of unusual knots and hitches she'd observed earlier. Comparing the drawing to the lock's mechanism, she directs Aladdin to adjust a specific knot. Aladdin, using his knowledge of jungle vines (similar to the rope), expertly unties the intricate knot securing the gate. They realize the knot was a safety feature, preventing curious little ones from wandering too far.",
+        "SequenceEvents": "First [Hook: A melodic chime emanates from a gate adorned with glowing flowers.]... | Then [Action: Alice, intrigued, approaches the gate, notebook in hand. Aladdin, more cautious, examines the sturdy rope mechanism.]... | Next [Twist: They discover the gate is locked with a complex knot, seemingly impossible to untangle.]... | Finally [Resolution: Alice and Aladdin combine their skills, using Alice's sketches and Aladdin's knot-tying expertise to open the gate and enter a hidden garden filled with singing plants.]"
+      },
+      "img_request": {
+        "bg_details": "lush foliage, hanging vines, dappled sunlight, hidden lock mechanism on a wooden gate, secret garden entrance, soft volumetric lighting",
+        "action": "Alice opening notebook, focused expression, Aladdin untying knot, determined look, both entering garden, smiling, triumphant pose",
+        "composition": "medium shot, eye-level, focus on the lock and knot, balanced composition"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush foliage, hanging vines, dappled sunlight, hidden lock mechanism on a wooden gate, secret garden entrance, soft volumetric lighting. ACTION: Alice opening notebook, focused expression, Aladdin untying knot, determined look, both entering garden, smiling, triumphant pose. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e1f1-052b5c1071f41db02be18dbe;15705440-02fc-46f5-8b48-fc4d383743ea)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 9,
+      "part": "4. Climax",
+      "text": "The lanterns made the Treehouse Village glow with a warm light. The rope bridges looked like golden paths. As Alice walked, soft moss tickled her boots. Tiny lights danced like starlight. Then, a gentle hum came from a pretty music box hanging from a strong branch. Alice stopped to listen.",
+      "imageFileName": "page_009.png",
+      "audioFileName": "page_009.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed light across the Treehouse Village, illuminating the intricate rope bridges connecting each home. Fuzzy moss clings to the wooden planks, soft beneath Alice's boots. A fine layer of glowing dust, like captured starlight, dances in the air, especially around a large, ornate music box hanging from a sturdy branch.",
+        "Overcome": "Alice, using her inquisitive nature, notices a faint inscription on the music box, barely visible in the dim light. She carefully copies it into her notebook, realizing it's a sequence of musical notes. Aladdin, with his understanding of the forest's sounds, recognizes the tune as a lullaby sung by the Whistlewood owls. He mimics the notes by whistling, which triggers a hidden mechanism, unlocking the music box.",
+        "SequenceEvents": "First [Hook: A faint, melodic hum emanates from a large, ornate music box]... | Then [Action: Alice carefully examines the music box, discovering a barely visible inscription of musical notes in her notebook]... | Next [Twist: Aladdin recognizes the tune as a lullaby of the Whistlewood owls]... | Finally [Resolution: Aladdin whistles the tune, unlocking the music box, revealing a tiny, rolled-up map inside]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, glowing lanterns, rope bridges, soft moss, dancing lights, starlight, music box hanging from branch, warm light, gentle hum, cinematic lighting, soft volumetric fog",
+        "action": "standing, listening, head tilted, curious expression, hands relaxed at sides",
+        "composition": "medium shot, eye-level, focus on Alice, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, glowing lanterns, rope bridges, soft moss, dancing lights, starlight, music box hanging from branch, warm light, gentle hum, cinematic lighting, soft volumetric fog. ACTION: standing, listening, head tilted, curious expression, hands relaxed at sides. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e20e-346b927b55e36f11288ab30d;c8b6cbdc-1cdf-43c8-8dc1-a4bd647a4880)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 10,
+      "part": "4. Climax",
+      "text": "Page 2: Alice walked carefully to the music box. Her eyes were big and full of wonder. \"Look, Aladdin!\" she said. Alice pointed to some tiny writing. Suddenly, she took out her little notebook. She wrote down the strange symbols. So, she saw they were musical notes. Aladdin listened closely. He tilted his head like a puppy, trying to hear the sounds.",
+      "imageFileName": "page_010.png",
+      "audioFileName": "page_010.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed light across the Treehouse Village, illuminating the intricate rope bridges connecting each home. Fuzzy moss clings to the wooden planks, soft beneath Alice's boots. A fine layer of glowing dust, like captured starlight, dances in the air, especially around a large, ornate music box hanging from a sturdy branch.",
+        "Overcome": "Alice, using her inquisitive nature, notices a faint inscription on the music box, barely visible in the dim light. She carefully copies it into her notebook, realizing it's a sequence of musical notes. Aladdin, with his understanding of the forest's sounds, recognizes the tune as a lullaby sung by the Whistlewood owls. He mimics the notes by whistling, which triggers a hidden mechanism, unlocking the music box.",
+        "SequenceEvents": "First [Hook: A faint, melodic hum emanates from a large, ornate music box]... | Then [Action: Alice carefully examines the music box, discovering a barely visible inscription of musical notes in her notebook]... | Next [Twist: Aladdin recognizes the tune as a lullaby of the Whistlewood owls]... | Finally [Resolution: Aladdin whistles the tune, unlocking the music box, revealing a tiny, rolled-up map inside]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, music box, soft natural lighting, dappled sunlight through leaves, warm glow from lanterns, tiny musical notes",
+        "action": "crouching, pointing, looking curious, writing in notebook, head tilted in listening pose",
+        "composition": "medium shot, eye-level, focus on Alice and Aladdin, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, music box, soft natural lighting, dappled sunlight through leaves, warm glow from lanterns, tiny musical notes. ACTION: crouching, pointing, looking curious, writing in notebook, head tilted in listening pose. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e21d-410461863aed3e2e7ea7a890;890977a5-55a2-4cef-97b9-99df6eac1311)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 11,
+      "part": "4. Climax",
+      "text": "“Wait!” Aladdin said happily, his eyes shining. “I know that song! The Whistlewood owls sing it!” Suddenly, Aladdin took a big breath. He made his lips small and whistled the sweet tune. Click! A little door opened. Inside the music box was a secret: a small map all rolled up. It looked like a fun adventure!",
+      "imageFileName": "page_011.png",
+      "audioFileName": "page_011.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed light across the Treehouse Village, illuminating the intricate rope bridges connecting each home. Fuzzy moss clings to the wooden planks, soft beneath Alice's boots. A fine layer of glowing dust, like captured starlight, dances in the air, especially around a large, ornate music box hanging from a sturdy branch.",
+        "Overcome": "Alice, using her inquisitive nature, notices a faint inscription on the music box, barely visible in the dim light. She carefully copies it into her notebook, realizing it's a sequence of musical notes. Aladdin, with his understanding of the forest's sounds, recognizes the tune as a lullaby sung by the Whistlewood owls. He mimics the notes by whistling, which triggers a hidden mechanism, unlocking the music box.",
+        "SequenceEvents": "First [Hook: A faint, melodic hum emanates from a large, ornate music box]... | Then [Action: Alice carefully examines the music box, discovering a barely visible inscription of musical notes in her notebook]... | Next [Twist: Aladdin recognizes the tune as a lullaby of the Whistlewood owls]... | Finally [Resolution: Aladdin whistles the tune, unlocking the music box, revealing a tiny, rolled-up map inside]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, glowing lanterns, soft natural lighting, dappled shadows through leaves, warm color palette",
+        "action": "whistling, eyes shining, smiling happily, lips pursed, head slightly tilted, reaching for music box",
+        "composition": "medium shot, eye-level, focus on face and music box, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, glowing lanterns, soft natural lighting, dappled shadows through leaves, warm color palette. ACTION: whistling, eyes shining, smiling happily, lips pursed, head slightly tilted, reaching for music box. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e22c-4523ce11622671b735c0e9b0;c0c004ae-1110-411c-93e9-1bd175f03e23)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 12,
+      "part": "5. Resolution",
+      "text": "Page 1: The Treehouse Village glowed with warm, honey-colored lanterns, lighting up the pretty wooden doors. Soft, mossy cushions sat on the windowsills, inviting tired friends to rest. Suddenly, a tapping sound, like tiny hammers, came from inside the locked treehouse. What could that be?",
+      "imageFileName": "page_012.png",
+      "audioFileName": "page_012.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, illuminating intricately carved wooden doors. Soft, mossy cushions line the windowsills of each treehouse, inviting weary travelers to rest. A gentle breeze rustles the leaves, carrying the faint scent of wild berries and sweet sap.",
+        "Overcome": "Alice, bewildered by the series of symbols on the door, pulls out her notebook and begins sketching them. Aladdin, remembering similar markings from his time with the wolves, recognizes the symbols as a simple animal code. Together, they decipher the code, revealing the sequence needed to unlock the door: a paw print, a feather, and a berry.",
+        "SequenceEvents": "First [Hook: A rhythmic tapping sound, like tiny hammers on wood, echoes from within the locked treehouse.] | Then [Action: Alice approaches the door, peering closely at the strange symbols etched into the wood.] | Next [Twist: Aladdin notices a small, almost hidden panel beside the door, revealing a series of indentations shaped like paw prints, feathers, and berries.] | Finally [Resolution: Alice and Aladdin work together, pressing the correct symbols in the correct order, unlocking the door with a soft click.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, glowing lanterns, mossy cushions, wooden doors, soft lighting, warm honey colors, dappled shadows",
+        "action": "looking curious, head tilted, listening intently, slight smile, hands clasped",
+        "composition": "medium shot, eye-level, focus on treehouse door, inviting composition"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, glowing lanterns, mossy cushions, wooden doors, soft lighting, warm honey colors, dappled shadows. ACTION: looking curious, head tilted, listening intently, slight smile, hands clasped. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e24a-5b822397158636b0065fad0d;9680cc70-4f1f-435d-a460-7f67aada939a)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 13,
+      "part": "5. Resolution",
+      "text": "Page 2: Alice walked to the door, looking carefully at the strange symbols drawn on the wood. \"These look like a secret message!\" she said to Aladdin. So, Aladdin saw a small panel beside the door. It had shapes like paw prints, feathers, and berries. \"Look at this!\" he shouted.",
+      "imageFileName": "page_013.png",
+      "audioFileName": "page_013.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, illuminating intricately carved wooden doors. Soft, mossy cushions line the windowsills of each treehouse, inviting weary travelers to rest. A gentle breeze rustles the leaves, carrying the faint scent of wild berries and sweet sap.",
+        "Overcome": "Alice, bewildered by the series of symbols on the door, pulls out her notebook and begins sketching them. Aladdin, remembering similar markings from his time with the wolves, recognizes the symbols as a simple animal code. Together, they decipher the code, revealing the sequence needed to unlock the door: a paw print, a feather, and a berry.",
+        "SequenceEvents": "First [Hook: A rhythmic tapping sound, like tiny hammers on wood, echoes from within the locked treehouse.] | Then [Action: Alice approaches the door, peering closely at the strange symbols etched into the wood.] | Next [Twist: Aladdin notices a small, almost hidden panel beside the door, revealing a series of indentations shaped like paw prints, feathers, and berries.] | Finally [Resolution: Alice and Aladdin work together, pressing the correct symbols in the correct order, unlocking the door with a soft click.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, glowing lanterns, dappled shadows, soft natural lighting, wooden door with strange symbols, small panel with paw prints, feathers, and berries",
+        "action": "walking, looking carefully, pointing, surprised expression, examining details, talking",
+        "composition": "medium shot, eye-level, focus on the door, two characters in frame"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, glowing lanterns, dappled shadows, soft natural lighting, wooden door with strange symbols, small panel with paw prints, feathers, and berries. ACTION: walking, looking carefully, pointing, surprised expression, examining details, talking. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e259-70c2c1be07e922fc158ad38c;f359358f-1d9c-4c8a-b6ff-c8068371596d)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 14,
+      "part": "5. Resolution",
+      "text": "Page 3: Aladdin remembered seeing similar drawings when he played with the wolves. \"I think it's a simple animal code!\" he said, smiling. Alice took out her notebook and drew the shapes. Then, together, they pushed the right shapes in the right order. Click! The door opened, and they cheered.",
+      "imageFileName": "page_014.png",
+      "audioFileName": "page_014.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the Treehouse Village, illuminating intricately carved wooden doors. Soft, mossy cushions line the windowsills of each treehouse, inviting weary travelers to rest. A gentle breeze rustles the leaves, carrying the faint scent of wild berries and sweet sap.",
+        "Overcome": "Alice, bewildered by the series of symbols on the door, pulls out her notebook and begins sketching them. Aladdin, remembering similar markings from his time with the wolves, recognizes the symbols as a simple animal code. Together, they decipher the code, revealing the sequence needed to unlock the door: a paw print, a feather, and a berry.",
+        "SequenceEvents": "First [Hook: A rhythmic tapping sound, like tiny hammers on wood, echoes from within the locked treehouse.] | Then [Action: Alice approaches the door, peering closely at the strange symbols etched into the wood.] | Next [Twist: Aladdin notices a small, almost hidden panel beside the door, revealing a series of indentations shaped like paw prints, feathers, and berries.] | Finally [Resolution: Alice and Aladdin work together, pressing the correct symbols in the correct order, unlocking the door with a soft click.]"
+      },
+      "img_request": {
+        "bg_details": "treehouse village, rope bridges, glowing lanterns, dappled sunlight through leaves, soft volumetric fog, warm color palette",
+        "action": "smiling, pointing, pushing shapes, cheering, dynamic pose, looking excited",
+        "composition": "medium shot, eye-level, focus on the door mechanism, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse village, rope bridges, glowing lanterns, dappled sunlight through leaves, soft volumetric fog, warm color palette. ACTION: smiling, pointing, pushing shapes, cheering, dynamic pose, looking excited. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e268-36c3067376a53e4b5efa4ffe;44b1cf8a-01d3-4dba-8e13-e3d768787a9f)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 15,
+      "part": "6. Moral",
+      "text": "The lanterns made the treehouse walls glow like honey. Little bits of dust danced in the warm light. Soft moss grew around the windows. A big wooden map was on the table, shining in the light. Suddenly, Alice heard a soft, sweet hum coming from the wooden map!",
+      "imageFileName": "page_015.png",
+      "audioFileName": "page_015.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the woven walls of the treehouse, illuminating dust motes dancing in the air. Fuzzy moss clings to the window frames, softening the edges of the room. A large, intricately carved wooden map sits spread out on a low table, its details highlighted by the gentle light.",
+        "Overcome": "Alice, remembering a detail from her notebook about hidden mechanisms, notices a faint symbol on a specific tree carving depicted on the map that matches one on the wall. Jungle Boy, using his climbing skills, reaches the symbol and presses it, revealing a hidden lever. Pulling the lever causes a section of the wall to slide open, revealing a secret passage.",
+        "SequenceEvents": "First [Hook: Alice hears a faint, melodic hum emanating from the wooden map.]... | Then [Action: Jungle Boy examines the map's carvings, recognizing familiar forest symbols.]... | Next [Twist: Alice recalls a notebook entry about symbols activating hidden mechanisms and spots a matching symbol on the wall.]... | Finally [Resolution: Jungle Boy pulls the hidden lever, revealing a secret passage, and Alice excitedly records the discovery in her notebook, exclaiming, 'What a curious delight!']..."
+      },
+      "img_request": {
+        "bg_details": "treehouse interior, glowing lanterns, dust motes, mossy windows, wooden map, warm light, soft glow, honeyed light",
+        "action": "looking at map, surprised expression, head tilted, listening intently",
+        "composition": "medium shot, eye-level view, focus on face, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: treehouse interior, glowing lanterns, dust motes, mossy windows, wooden map, warm light, soft glow, honeyed light. ACTION: looking at map, surprised expression, head tilted, listening intently. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e286-31ff160147295ffa3e162916;509cc673-eb25-47c9-a438-f4d3f2e8a49d)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 16,
+      "part": "6. Moral",
+      "text": "Jungle Boy looked at the map. \"These are our forest signs!\" he said. He touched a river drawn on the wood. He knew the tall trees of Whispering Woods. He knew the shiny stones near Crystal Creek. Suddenly, the map felt like a fun guide to their home, with signs that felt safe and happy.",
+      "imageFileName": "page_016.png",
+      "audioFileName": "page_016.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the woven walls of the treehouse, illuminating dust motes dancing in the air. Fuzzy moss clings to the window frames, softening the edges of the room. A large, intricately carved wooden map sits spread out on a low table, its details highlighted by the gentle light.",
+        "Overcome": "Alice, remembering a detail from her notebook about hidden mechanisms, notices a faint symbol on a specific tree carving depicted on the map that matches one on the wall. Jungle Boy, using his climbing skills, reaches the symbol and presses it, revealing a hidden lever. Pulling the lever causes a section of the wall to slide open, revealing a secret passage.",
+        "SequenceEvents": "First [Hook: Alice hears a faint, melodic hum emanating from the wooden map.]... | Then [Action: Jungle Boy examines the map's carvings, recognizing familiar forest symbols.]... | Next [Twist: Alice recalls a notebook entry about symbols activating hidden mechanisms and spots a matching symbol on the wall.]... | Finally [Resolution: Jungle Boy pulls the hidden lever, revealing a secret passage, and Alice excitedly records the discovery in her notebook, exclaiming, 'What a curious delight!']..."
+      },
+      "img_request": {
+        "bg_details": "lush jungle foliage, tall trees, dappled sunlight, whispering leaves, river reflecting light, shiny stones, crystal clear water, soft volumetric lighting",
+        "action": "looking down, pointing at map, smiling gently, curious expression, relaxed pose, one hand touching map",
+        "composition": "medium shot, eye-level angle, focus on map, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush jungle foliage, tall trees, dappled sunlight, whispering leaves, river reflecting light, shiny stones, crystal clear water, soft volumetric lighting. ACTION: looking down, pointing at map, smiling gently, curious expression, relaxed pose, one hand touching map. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e294-74e109db33372a532d864b18;286bf070-1e84-4223-adfa-a020ee5905d8)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 17,
+      "part": "6. Moral",
+      "text": "Suddenly, Alice gasped, “I wrote about symbols opening secret doors!” She saw a symbol on a tree like one on the wall and pointed. Jungle Boy climbed up and touched it. Click! A part of the wall opened. Alice giggled.",
+      "imageFileName": "page_017.png",
+      "audioFileName": "page_017.mp3",
+      "plan": {
+        "Details": "Lanterns cast a warm, honeyed glow on the woven walls of the treehouse, illuminating dust motes dancing in the air. Fuzzy moss clings to the window frames, softening the edges of the room. A large, intricately carved wooden map sits spread out on a low table, its details highlighted by the gentle light.",
+        "Overcome": "Alice, remembering a detail from her notebook about hidden mechanisms, notices a faint symbol on a specific tree carving depicted on the map that matches one on the wall. Jungle Boy, using his climbing skills, reaches the symbol and presses it, revealing a hidden lever. Pulling the lever causes a section of the wall to slide open, revealing a secret passage.",
+        "SequenceEvents": "First [Hook: Alice hears a faint, melodic hum emanating from the wooden map.]... | Then [Action: Jungle Boy examines the map's carvings, recognizing familiar forest symbols.]... | Next [Twist: Alice recalls a notebook entry about symbols activating hidden mechanisms and spots a matching symbol on the wall.]... | Finally [Resolution: Jungle Boy pulls the hidden lever, revealing a secret passage, and Alice excitedly records the discovery in her notebook, exclaiming, 'What a curious delight!']..."
+      },
+      "img_request": {
+        "bg_details": "lush jungle foliage, treehouse village in background, glowing lanterns, dappled sunlight through leaves, ancient tree with carved symbol, soft shadows",
+        "action": "Alice pointing, Jungle Boy climbing, reaching, Alice giggling, mouth open, looking up, Jungle Boy touching symbol, part of wall opening, surprised expression",
+        "composition": "medium shot, eye-level, focus on the tree symbol, dynamic angle"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush jungle foliage, treehouse village in background, glowing lanterns, dappled sunlight through leaves, ancient tree with carved symbol, soft shadows. ACTION: Alice pointing, Jungle Boy climbing, reaching, Alice giggling, mouth open, looking up, Jungle Boy touching symbol, part of wall opening, surprised expression. CHARACTER_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain; SUPPORT_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet. ENV_HINTS: treehouses, rope bridges, lantern light. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e2a4-1fe55559448930362ab6fb0c;d1e58bab-584a-4074-8180-0e80093dfee6)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    }
+  ]
+}

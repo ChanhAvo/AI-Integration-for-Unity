@@ -1,0 +1,390 @@
+{
+  "storyId": "story_02",
+  "title": "Jungle Boy's Adventure in Berry Patch",
+  "characters": [
+    "Aladdin (Jungle Boy)",
+    "Cinderella (Mechanic)"
+  ],
+  "location": "Berry Patch",
+  "pages": [
+    {
+      "pageNumber": 0,
+      "part": "1. Setup",
+      "text": "The sun shined through the berry patch, making the berries look shiny red. A thick mist covered the ground, smelling like sweet jam. Suddenly, a humming sound came from the berry bushes, getting louder and softer like a song. \"What's that sound?\" Cinderella asked, tilting her head.",
+      "imageFileName": "page_000.png",
+      "audioFileName": "page_000.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry patch, painting the plump berries with a candy-apple sheen. A thick blanket of mist hugs the ground, smelling like warm jam. Dewdrops cling to spiderwebs strung between bushes, each one sparkling like a tiny disco ball.",
+        "Overcome": "Cinderella, frustrated, throws her wrench down. Aladdin, using his wolf-honed senses, sniffs the air and pinpoints a faint, sweet scent leading away from the trapped cart. He then climbs the tallest berry bush, spots a barely visible path through the mist, and guides Cinderella to it, realizing the scent trail is covered by the mist.",
+        "SequenceEvents": "First [Hook: A melodic hum emanates from the berry bushes, growing louder and softer in a rhythmic pattern.]... | Then [Action: Aladdin and Cinderella find a small, wooden cart filled with freshly picked berries, but its wheels are stuck in a shallow ditch.]... | Next [Twist: Cinderella tries to use her wrench to pry the wheels loose, but the soft earth crumbles, making it harder.]... | Finally [Resolution: Following Aladdin's lead, they discover a hidden path through the mist, allowing them to pull the cart free and continue their journey.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, thick mist, sun rays, shiny berries, dappled sunlight, volumetric lighting, sweet-smelling air",
+        "action": "tilting head, curious expression, listening intently, slightly crouched",
+        "composition": "medium shot, eye-level, focus on character, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, thick mist, sun rays, shiny berries, dappled sunlight, volumetric lighting, sweet-smelling air. ACTION: tilting head, curious expression, listening intently, slightly crouched. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 1,
+      "part": "1. Setup",
+      "text": "With a giggle, Aladdin pointed. \"Let's find out!\" he said. So, they discovered a small, wooden cart filled with freshly picked berries. But, uh oh! Its wheels were stuck deep in a shallow ditch! \"We're stuck!\" Cinderella cried. Just then, she grabbed her wrench, ready to fix the problem.",
+      "imageFileName": "page_001.png",
+      "audioFileName": "page_001.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry patch, painting the plump berries with a candy-apple sheen. A thick blanket of mist hugs the ground, smelling like warm jam. Dewdrops cling to spiderwebs strung between bushes, each one sparkling like a tiny disco ball.",
+        "Overcome": "Cinderella, frustrated, throws her wrench down. Aladdin, using his wolf-honed senses, sniffs the air and pinpoints a faint, sweet scent leading away from the trapped cart. He then climbs the tallest berry bush, spots a barely visible path through the mist, and guides Cinderella to it, realizing the scent trail is covered by the mist.",
+        "SequenceEvents": "First [Hook: A melodic hum emanates from the berry bushes, growing louder and softer in a rhythmic pattern.]... | Then [Action: Aladdin and Cinderella find a small, wooden cart filled with freshly picked berries, but its wheels are stuck in a shallow ditch.]... | Next [Twist: Cinderella tries to use her wrench to pry the wheels loose, but the soft earth crumbles, making it harder.]... | Finally [Resolution: Following Aladdin's lead, they discover a hidden path through the mist, allowing them to pull the cart free and continue their journey.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, wooden cart, shallow ditch, sunny day, soft natural lighting, dappled shadows",
+        "action": "Aladdin pointing, laughing, Cinderella grabbing wrench, determined expression, crouching, ready to fix, worried expression",
+        "composition": "medium shot, child eye-level, two characters, focus on Aladdin pointing, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, wooden cart, shallow ditch, sunny day, soft natural lighting, dappled shadows. ACTION: Aladdin pointing, laughing, Cinderella grabbing wrench, determined expression, crouching, ready to fix, worried expression. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 2,
+      "part": "1. Setup",
+      "text": "Cinderella tried to loosen the wheels with her wrench, but the soft earth crumbled. This made it even harder! Then, she threw her wrench down with a sad sigh. \"Oh no!\" she huffed. Aladdin, using his good senses, sniffed the air. He caught a faint, sweet scent!",
+      "imageFileName": "page_002.png",
+      "audioFileName": "page_002.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry patch, painting the plump berries with a candy-apple sheen. A thick blanket of mist hugs the ground, smelling like warm jam. Dewdrops cling to spiderwebs strung between bushes, each one sparkling like a tiny disco ball.",
+        "Overcome": "Cinderella, frustrated, throws her wrench down. Aladdin, using his wolf-honed senses, sniffs the air and pinpoints a faint, sweet scent leading away from the trapped cart. He then climbs the tallest berry bush, spots a barely visible path through the mist, and guides Cinderella to it, realizing the scent trail is covered by the mist.",
+        "SequenceEvents": "First [Hook: A melodic hum emanates from the berry bushes, growing louder and softer in a rhythmic pattern.]... | Then [Action: Aladdin and Cinderella find a small, wooden cart filled with freshly picked berries, but its wheels are stuck in a shallow ditch.]... | Next [Twist: Cinderella tries to use her wrench to pry the wheels loose, but the soft earth crumbles, making it harder.]... | Finally [Resolution: Following Aladdin's lead, they discover a hidden path through the mist, allowing them to pull the cart free and continue their journey.]"
+      },
+      "img_request": {
+        "fallback": true
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: A sweet-smelling field full of wild berries.. ACTION: Jungle Boy and Cinderella together. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 3,
+      "part": "2. Conflict",
+      "text": "Sunlight peeked through the berry bushes, making happy spots of light on the field. The sweet smell of ripe berries filled the air—oh, so yummy! But what's this? A pretty gate, made of woven vines and sparkly dewdrops, blocked their way. A gentle hum came from the vine gate, like a soft, sweet song.",
+      "imageFileName": "page_003.png",
+      "audioFileName": "page_003.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry bushes, painting the field in dappled light. The air is thick with the sweet scent of ripe berries, almost intoxicating. A tiny, ornate gate, crafted from woven vines and shimmering dewdrops, blocks their path to the heart of the patch.",
+        "Overcome": "Aladdin, with his agility, quickly scales a nearby tree, using his sharp eyes to locate a hidden lever camouflaged amongst the leaves. He uses a sturdy vine as a rope to pull the lever, triggering a series of gears Cinderella notices, which causes the vine gate to creak open.",
+        "SequenceEvents": "First [Hook: A melodic hum vibrates from the vine gate.]... | Then [Action: Cinderella, intrigued by the gate's construction, examines its gears, while Aladdin scouts for a way around.]... | Next [Twist: Cinderella realizes a gear is missing, causing the gate to jam partially open.]... | Finally [Resolution: Aladdin, using his knowledge of knots, fashions a makeshift gear out of tightly woven vines, allowing Cinderella to complete the mechanism and fully open the gate.]..."
+      },
+      "img_request": {
+        "bg_details": "berry bushes, sunlight filtering through leaves, dappled light, ripe berries, vine gate, dewdrops, gentle light",
+        "action": "looking up, curious expression, pointing, tilting head, smiling slightly",
+        "composition": "medium shot, eye-level, focus on the gate, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry bushes, sunlight filtering through leaves, dappled light, ripe berries, vine gate, dewdrops, gentle light. ACTION: looking up, curious expression, pointing, tilting head, smiling slightly. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 4,
+      "part": "2. Conflict",
+      "text": "Cinderella loved the gate and started looking at the parts. Aladdin wanted adventure and was looking for another way in. \"Look at these amazing gears, Aladdin!\" she said. Aladdin was quick and climbed a tree, using his eyes to see over the leaves.",
+      "imageFileName": "page_004.png",
+      "audioFileName": "page_004.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry bushes, painting the field in dappled light. The air is thick with the sweet scent of ripe berries, almost intoxicating. A tiny, ornate gate, crafted from woven vines and shimmering dewdrops, blocks their path to the heart of the patch.",
+        "Overcome": "Aladdin, with his agility, quickly scales a nearby tree, using his sharp eyes to locate a hidden lever camouflaged amongst the leaves. He uses a sturdy vine as a rope to pull the lever, triggering a series of gears Cinderella notices, which causes the vine gate to creak open.",
+        "SequenceEvents": "First [Hook: A melodic hum vibrates from the vine gate.]... | Then [Action: Cinderella, intrigued by the gate's construction, examines its gears, while Aladdin scouts for a way around.]... | Next [Twist: Cinderella realizes a gear is missing, causing the gate to jam partially open.]... | Finally [Resolution: Aladdin, using his knowledge of knots, fashions a makeshift gear out of tightly woven vines, allowing Cinderella to complete the mechanism and fully open the gate.]..."
+      },
+      "img_request": {
+        "fallback": true
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: A sweet-smelling field full of wild berries.. ACTION: Jungle Boy and Cinderella together. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 5,
+      "part": "2. Conflict",
+      "text": "Page 3: From his tall tree, Aladdin spotted something! \"I see a hidden lever!\" he called to Cinderella, excited. He found the lever, hidden in the leaves. Suddenly, he used a vine to pull it. Cinderella watched gears turn, but then she saw a problem. A gear was missing!",
+      "imageFileName": "page_005.png",
+      "audioFileName": "page_005.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry bushes, painting the field in dappled light. The air is thick with the sweet scent of ripe berries, almost intoxicating. A tiny, ornate gate, crafted from woven vines and shimmering dewdrops, blocks their path to the heart of the patch.",
+        "Overcome": "Aladdin, with his agility, quickly scales a nearby tree, using his sharp eyes to locate a hidden lever camouflaged amongst the leaves. He uses a sturdy vine as a rope to pull the lever, triggering a series of gears Cinderella notices, which causes the vine gate to creak open.",
+        "SequenceEvents": "First [Hook: A melodic hum vibrates from the vine gate.]... | Then [Action: Cinderella, intrigued by the gate's construction, examines its gears, while Aladdin scouts for a way around.]... | Next [Twist: Cinderella realizes a gear is missing, causing the gate to jam partially open.]... | Finally [Resolution: Aladdin, using his knowledge of knots, fashions a makeshift gear out of tightly woven vines, allowing Cinderella to complete the mechanism and fully open the gate.]..."
+      },
+      "img_request": {
+        "bg_details": "lush berry patch, tall trees, dappled sunlight, hidden lever mechanism, gears visible, soft volumetric fog, warm color palette",
+        "action": "Aladdin pulling vine, excited expression, Cinderella watching gears, concerned expression, pointing, dynamic pose, reaching, gears turning",
+        "composition": "medium shot, eye-level, focus on lever and gears, rule of thirds, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush berry patch, tall trees, dappled sunlight, hidden lever mechanism, gears visible, soft volumetric fog, warm color palette. ACTION: Aladdin pulling vine, excited expression, Cinderella watching gears, concerned expression, pointing, dynamic pose, reaching, gears turning. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 6,
+      "part": "3. Complication",
+      "text": "Page 1: Sunlight peeked through the leaves, painting the berry patch in sunny spots. The air filled with the scent of ripe berries, a sweet smell that tickled Cinderella's nose! Fuzzy moss hugged the trees, their branches heavy with glowing, plump berries. \"Wow!\" she said. \"These berries smell too good!\"",
+      "imageFileName": "page_006.png",
+      "audioFileName": "page_006.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in dappled gold. The air shimmered with the scent of ripe berries, a sweet, almost fizzy aroma. Fuzzy moss clung to the ancient trees guarding the patch, their gnarled branches heavy with glowing, plump berries.",
+        "Overcome": "Aladdin, remembering how Baloo the bear would scratch against trees to mark territory, noticed a series of faint scratch marks on one of the trees. He mimicked the bear, scratching in the same pattern. A hidden panel in the tree trunk swung open, revealing a small crank.",
+        "SequenceEvents": "First [Hook: The air is filled with the intoxicating scent of berries, almost too perfect to be real.]... | Then [Action: Cinderella tries to build a berry-picking machine using gears and vines, but it clumsily snags on branches.]... | Next [Twist: Aladdin, relying on his instincts, notices faint scratch marks on a tree, a secret animal signal.]... | Finally [Resolution: Cinderella uses the crank to activate a gentle berry-shaking mechanism, releasing a shower of ripe berries into their waiting baskets.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, sunlight filtering through leaves, dappled light, fuzzy moss, plump berries, sweet scent, golden hour lighting",
+        "action": "looking at berries, reaching for berries, mouth slightly open, curious expression, head tilted",
+        "composition": "medium shot, eye-level, focus on berries, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, sunlight filtering through leaves, dappled light, fuzzy moss, plump berries, sweet scent, golden hour lighting. ACTION: looking at berries, reaching for berries, mouth slightly open, curious expression, head tilted. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 7,
+      "part": "3. Complication",
+      "text": "Page 2: Cinderella wanted to pick the delicious berries, so she started building a berry-picking machine. She used gears and vines, carefully putting them together, but the machine got stuck on the branches. \"Oh dear,\" she said, watching her machine get tangled. Aladdin watched a busy ladybug crawling on a leaf, looking thoughtful.",
+      "imageFileName": "page_007.png",
+      "audioFileName": "page_007.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in dappled gold. The air shimmered with the scent of ripe berries, a sweet, almost fizzy aroma. Fuzzy moss clung to the ancient trees guarding the patch, their gnarled branches heavy with glowing, plump berries.",
+        "Overcome": "Aladdin, remembering how Baloo the bear would scratch against trees to mark territory, noticed a series of faint scratch marks on one of the trees. He mimicked the bear, scratching in the same pattern. A hidden panel in the tree trunk swung open, revealing a small crank.",
+        "SequenceEvents": "First [Hook: The air is filled with the intoxicating scent of berries, almost too perfect to be real.]... | Then [Action: Cinderella tries to build a berry-picking machine using gears and vines, but it clumsily snags on branches.]... | Next [Twist: Aladdin, relying on his instincts, notices faint scratch marks on a tree, a secret animal signal.]... | Finally [Resolution: Cinderella uses the crank to activate a gentle berry-shaking mechanism, releasing a shower of ripe berries into their waiting baskets.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, lush green foliage, dappled sunlight, wild berries, sweet-smelling field, cinematic lighting",
+        "action": "Cinderella crouching, assembling a machine, gears and vines, focused expression, Aladdin sitting, watching a ladybug, thoughtful expression",
+        "composition": "medium shot, child eye-level, clear focal point, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, lush green foliage, dappled sunlight, wild berries, sweet-smelling field, cinematic lighting. ACTION: Cinderella crouching, assembling a machine, gears and vines, focused expression, Aladdin sitting, watching a ladybug, thoughtful expression. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 8,
+      "part": "3. Complication",
+      "text": "Suddenly, Aladdin remembered Baloo the bear scratching trees. He noticed scratches on a tree and did what the bear did, scratching in the same way. \"Cinderella, look!\" he shouted happily. A hidden door in the tree opened, showing a small crank. Wow! This was neat!",
+      "imageFileName": "page_008.png",
+      "audioFileName": "page_008.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in dappled gold. The air shimmered with the scent of ripe berries, a sweet, almost fizzy aroma. Fuzzy moss clung to the ancient trees guarding the patch, their gnarled branches heavy with glowing, plump berries.",
+        "Overcome": "Aladdin, remembering how Baloo the bear would scratch against trees to mark territory, noticed a series of faint scratch marks on one of the trees. He mimicked the bear, scratching in the same pattern. A hidden panel in the tree trunk swung open, revealing a small crank.",
+        "SequenceEvents": "First [Hook: The air is filled with the intoxicating scent of berries, almost too perfect to be real.]... | Then [Action: Cinderella tries to build a berry-picking machine using gears and vines, but it clumsily snags on branches.]... | Next [Twist: Aladdin, relying on his instincts, notices faint scratch marks on a tree, a secret animal signal.]... | Finally [Resolution: Cinderella uses the crank to activate a gentle berry-shaking mechanism, releasing a shower of ripe berries into their waiting baskets.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, tall grass, sunlight filtering through leaves, dappled shadows, warm glow, ancient tree",
+        "action": "scratching tree, looking up, pointing, smiling, excited expression, reaching out, dynamic pose",
+        "composition": "medium shot, eye-level, focus on the tree, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, tall grass, sunlight filtering through leaves, dappled shadows, warm glow, ancient tree. ACTION: scratching tree, looking up, pointing, smiling, excited expression, reaching out, dynamic pose. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 9,
+      "part": "4. Climax",
+      "text": "Page 1: Sunlight shines through the berry bushes, making happy spots on the ground. The air buzzes with the sound of happy bees and the sweet smell of yummy berries. Just then, a pretty hum comes from a big, glowing berry in Cinderella's hand. \"It's a berry compass!\" she says. \"It will show us the best berries!\"",
+      "imageFileName": "page_009.png",
+      "audioFileName": "page_009.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry bushes, painting the ground in dappled light. The air hums with the buzz of sleepy bees and the sweet scent of ripe berries. Fuzzy moss clings to the trunks of ancient trees, their bark dusted with sparkling pollen.",
+        "Overcome": "Aladdin, using his wolf-honed sense of smell, realizes the compass is pointing toward the *strongest* scent, not the *nearest* patch of berries. He identifies a single, overly ripe berry near the compass and carefully moves it away, allowing the compass to re-orient itself toward the main berry patch.",
+        "SequenceEvents": "First [Hook: A melodic hum emanates from a large, glowing berry in Cinderella's hand – a 'berry compass'.]... | Then [Action: Cinderella excitedly sets the compass down, but it spins wildly, pointing in the wrong direction.]... | Next [Twist: Cinderella insists the compass works perfectly and is confused by the incorrect bearing. Aladdin notices the overwhelmingly sweet smell of a single, nearby overripe berry confusing the compass.]... | Finally [Resolution: Aladdin removes the overripe berry, and the compass steadies, pointing towards the largest, juiciest berry patch.]..."
+      },
+      "img_request": {
+        "bg_details": "berry bushes, sunlight, dappled shadows, buzzing bees, sweet smell, glowing berry",
+        "action": "holding berry, looking at berry, smiling, pointing, curious expression",
+        "composition": "medium shot, child eye-level, focus on berry, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry bushes, sunlight, dappled shadows, buzzing bees, sweet smell, glowing berry. ACTION: holding berry, looking at berry, smiling, pointing, curious expression. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 10,
+      "part": "4. Climax",
+      "text": "Page 2: With a giggle, Cinderella carefully set the berry compass down on a patch of moss. Suddenly, instead of pointing in a clear direction, the berry compass spun wildly! \"Oh dear,\" she said, her brow furrowing with concern. \"Why isn't it working? It always points the right way!\" Aladdin came closer, his whiskers twitching curiously.",
+      "imageFileName": "page_010.png",
+      "audioFileName": "page_010.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry bushes, painting the ground in dappled light. The air hums with the buzz of sleepy bees and the sweet scent of ripe berries. Fuzzy moss clings to the trunks of ancient trees, their bark dusted with sparkling pollen.",
+        "Overcome": "Aladdin, using his wolf-honed sense of smell, realizes the compass is pointing toward the *strongest* scent, not the *nearest* patch of berries. He identifies a single, overly ripe berry near the compass and carefully moves it away, allowing the compass to re-orient itself toward the main berry patch.",
+        "SequenceEvents": "First [Hook: A melodic hum emanates from a large, glowing berry in Cinderella's hand – a 'berry compass'.]... | Then [Action: Cinderella excitedly sets the compass down, but it spins wildly, pointing in the wrong direction.]... | Next [Twist: Cinderella insists the compass works perfectly and is confused by the incorrect bearing. Aladdin notices the overwhelmingly sweet smell of a single, nearby overripe berry confusing the compass.]... | Finally [Resolution: Aladdin removes the overripe berry, and the compass steadies, pointing towards the largest, juiciest berry patch.]..."
+      },
+      "img_request": {
+        "bg_details": "lush berry patch, wild berries, mossy ground, soft natural lighting, dappled sunlight, gentle glow",
+        "action": "Cinderella crouching, furrowing brow, looking at compass, concerned expression, Aladdin standing, leaning closer, whiskers twitching, curious expression",
+        "composition": "medium shot, eye-level, focus on the berry compass, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush berry patch, wild berries, mossy ground, soft natural lighting, dappled sunlight, gentle glow. ACTION: Cinderella crouching, furrowing brow, looking at compass, concerned expression, Aladdin standing, leaning closer, whiskers twitching, curious expression. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 11,
+      "part": "4. Climax",
+      "text": "Page 3: \"Of course it works!\" Cinderella said, looking puzzled. Aladdin, using his good sense of smell, realized something. \"Wait a minute!\" he said. \"I think I know why it's confused! The compass is pointing toward the *strongest* scent, not the *nearest* berries!\" So, he pointed his nose toward a single, very yummy berry.",
+      "imageFileName": "page_011.png",
+      "audioFileName": "page_011.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the berry bushes, painting the ground in dappled light. The air hums with the buzz of sleepy bees and the sweet scent of ripe berries. Fuzzy moss clings to the trunks of ancient trees, their bark dusted with sparkling pollen.",
+        "Overcome": "Aladdin, using his wolf-honed sense of smell, realizes the compass is pointing toward the *strongest* scent, not the *nearest* patch of berries. He identifies a single, overly ripe berry near the compass and carefully moves it away, allowing the compass to re-orient itself toward the main berry patch.",
+        "SequenceEvents": "First [Hook: A melodic hum emanates from a large, glowing berry in Cinderella's hand – a 'berry compass'.]... | Then [Action: Cinderella excitedly sets the compass down, but it spins wildly, pointing in the wrong direction.]... | Next [Twist: Cinderella insists the compass works perfectly and is confused by the incorrect bearing. Aladdin notices the overwhelmingly sweet smell of a single, nearby overripe berry confusing the compass.]... | Finally [Resolution: Aladdin removes the overripe berry, and the compass steadies, pointing towards the largest, juiciest berry patch.]..."
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, sunny day, dappled sunlight, sweet-smelling field, lush foliage, warm lighting",
+        "action": "Cinderella puzzled expression, Aladdin sniffing, Aladdin pointing, surprised, curious, determined",
+        "composition": "medium shot, eye-level, focus on Aladdin's face, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, sunny day, dappled sunlight, sweet-smelling field, lush foliage, warm lighting. ACTION: Cinderella puzzled expression, Aladdin sniffing, Aladdin pointing, surprised, curious, determined. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 12,
+      "part": "5. Resolution",
+      "text": "Page 1: Sunlight streamed through the berry patch leaves, painting dancing spots on the ground. The air hummed with the happy buzz of bees, drinking nectar. Suddenly, a giggle echoed, then a sigh. Cinderella stood with baskets, looking confused. \"Oh no!\" she said. \"I can't find the best berries!\"",
+      "imageFileName": "page_012.png",
+      "audioFileName": "page_012.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry patch leaves, painting the ground in shifting mosaics of light. The air hummed with the drowsy buzz of bees, drunk on nectar. Fuzzy moss clung to the berry bushes, soft and yielding to the touch.",
+        "Overcome": "Aladdin, using his wolf-honed sense of smell, sniffs the air, directing Cinderella toward a patch of unusually fragrant berries hidden beneath a thicket of leaves. Cinderella, in turn, uses a small, pumpkin-powered berry-picker to carefully harvest the highest, most difficult-to-reach berries without damaging the bush.",
+        "SequenceEvents": "First [Hook: A giggle echoes through the berry patch, followed by a frustrated sigh. Cinderella is surrounded by half-empty baskets.]... | Then [Action: Aladdin leaps into a tall berry bush, trying to reach the highest berries, but only succeeds in shaking a shower of berries onto Cinderella's head. They both laugh.]... | Next [Twist: Cinderella explains that the best berries are hidden and the hardest to reach, and her berry-picker broke.]... | Finally [Resolution: Working together, Aladdin's keen sense of smell and Cinderella's mechanical ingenuity help them find and gather a full harvest of the sweetest berries, filling their baskets and sharing a contented smile.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, sunlight streaming through leaves, dappled shadows, soft natural lighting, happy bees buzzing, lush foliage",
+        "action": "looking down, confused expression, sighing, holding baskets, searching, tilted head, furrowed brows",
+        "composition": "medium shot, eye-level, focus on face, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, sunlight streaming through leaves, dappled shadows, soft natural lighting, happy bees buzzing, lush foliage. ACTION: looking down, confused expression, sighing, holding baskets, searching, tilted head, furrowed brows. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "ok"
+      }
+    },
+    {
+      "pageNumber": 13,
+      "part": "5. Resolution",
+      "text": "Suddenly, with a burst of energy, Aladdin leaped into a tall berry bush to grab the biggest berries. But he ended up shaking lots of berries onto Cinderella's head! Cinderella giggled, brushing the berries from her hair. \"Aladdin, be careful!\" she cried, laughing. \"The best berries are hard to reach!\"",
+      "imageFileName": "page_013.png",
+      "audioFileName": "page_013.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry patch leaves, painting the ground in shifting mosaics of light. The air hummed with the drowsy buzz of bees, drunk on nectar. Fuzzy moss clung to the berry bushes, soft and yielding to the touch.",
+        "Overcome": "Aladdin, using his wolf-honed sense of smell, sniffs the air, directing Cinderella toward a patch of unusually fragrant berries hidden beneath a thicket of leaves. Cinderella, in turn, uses a small, pumpkin-powered berry-picker to carefully harvest the highest, most difficult-to-reach berries without damaging the bush.",
+        "SequenceEvents": "First [Hook: A giggle echoes through the berry patch, followed by a frustrated sigh. Cinderella is surrounded by half-empty baskets.]... | Then [Action: Aladdin leaps into a tall berry bush, trying to reach the highest berries, but only succeeds in shaking a shower of berries onto Cinderella's head. They both laugh.]... | Next [Twist: Cinderella explains that the best berries are hidden and the hardest to reach, and her berry-picker broke.]... | Finally [Resolution: Working together, Aladdin's keen sense of smell and Cinderella's mechanical ingenuity help them find and gather a full harvest of the sweetest berries, filling their baskets and sharing a contented smile.]"
+      },
+      "img_request": {
+        "bg_details": "berry bushes, tall grass, sun-drenched meadow, dappled sunlight, wildflowers, buzzing bees",
+        "action": "leaping, grabbing, shaking bush, berries falling, laughing, brushing hair, pointing up, playful expression",
+        "composition": "medium shot, eye-level, focus on both characters, dynamic angle, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry bushes, tall grass, sun-drenched meadow, dappled sunlight, wildflowers, buzzing bees. ACTION: leaping, grabbing, shaking bush, berries falling, laughing, brushing hair, pointing up, playful expression. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692678cb-1e96caa17ad0c28c723ee0b3;9bf857e5-908d-4f89-8c5a-3f0214d79e98)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 14,
+      "part": "5. Resolution",
+      "text": "Cinderella said that the sweetest berries were always hidden. She said they were hard to reach. Sadly, her berry-picker was broken! \"Oh no!\" she said. Aladdin wagged his tail. \"I smell something wonderful!\" he barked happily. \"The best berries are hidden over there! So, let's find them together!\"",
+      "imageFileName": "page_014.png",
+      "audioFileName": "page_014.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry patch leaves, painting the ground in shifting mosaics of light. The air hummed with the drowsy buzz of bees, drunk on nectar. Fuzzy moss clung to the berry bushes, soft and yielding to the touch.",
+        "Overcome": "Aladdin, using his wolf-honed sense of smell, sniffs the air, directing Cinderella toward a patch of unusually fragrant berries hidden beneath a thicket of leaves. Cinderella, in turn, uses a small, pumpkin-powered berry-picker to carefully harvest the highest, most difficult-to-reach berries without damaging the bush.",
+        "SequenceEvents": "First [Hook: A giggle echoes through the berry patch, followed by a frustrated sigh. Cinderella is surrounded by half-empty baskets.]... | Then [Action: Aladdin leaps into a tall berry bush, trying to reach the highest berries, but only succeeds in shaking a shower of berries onto Cinderella's head. They both laugh.]... | Next [Twist: Cinderella explains that the best berries are hidden and the hardest to reach, and her berry-picker broke.]... | Finally [Resolution: Working together, Aladdin's keen sense of smell and Cinderella's mechanical ingenuity help them find and gather a full harvest of the sweetest berries, filling their baskets and sharing a contented smile.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, lush foliage, wild berries, dappled sunlight, warm glow, sweet-smelling air, vibrant colors, soft volumetric fog",
+        "action": "pointing, smiling, looking ahead, wagging tail, sniffing the air, happy expression, dynamic pose",
+        "composition": "medium shot, child eye-level, rule of thirds, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, lush foliage, wild berries, dappled sunlight, warm glow, sweet-smelling air, vibrant colors, soft volumetric fog. ACTION: pointing, smiling, looking ahead, wagging tail, sniffing the air, happy expression, dynamic pose. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692678d7-39c72f7c03c8d59f10839d58;44e9efc2-5681-4df7-b447-c8e9dad1c691)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 15,
+      "part": "6. Moral",
+      "text": "Sunlight speckled the berry patch with gold. Plump, juicy berries, like tiny jewels, covered the ground. A sweet smell filled the air, buzzing with bees. Suddenly, a musical hum came from the berry patch, like a tiny choir singing!",
+      "imageFileName": "page_015.png",
+      "audioFileName": "page_015.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in dappled gold. Wild berries plump and glistening like tiny jewels carpeted the ground. A sweet, sugary aroma hung heavy in the air, buzzing with busy bumblebees.",
+        "Overcome": "Aladdin, remembering how Baloo taught him to test fruit, sniffs the berries cautiously. He notices a faint, almost invisible shimmer on one patch. Cinderella uses her magnifying glass (fashioned from an old bottle) to focus the sunlight on the shimmer, revealing a hidden lever beneath the berries.",
+        "SequenceEvents": "First [Hook: A high-pitched, almost musical hum emanates from the berry patch, like a tiny choir.]... | Then [Action: Cinderella tries to gather berries, but her mechanical grabber arm gets stuck in the tangled vines.]... | Next [Twist: Aladdin, sensing something unusual, notices that only the berries near the humming are extra plump and glow faintly.]... | Finally [Resolution: Aladdin and Cinderella work together: Aladdin identifies the magical berries, and Cinderella uses her magnifying glass to find the hidden switch, freeing her grabber arm and revealing a secret path.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, plump berries, sunlight, dappled shadows, sweet smell, buzzing bees, golden hour, soft lighting",
+        "action": "looking curious, listening intently, head tilted, smiling slightly, crouched down, pointing towards sound source",
+        "composition": "medium shot, eye-level, focus on boy, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, plump berries, sunlight, dappled shadows, sweet smell, buzzing bees, golden hour, soft lighting. ACTION: looking curious, listening intently, head tilted, smiling slightly, crouched down, pointing towards sound source. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692678f1-3a2bb6310ab1589c46cf8f53;cc37ed2b-a6d1-4076-8690-1a94bd63112f)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 16,
+      "part": "6. Moral",
+      "text": "Page 2: Cinderella wanted berries, but her robot arm got stuck! \"Oh dear!\" she said, pulling softly. Aladdin felt something strange. The berries near the buzzing sound were big and glowed a little. \"These berries are magic!\" he said.",
+      "imageFileName": "page_016.png",
+      "audioFileName": "page_016.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in dappled gold. Wild berries plump and glistening like tiny jewels carpeted the ground. A sweet, sugary aroma hung heavy in the air, buzzing with busy bumblebees.",
+        "Overcome": "Aladdin, remembering how Baloo taught him to test fruit, sniffs the berries cautiously. He notices a faint, almost invisible shimmer on one patch. Cinderella uses her magnifying glass (fashioned from an old bottle) to focus the sunlight on the shimmer, revealing a hidden lever beneath the berries.",
+        "SequenceEvents": "First [Hook: A high-pitched, almost musical hum emanates from the berry patch, like a tiny choir.]... | Then [Action: Cinderella tries to gather berries, but her mechanical grabber arm gets stuck in the tangled vines.]... | Next [Twist: Aladdin, sensing something unusual, notices that only the berries near the humming are extra plump and glow faintly.]... | Finally [Resolution: Aladdin and Cinderella work together: Aladdin identifies the magical berries, and Cinderella uses her magnifying glass to find the hidden switch, freeing her grabber arm and revealing a secret path.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, sweet-smelling field, glowing berries, buzzing sound, soft natural lighting, dappled shadows",
+        "action": "reaching for berries, robot arm stuck, pulling softly, curious expression, pointing, surprised expression",
+        "composition": "medium shot, eye-level, focus on cinderella and aladdin, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, sweet-smelling field, glowing berries, buzzing sound, soft natural lighting, dappled shadows. ACTION: reaching for berries, robot arm stuck, pulling softly, curious expression, pointing, surprised expression. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-692678fd-6f8bbf98004dd80724bb7376;3173a9cb-011a-4eae-8af9-5167ab5c3914)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 17,
+      "part": "6. Moral",
+      "text": "Page 3: Aladdin remembered Baloo's fruit trick and carefully sniffed the berries. He saw a tiny shimmer on one spot. So, Cinderella used her bottle-glass to shine sunlight on the shimmer. Suddenly, a lever appeared under the berries! \"I see a switch!\" she shouted happily, pointing.",
+      "imageFileName": "page_017.png",
+      "audioFileName": "page_017.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in dappled gold. Wild berries plump and glistening like tiny jewels carpeted the ground. A sweet, sugary aroma hung heavy in the air, buzzing with busy bumblebees.",
+        "Overcome": "Aladdin, remembering how Baloo taught him to test fruit, sniffs the berries cautiously. He notices a faint, almost invisible shimmer on one patch. Cinderella uses her magnifying glass (fashioned from an old bottle) to focus the sunlight on the shimmer, revealing a hidden lever beneath the berries.",
+        "SequenceEvents": "First [Hook: A high-pitched, almost musical hum emanates from the berry patch, like a tiny choir.]... | Then [Action: Cinderella tries to gather berries, but her mechanical grabber arm gets stuck in the tangled vines.]... | Next [Twist: Aladdin, sensing something unusual, notices that only the berries near the humming are extra plump and glow faintly.]... | Finally [Resolution: Aladdin and Cinderella work together: Aladdin identifies the magical berries, and Cinderella uses her magnifying glass to find the hidden switch, freeing her grabber arm and revealing a secret path.]"
+      },
+      "img_request": {
+        "bg_details": "lush berry patch, wild berries, sunlight shining through leaves, dappled shadows, shimmering light effect, soft natural lighting, green foliage",
+        "action": "sniffing berries, crouching, pointing excitedly, smiling, looking at lever",
+        "composition": "medium shot, eye-level, focus on berries and lever, two characters in frame"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush berry patch, wild berries, sunlight shining through leaves, dappled shadows, shimmering light effect, soft natural lighting, green foliage. ACTION: sniffing berries, crouching, pointing excitedly, smiling, looking at lever. CHARACTER_HINTS: messy black spiky hair, tan skin, brown eyes, brown torn shorts, vine arm wrappings, holding a wooden torch with orange flame, bare feet; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-69267909-7e24cb8e338640b94d5bd125;2c4f1d8e-4102-48f5-981a-17fefe47153a)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    }
+  ]
+}

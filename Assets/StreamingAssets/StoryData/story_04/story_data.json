@@ -1,0 +1,403 @@
+{
+  "storyId": "story_04",
+  "title": "Peter Pan's Adventure in Echo Falls",
+  "characters": [
+    "Peter Pan (Pilot)",
+    "Little Red Riding Hood (Alice)"
+  ],
+  "location": "Echo Falls",
+  "pages": [
+    {
+      "pageNumber": 0,
+      "part": "1. Setup",
+      "text": "Sunlight played through the green trees, making the rocks near Echo Falls glow. Tiny water drops sparkled like diamonds. The air smelled like earth and sweet flowers, with a hint of yummy cinnamon! Just then, a giggle echoed from the falls, funny and stretched out!",
+      "imageFileName": "page_000.png",
+      "audioFileName": "page_000.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting the moss-covered rocks around Echo Falls in emerald light. Tiny droplets of water hang in the air, catching the light like a thousand tiny diamonds. The air smells of damp earth and sweet wildflowers, with a hint of something akin to cinnamon.",
+        "Overcome": "Peter uses his plane's propeller to blow away a curtain of leaves, revealing a hidden path behind the waterfall.",
+        "SequenceEvents": "First [Hook: A giggle echoes back from the falls, but distorted and elongated]... | Then [Action: Little Red Riding Hood, notebook in hand, tries to record the strange echo, while Peter mocks the echo, imitating it with silly faces]... | Next [Twist: The echo seems to respond to Peter's antics, growing louder and revealing a faint shimmer behind the waterfall]... | Finally [Resolution: Peter, realizing the shimmer is a hidden path, uses his plane's propeller to clear the leaves, revealing a secret passage, and Alice notes the sound in her notebook.]"
+      },
+      "img_request": {
+        "bg_details": "sunlight filtering through trees, dappled light, echo falls, sparkling water droplets, rocks, lush green foliage, sweet flowers, cinnamon scent, volumetric lighting",
+        "action": "giggling, looking towards falls, head tilted, playful expression, hand covering mouth",
+        "composition": "medium shot, eye-level angle, focus on the falls, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sunlight filtering through trees, dappled light, echo falls, sparkling water droplets, rocks, lush green foliage, sweet flowers, cinnamon scent, volumetric lighting. ACTION: giggling, looking towards falls, head tilted, playful expression, hand covering mouth. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fe14-129f14c9034050f655f8388b;390e98dd-333b-447c-8c9c-5f71e521536c)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 1,
+      "part": "1. Setup",
+      "text": "Page 2: Little Red Riding Hood held her bright red notebook, trying to write down the strange echo. Suddenly, Peter Pan made silly faces, mocking the echo. He tried to copy the funny sound. \"Ha ha ha!\" shouted Peter, flapping his arms. So, Little Red Riding Hood giggled, watching Peter. \"It sounds like a silly goose!\" she said, holding her notebook.",
+      "imageFileName": "page_001.png",
+      "audioFileName": "page_001.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting the moss-covered rocks around Echo Falls in emerald light. Tiny droplets of water hang in the air, catching the light like a thousand tiny diamonds. The air smells of damp earth and sweet wildflowers, with a hint of something akin to cinnamon.",
+        "Overcome": "Peter uses his plane's propeller to blow away a curtain of leaves, revealing a hidden path behind the waterfall.",
+        "SequenceEvents": "First [Hook: A giggle echoes back from the falls, but distorted and elongated]... | Then [Action: Little Red Riding Hood, notebook in hand, tries to record the strange echo, while Peter mocks the echo, imitating it with silly faces]... | Next [Twist: The echo seems to respond to Peter's antics, growing louder and revealing a faint shimmer behind the waterfall]... | Finally [Resolution: Peter, realizing the shimmer is a hidden path, uses his plane's propeller to clear the leaves, revealing a secret passage, and Alice notes the sound in her notebook.]"
+      },
+      "img_request": {
+        "bg_details": "lush green foliage, sunlight streaming through trees, mystical waterfall in background, echoing mist, dappled shadows, bright sunny day",
+        "action": "giggling, holding notebook, looking at Peter Pan, Peter Pan making silly faces, flapping arms, shouting, imitating goose sound, laughing, dynamic poses, joyful expressions",
+        "composition": "medium shot, eye-level angle, focus on both characters, balanced composition"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green foliage, sunlight streaming through trees, mystical waterfall in background, echoing mist, dappled shadows, bright sunny day. ACTION: giggling, holding notebook, looking at Peter Pan, Peter Pan making silly faces, flapping arms, shouting, imitating goose sound, laughing, dynamic poses, joyful expressions. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fe27-2a6d20d33241786961253b72;7f130dc2-0531-4b7e-bf45-ec8fe8e85329)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 2,
+      "part": "1. Setup",
+      "text": "Page 3: Next, the echo seemed to respond to Peter's funny moves, growing louder, revealing a sparkle behind the waterfall! \"Wow! Did you see that?\" asked Peter, pointing. So, Peter knew the sparkle might be special. Peter used his plane's propeller to blow away the leaves. Finally, Alice wrote down the sound as a secret passage appeared!",
+      "imageFileName": "page_002.png",
+      "audioFileName": "page_002.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting the moss-covered rocks around Echo Falls in emerald light. Tiny droplets of water hang in the air, catching the light like a thousand tiny diamonds. The air smells of damp earth and sweet wildflowers, with a hint of something akin to cinnamon.",
+        "Overcome": "Peter uses his plane's propeller to blow away a curtain of leaves, revealing a hidden path behind the waterfall.",
+        "SequenceEvents": "First [Hook: A giggle echoes back from the falls, but distorted and elongated]... | Then [Action: Little Red Riding Hood, notebook in hand, tries to record the strange echo, while Peter mocks the echo, imitating it with silly faces]... | Next [Twist: The echo seems to respond to Peter's antics, growing louder and revealing a faint shimmer behind the waterfall]... | Finally [Resolution: Peter, realizing the shimmer is a hidden path, uses his plane's propeller to clear the leaves, revealing a secret passage, and Alice notes the sound in her notebook.]"
+      },
+      "img_request": {
+        "bg_details": "lush forest, echoing waterfall, hidden sparkle, dappled sunlight, blowing leaves, secret passage reveal, mystical glowing light",
+        "action": "pointing excitedly, mouth open in awe, peering curiously, blowing with toy airplane propeller, writing in notebook, dynamic pose, smiling",
+        "composition": "medium shot, eye-level angle, focus on waterfall, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush forest, echoing waterfall, hidden sparkle, dappled sunlight, blowing leaves, secret passage reveal, mystical glowing light. ACTION: pointing excitedly, mouth open in awe, peering curiously, blowing with toy airplane propeller, writing in notebook, dynamic pose, smiling. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fe38-6189d45474244e825cc0108b;4c584c0a-7e7d-4b7a-8c40-02db99e8a6ed)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 3,
+      "part": "2. Conflict",
+      "text": "Sunlight shines through the green leaves, making shapes on the mossy rocks by Echo Falls. The waterfall mists sparkle with tiny rainbows, each one a quick, colorful gem. Soft, green moss covers the rocks, fun to touch. Suddenly, a soft whisper comes from the waterfall, like a secret!",
+      "imageFileName": "page_003.png",
+      "audioFileName": "page_003.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting dappled patterns on the mossy rocks around Echo Falls. The waterfall mists shimmer with tiny rainbows, each one a fleeting jewel. Fuzzy green moss clings to the rocks like a soft blanket, inviting a gentle touch.",
+        "Overcome": "Alice, bewildered by the whispering echo, consults her notebook filled with observations of Whistlewood Forest. She recalls a note about a specific type of mushroom that amplifies sound. Following her intuition, she finds the cluster of mushrooms hidden behind the falls. Peter uses his wooden plane's propeller to create a focused gust of wind, directing the echo towards the mushrooms, revealing a hidden melody.",
+        "SequenceEvents": "First [Hook: A faint whisper echoes from the waterfall, sounding like a secret being shared.]... | Then [Action: Alice, intrigued, tries to decipher the whisper, while Peter, impatient, tries to imitate the echo with silly noises.]... | Next [Twist: The echo becomes louder and clearer when Alice speaks into her notebook, but still unintelligible.]... | Finally [Resolution: By using Peter's plane propeller to direct the echo towards Alice's mushroom-amplified notebook, they hear a sweet melody that unlocks a hidden compartment in the rock face, revealing a collection of glowing berries.]"
+      },
+      "img_request": {
+        "bg_details": "mossy rocks, echo falls, sunlight through leaves, sparkling waterfall mists, tiny rainbows, soft green moss, dappled shadows, volumetric lighting",
+        "action": "looking up, curious expression, listening intently, head cocked to side, crouching slightly",
+        "composition": "medium shot, eye-level angle, focus on character, waterfall in background"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: mossy rocks, echo falls, sunlight through leaves, sparkling waterfall mists, tiny rainbows, soft green moss, dappled shadows, volumetric lighting. ACTION: looking up, curious expression, listening intently, head cocked to side, crouching slightly. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fe56-4913e6190d89698719add627;f9938c4c-0096-40a7-818c-a33e7a6daed5)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 4,
+      "part": "2. Conflict",
+      "text": "Suddenly, Alice is curious about the whisper. She tries to understand what it's saying. Peter is impatient. He makes silly noises to copy the echo. \"Maybe it's saying 'Hello!'\" Peter giggles and makes a funny face. But Alice shakes her head and listens closely. \"I think it's more than that, Peter!\" she says.",
+      "imageFileName": "page_004.png",
+      "audioFileName": "page_004.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting dappled patterns on the mossy rocks around Echo Falls. The waterfall mists shimmer with tiny rainbows, each one a fleeting jewel. Fuzzy green moss clings to the rocks like a soft blanket, inviting a gentle touch.",
+        "Overcome": "Alice, bewildered by the whispering echo, consults her notebook filled with observations of Whistlewood Forest. She recalls a note about a specific type of mushroom that amplifies sound. Following her intuition, she finds the cluster of mushrooms hidden behind the falls. Peter uses his wooden plane's propeller to create a focused gust of wind, directing the echo towards the mushrooms, revealing a hidden melody.",
+        "SequenceEvents": "First [Hook: A faint whisper echoes from the waterfall, sounding like a secret being shared.]... | Then [Action: Alice, intrigued, tries to decipher the whisper, while Peter, impatient, tries to imitate the echo with silly noises.]... | Next [Twist: The echo becomes louder and clearer when Alice speaks into her notebook, but still unintelligible.]... | Finally [Resolution: By using Peter's plane propeller to direct the echo towards Alice's mushroom-amplified notebook, they hear a sweet melody that unlocks a hidden compartment in the rock face, revealing a collection of glowing berries.]"
+      },
+      "img_request": {
+        "bg_details": "Echo Falls, lush green foliage, misty atmosphere, sunlight streaming through trees, dappled shadows, cascading waterfall, mossy rocks, cinematic lighting",
+        "action": "Alice listening intently, head tilted, Peter making a funny face, Peter giggling, pointing, Alice shaking head, curious expression, Peter's arms gesturing wildly",
+        "composition": "medium shot, eye-level, focus on Alice, Peter in background, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: Echo Falls, lush green foliage, misty atmosphere, sunlight streaming through trees, dappled shadows, cascading waterfall, mossy rocks, cinematic lighting. ACTION: Alice listening intently, head tilted, Peter making a funny face, Peter giggling, pointing, Alice shaking head, curious expression, Peter's arms gesturing wildly. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fe6b-44ed72a06a1af14363d963b0;342f84fd-41ca-4328-aad5-365f53780114)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 5,
+      "part": "2. Conflict",
+      "text": "Suddenly, the echo is louder when Alice speaks into her notebook. But it's still hard to understand. \"My notebook is picking up the sound!\" she says. Alice remembers a note about special mushrooms that make sounds bigger. \"I know what to do!\" she shouts happily. They can solve the secret!",
+      "imageFileName": "page_005.png",
+      "audioFileName": "page_005.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting dappled patterns on the mossy rocks around Echo Falls. The waterfall mists shimmer with tiny rainbows, each one a fleeting jewel. Fuzzy green moss clings to the rocks like a soft blanket, inviting a gentle touch.",
+        "Overcome": "Alice, bewildered by the whispering echo, consults her notebook filled with observations of Whistlewood Forest. She recalls a note about a specific type of mushroom that amplifies sound. Following her intuition, she finds the cluster of mushrooms hidden behind the falls. Peter uses his wooden plane's propeller to create a focused gust of wind, directing the echo towards the mushrooms, revealing a hidden melody.",
+        "SequenceEvents": "First [Hook: A faint whisper echoes from the waterfall, sounding like a secret being shared.]... | Then [Action: Alice, intrigued, tries to decipher the whisper, while Peter, impatient, tries to imitate the echo with silly noises.]... | Next [Twist: The echo becomes louder and clearer when Alice speaks into her notebook, but still unintelligible.]... | Finally [Resolution: By using Peter's plane propeller to direct the echo towards Alice's mushroom-amplified notebook, they hear a sweet melody that unlocks a hidden compartment in the rock face, revealing a collection of glowing berries.]"
+      },
+      "img_request": {
+        "bg_details": "echo falls, misty waterfall, vibrant green moss, dappled sunlight, soft volumetric fog, echoing sound waves",
+        "action": "speaking into notebook, surprised expression, pointing excitedly, shouting happily, dynamic pose, determined look",
+        "composition": "medium shot, eye-level, focus on Alice, slight upward angle"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: echo falls, misty waterfall, vibrant green moss, dappled sunlight, soft volumetric fog, echoing sound waves. ACTION: speaking into notebook, surprised expression, pointing excitedly, shouting happily, dynamic pose, determined look. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fe7a-1a69884a2f6cd8dd648e45ab;f492d697-8cb0-4098-a325-e77ab3be67f8)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 6,
+      "part": "3. Complication",
+      "text": "Sunlight shines through the green treetops, painting rainbow colors in the misty air around Echo Falls! Soft moss hugs the old stones behind the rushing water, cool and damp. Suddenly, happy laughter fills the air, but no one is there! Who is giggling, and where are they hiding?",
+      "imageFileName": "page_006.png",
+      "audioFileName": "page_006.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting the misty air around Echo Falls with rainbow hues. Fuzzy moss clings to the ancient stones behind the cascading water, damp and cool to the touch. Tiny, glowing dust motes dance in the sunbeams, creating a magical, shimmering curtain.",
+        "Overcome": "Peter Pan, with a mischievous grin, uses his wooden plane's propeller to create a loud, silly sound, which bounces off the waterfall and unlocks the hidden path. He adjusts the propeller speed until the echo matches the frequency of the lock, causing it to click open.",
+        "SequenceEvents": "First [Hook: The sound of echoing laughter fills the air, but no one is nearby.]... | Then [Action: Little Red Riding Hood, notebook in hand, tries to locate the source of the laughter, questioning the waterfall and nearby squirrels.]... | Next [Twist: Peter Pan, impatient, circles overhead in his plane, shouting 'Helloooo!' The echo distorts his voice into gibberish.]... | Finally [Resolution: Peter Pan uses his plane to make a specific sound which bounces off the waterfall and unlocks a hidden path.]"
+      },
+      "img_request": {
+        "bg_details": "sunlight streaming through trees, green treetops, rainbow colors in mist, echo falls, mossy stones, damp rocks, waterfall",
+        "action": "laughing, looking around, curious expression, searching, playful pose",
+        "composition": "medium shot, child eye-level, focus on waterfall, dynamic perspective"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sunlight streaming through trees, green treetops, rainbow colors in mist, echo falls, mossy stones, damp rocks, waterfall. ACTION: laughing, looking around, curious expression, searching, playful pose. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fe98-2b98c61c0a44d6d1366e1559;b2387366-edfc-468a-9648-e05ce27dcfa4)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 7,
+      "part": "3. Complication",
+      "text": "Page 2: Little Red Riding Hood held her notebook and tried to find out where the laughter came from. \"Hello?\" she called sweetly to the waterfall. \"Are you laughing?\" Squirrels chattered nearby, but that wasn't the answer she wanted. Up above, Peter Pan flew around in his plane, shouting, \"Helloooo!\"",
+      "imageFileName": "page_007.png",
+      "audioFileName": "page_007.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting the misty air around Echo Falls with rainbow hues. Fuzzy moss clings to the ancient stones behind the cascading water, damp and cool to the touch. Tiny, glowing dust motes dance in the sunbeams, creating a magical, shimmering curtain.",
+        "Overcome": "Peter Pan, with a mischievous grin, uses his wooden plane's propeller to create a loud, silly sound, which bounces off the waterfall and unlocks the hidden path. He adjusts the propeller speed until the echo matches the frequency of the lock, causing it to click open.",
+        "SequenceEvents": "First [Hook: The sound of echoing laughter fills the air, but no one is nearby.]... | Then [Action: Little Red Riding Hood, notebook in hand, tries to locate the source of the laughter, questioning the waterfall and nearby squirrels.]... | Next [Twist: Peter Pan, impatient, circles overhead in his plane, shouting 'Helloooo!' The echo distorts his voice into gibberish.]... | Finally [Resolution: Peter Pan uses his plane to make a specific sound which bounces off the waterfall and unlocks a hidden path.]"
+      },
+      "img_request": {
+        "bg_details": "lush green forest, tall trees, echoing waterfall, sunlit mist, dappled light, golden hour, lens flare, soft water reflections",
+        "action": "looking around curiously, holding notebook, calling out, tilting head, searching gaze, sweet expression, hand shielding eyes",
+        "composition": "medium shot, eye-level angle, centered, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green forest, tall trees, echoing waterfall, sunlit mist, dappled light, golden hour, lens flare, soft water reflections. ACTION: looking around curiously, holding notebook, calling out, tilting head, searching gaze, sweet expression, hand shielding eyes. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fea9-7f3e067a4283323338884563;132818b7-418d-4d56-98f8-12fc9046a22f)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 8,
+      "part": "3. Complication",
+      "text": "But Peter Pan's echo sounds funny and strange! The echo makes his voice sound silly. Impatient, Peter Pan uses his wooden plane's propeller to make a special sound. He changes the propeller speed until the echo makes the right sound! Click! A hidden path opens!",
+      "imageFileName": "page_008.png",
+      "audioFileName": "page_008.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the canopy, painting the misty air around Echo Falls with rainbow hues. Fuzzy moss clings to the ancient stones behind the cascading water, damp and cool to the touch. Tiny, glowing dust motes dance in the sunbeams, creating a magical, shimmering curtain.",
+        "Overcome": "Peter Pan, with a mischievous grin, uses his wooden plane's propeller to create a loud, silly sound, which bounces off the waterfall and unlocks the hidden path. He adjusts the propeller speed until the echo matches the frequency of the lock, causing it to click open.",
+        "SequenceEvents": "First [Hook: The sound of echoing laughter fills the air, but no one is nearby.]... | Then [Action: Little Red Riding Hood, notebook in hand, tries to locate the source of the laughter, questioning the waterfall and nearby squirrels.]... | Next [Twist: Peter Pan, impatient, circles overhead in his plane, shouting 'Helloooo!' The echo distorts his voice into gibberish.]... | Finally [Resolution: Peter Pan uses his plane to make a specific sound which bounces off the waterfall and unlocks a hidden path.]"
+      },
+      "img_request": {
+        "bg_details": "lush green forest, echo falls, cascading waterfall, sunlight streaming through trees, dappled light, mist, hidden path, glowing moss",
+        "action": "peter pan adjusting propeller, focused expression, head cocked, listening intently, reaching forward, dynamic motion",
+        "composition": "medium shot, eye-level angle, shallow depth of field, focus on peter pan"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green forest, echo falls, cascading waterfall, sunlight streaming through trees, dappled light, mist, hidden path, glowing moss. ACTION: peter pan adjusting propeller, focused expression, head cocked, listening intently, reaching forward, dynamic motion. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926feba-1d94250e7f3ef2bd25977014;9ca8aeff-6bc0-4869-bbc1-d0eac555f118)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 9,
+      "part": "4. Climax",
+      "text": "Sunlight shone through the leaves, painting the big rocks around Echo Falls in a lovely green light. Tiny rainbows danced in the mist rising from the pool. The air hummed with the sound of the waterfall and a sweet scent of wildflowers. Suddenly, a funny echo of their laughter returned, sounding like a silly song!",
+      "imageFileName": "page_009.png",
+      "audioFileName": "page_009.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, painting the mossy rocks around Echo Falls in emerald light. Tiny rainbows danced in the mist rising from the pool below. The air hummed with the sound of the waterfall and the faintest scent of wildflowers.",
+        "Overcome": "Peter uses his plane's propeller to create a strong gust of wind, briefly clearing the mist and revealing a series of symbols etched onto the rocks behind the waterfall. Alice quickly sketches the symbols in her notebook, realizing they are a map.",
+        "SequenceEvents": "First [Hook: The echo of their laughter returns a distorted melody]... | Then [Action: Alice tries to record the strange echo in her notebook, but the sound is too muddled]... | Next [Twist: Peter, impatient, starts mimicking the echo with airplane sounds, making Alice giggle]... | Finally [Resolution: Their combined noises accidentally trigger a brief clearing of the mist, revealing a hidden map]"
+      },
+      "img_request": {
+        "bg_details": "sunlight streaming through leaves, dappled shadows, mist rising from pool, rainbow reflections, wildflowers, echo falls, large rocks, green light",
+        "action": "laughing, looking at each other, pointing, joyful expression, dynamic pose",
+        "composition": "medium shot, eye-level, focus on faces, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sunlight streaming through leaves, dappled shadows, mist rising from pool, rainbow reflections, wildflowers, echo falls, large rocks, green light. ACTION: laughing, looking at each other, pointing, joyful expression, dynamic pose. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fed7-6d2a43b36fe88eaa6af69709;1caa0bfe-d2b4-4f4a-8a71-07c02ec77f8e)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 10,
+      "part": "4. Climax",
+      "text": "Page 2: Alice tried to write down the strange echo in her notebook, but the sound was too mixed up. \"Oh, dear! It's just a jumble,\" she said with a sigh. Suddenly, Peter, who was feeling a little bit impatient, started mimicking the echo with his airplane sounds, making silly whooshing noises. Alice giggled at his funny attempts.",
+      "imageFileName": "page_010.png",
+      "audioFileName": "page_010.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, painting the mossy rocks around Echo Falls in emerald light. Tiny rainbows danced in the mist rising from the pool below. The air hummed with the sound of the waterfall and the faintest scent of wildflowers.",
+        "Overcome": "Peter uses his plane's propeller to create a strong gust of wind, briefly clearing the mist and revealing a series of symbols etched onto the rocks behind the waterfall. Alice quickly sketches the symbols in her notebook, realizing they are a map.",
+        "SequenceEvents": "First [Hook: The echo of their laughter returns a distorted melody]... | Then [Action: Alice tries to record the strange echo in her notebook, but the sound is too muddled]... | Next [Twist: Peter, impatient, starts mimicking the echo with airplane sounds, making Alice giggle]... | Finally [Resolution: Their combined noises accidentally trigger a brief clearing of the mist, revealing a hidden map]"
+      },
+      "img_request": {
+        "bg_details": "lush ferns, mossy rocks, cascading waterfall, sunlit mist, dappled sunlight, echo effect, warm glow",
+        "action": "sitting, writing in notebook, sighing, looking down, Peter making airplane gestures, giggling, amused expression, playful interaction",
+        "composition": "medium shot, eye-level, focus on Alice, Peter in background, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush ferns, mossy rocks, cascading waterfall, sunlit mist, dappled sunlight, echo effect, warm glow. ACTION: sitting, writing in notebook, sighing, looking down, Peter making airplane gestures, giggling, amused expression, playful interaction. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fee5-02cf48a15683dae6546c2e0f;821b870d-69c8-486f-8db7-fa5cbfb9decc)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 11,
+      "part": "4. Climax",
+      "text": "Page 3: Together, their happy noises made a big gust of wind! The mist went away for a second. \"Wow! Look!\" Peter said. On the rocks, behind the waterfall, were some shapes. Alice drew them in her book. \"It's a map!\" she said, surprised.",
+      "imageFileName": "page_011.png",
+      "audioFileName": "page_011.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the canopy, painting the mossy rocks around Echo Falls in emerald light. Tiny rainbows danced in the mist rising from the pool below. The air hummed with the sound of the waterfall and the faintest scent of wildflowers.",
+        "Overcome": "Peter uses his plane's propeller to create a strong gust of wind, briefly clearing the mist and revealing a series of symbols etched onto the rocks behind the waterfall. Alice quickly sketches the symbols in her notebook, realizing they are a map.",
+        "SequenceEvents": "First [Hook: The echo of their laughter returns a distorted melody]... | Then [Action: Alice tries to record the strange echo in her notebook, but the sound is too muddled]... | Next [Twist: Peter, impatient, starts mimicking the echo with airplane sounds, making Alice giggle]... | Finally [Resolution: Their combined noises accidentally trigger a brief clearing of the mist, revealing a hidden map]"
+      },
+      "img_request": {
+        "bg_details": "waterfall, mossy rocks, mist clearing, map carved into stone, soft light, dappled sunlight, volumetric lighting",
+        "action": "pointing, surprised expression, looking at map, smiling, gesturing, drawing in notebook",
+        "composition": "medium shot, eye-level, focus on map, dynamic angle, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: waterfall, mossy rocks, mist clearing, map carved into stone, soft light, dappled sunlight, volumetric lighting. ACTION: pointing, surprised expression, looking at map, smiling, gesturing, drawing in notebook. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926fef4-158bfa3a0a9f86172213468b;13e31289-0b61-4c92-ac35-18a1edb96400)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 12,
+      "part": "5. Resolution",
+      "text": "Sunlight peeks through the leaves, painting the mossy rocks around Echo Falls in bright green. Tiny rainbows dance in the mist rising from the splashing water! A sweet smell hangs in the air, mixed with the smell of wet rocks. Suddenly, a cascade of rainbow-colored bubbles drifts from behind the waterfall, floating gently on the breeze. Wow!",
+      "imageFileName": "page_012.png",
+      "audioFileName": "page_012.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, painting the mossy rocks around Echo Falls in shimmering emerald. Tiny rainbows dance in the mist rising from the churning water. A faint, floral scent hangs in the air, mixed with the earthy smell of damp stone.",
+        "Overcome": "Alice, remembering the echo, cups her hands around her mouth and shouts, 'What a curious delight!' Peter, misunderstanding, thinks she's shouting for help, so he revs the wooden plane, creating a loud noise that disrupts the quiet environment. The echo of Alice's phrase, amplified and distorted by Peter's plane, unlocks the hidden doorway behind the waterfall.",
+        "SequenceEvents": "First [Hook: A cascade of rainbow-colored bubbles drifts from behind the waterfall]... | Then [Action: Alice tries to catch a bubble, excitedly exclaiming her catchphrase]... | Next [Twist: Peter, thinking she's in trouble due to the loud waterfall, tries to 'rescue' her with his plane, adding to the noise]... | Finally [Resolution: The combined sound of Alice's phrase and Peter's plane accidentally triggers a sound-sensitive mechanism, revealing a hidden doorway behind the falls]"
+      },
+      "img_request": {
+        "bg_details": "sunlight streaming through leaves, mossy rocks, echo falls, rainbow mist, splashing water, rainbow-colored bubbles, dappled sunlight, volumetric lighting, sweet floral scent",
+        "action": "looking up in wonder, mouth open in awe, pointing towards bubbles, smiling, cheerful expression",
+        "composition": "medium shot, eye-level, focus on bubbles, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sunlight streaming through leaves, mossy rocks, echo falls, rainbow mist, splashing water, rainbow-colored bubbles, dappled sunlight, volumetric lighting, sweet floral scent. ACTION: looking up in wonder, mouth open in awe, pointing towards bubbles, smiling, cheerful expression. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926ff13-0c10ceaf069e8059336bb71e;fb2c2f6c-d7b5-4332-9994-f358168914b2)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 13,
+      "part": "5. Resolution",
+      "text": "Alice giggles and tries to catch a bubble. \"What a fun surprise!\" she says with a big smile. The shiny bubble lands in her hand and pops! Peter is playing nearby with his airplane. He thinks he hears Alice shouting. \"Oh!\" Peter says. He starts his plane, ready to help her.",
+      "imageFileName": "page_013.png",
+      "audioFileName": "page_013.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, painting the mossy rocks around Echo Falls in shimmering emerald. Tiny rainbows dance in the mist rising from the churning water. A faint, floral scent hangs in the air, mixed with the earthy smell of damp stone.",
+        "Overcome": "Alice, remembering the echo, cups her hands around her mouth and shouts, 'What a curious delight!' Peter, misunderstanding, thinks she's shouting for help, so he revs the wooden plane, creating a loud noise that disrupts the quiet environment. The echo of Alice's phrase, amplified and distorted by Peter's plane, unlocks the hidden doorway behind the waterfall.",
+        "SequenceEvents": "First [Hook: A cascade of rainbow-colored bubbles drifts from behind the waterfall]... | Then [Action: Alice tries to catch a bubble, excitedly exclaiming her catchphrase]... | Next [Twist: Peter, thinking she's in trouble due to the loud waterfall, tries to 'rescue' her with his plane, adding to the noise]... | Finally [Resolution: The combined sound of Alice's phrase and Peter's plane accidentally triggers a sound-sensitive mechanism, revealing a hidden doorway behind the falls]"
+      },
+      "img_request": {
+        "fallback": true
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: A mystical waterfall that echoes back your laughter.. ACTION: Peter Pan and Alice together. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926ff37-3c766a3e049037806c855a65;dc55237e-a1a7-4aa4-b67a-c09f2d950811)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 14,
+      "part": "5. Resolution",
+      "text": "Vroom, vroom! Peter’s plane joins the roaring water. Alice’s words echo loudly around the rocks. Suddenly, the rock face rumbles, and a secret doorway opens behind the sparkling waterfall! \"Wow!\" Alice gasped with a big smile. What’s inside?",
+      "imageFileName": "page_014.png",
+      "audioFileName": "page_014.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, painting the mossy rocks around Echo Falls in shimmering emerald. Tiny rainbows dance in the mist rising from the churning water. A faint, floral scent hangs in the air, mixed with the earthy smell of damp stone.",
+        "Overcome": "Alice, remembering the echo, cups her hands around her mouth and shouts, 'What a curious delight!' Peter, misunderstanding, thinks she's shouting for help, so he revs the wooden plane, creating a loud noise that disrupts the quiet environment. The echo of Alice's phrase, amplified and distorted by Peter's plane, unlocks the hidden doorway behind the waterfall.",
+        "SequenceEvents": "First [Hook: A cascade of rainbow-colored bubbles drifts from behind the waterfall]... | Then [Action: Alice tries to catch a bubble, excitedly exclaiming her catchphrase]... | Next [Twist: Peter, thinking she's in trouble due to the loud waterfall, tries to 'rescue' her with his plane, adding to the noise]... | Finally [Resolution: The combined sound of Alice's phrase and Peter's plane accidentally triggers a sound-sensitive mechanism, revealing a hidden doorway behind the falls]"
+      },
+      "img_request": {
+        "bg_details": "lush green foliage, sparkling waterfall, moss-covered rocks, hidden doorway, soft volumetric lighting, dappled sunlight, echoing sound waves",
+        "action": "Peter flying toy plane, Alice gasping, big smile, pointing towards doorway, surprised expression, dynamic angle, head tilt",
+        "composition": "medium shot, eye-level, focus on the doorway, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green foliage, sparkling waterfall, moss-covered rocks, hidden doorway, soft volumetric lighting, dappled sunlight, echoing sound waves. ACTION: Peter flying toy plane, Alice gasping, big smile, pointing towards doorway, surprised expression, dynamic angle, head tilt. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926ff46-73643f9c0050e23467ddf49e;0be5a501-066f-472e-8b60-67733a1be097)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 15,
+      "part": "6. Moral",
+      "text": "Sunlight shines through the leaves, making the mossy rocks around Echo Falls sparkle. The air smells of wet dirt and sweet honeysuckle, carried by the mist from the falls. Giggles floated around them, bouncing off the rocks. \"Listen, Peter!\" Alice said. \"It sounds like the falls are laughing!\"",
+      "imageFileName": "page_015.png",
+      "audioFileName": "page_015.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, dappling the mossy rocks around Echo Falls in shimmering light. The air smells of damp earth and sweet honeysuckle, carried on the mist rising from the base of the falls. Tiny, glowing dust motes dance in the sunbeams, making the air feel like a living, breathing tapestry.",
+        "Overcome": "Peter, using his pilot goggles as makeshift binoculars, spots a faint outline of a path hidden behind the cascading water. He then uses his plane's small propeller (detached for safety) to create a strong gust of wind, temporarily pushing the waterfall aside just enough for Alice to quickly jot down the exact location of the hidden path in her notebook.",
+        "SequenceEvents": "First [Hook: The echoing laughter from the falls bounces back to them, slightly distorted]... | Then [Action: Alice, intrigued, tries to record the echo's strange pattern in her notebook, while Peter tries to mimic the echo with silly faces]... | Next [Twist: They notice that one particular echo seems to be coming *from* behind the waterfall itself]... | Finally [Resolution: Peter uses his plane propeller to move the water temporarily, Alice notes the path, and they discover a secret, moss-covered trail leading deeper into Whistlewood Forest.]"
+      },
+      "img_request": {
+        "bg_details": "sunbeams through leaves, mossy rocks, echo falls, mist, honeysuckle, dappled sunlight, volumetric lighting",
+        "action": "laughing, pointing, looking at each other, joyful expression, playful, dynamic pose",
+        "composition": "medium shot, eye-level, rule of thirds, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sunbeams through leaves, mossy rocks, echo falls, mist, honeysuckle, dappled sunlight, volumetric lighting. ACTION: laughing, pointing, looking at each other, joyful expression, playful, dynamic pose. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926ff66-35abd23b4a1a3cbe4961b3da;5ef70163-bf9d-4f7b-862d-f0949a10bf64)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 16,
+      "part": "6. Moral",
+      "text": "So, Alice was curious and tried to write down the echo's pattern. Peter made silly faces, like the falls! Suddenly, they noticed something funny. One echo came from behind the waterfall! \"Did you hear that, Alice?\" Peter asked, with his head tilted.",
+      "imageFileName": "page_016.png",
+      "audioFileName": "page_016.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, dappling the mossy rocks around Echo Falls in shimmering light. The air smells of damp earth and sweet honeysuckle, carried on the mist rising from the base of the falls. Tiny, glowing dust motes dance in the sunbeams, making the air feel like a living, breathing tapestry.",
+        "Overcome": "Peter, using his pilot goggles as makeshift binoculars, spots a faint outline of a path hidden behind the cascading water. He then uses his plane's small propeller (detached for safety) to create a strong gust of wind, temporarily pushing the waterfall aside just enough for Alice to quickly jot down the exact location of the hidden path in her notebook.",
+        "SequenceEvents": "First [Hook: The echoing laughter from the falls bounces back to them, slightly distorted]... | Then [Action: Alice, intrigued, tries to record the echo's strange pattern in her notebook, while Peter tries to mimic the echo with silly faces]... | Next [Twist: They notice that one particular echo seems to be coming *from* behind the waterfall itself]... | Finally [Resolution: Peter uses his plane propeller to move the water temporarily, Alice notes the path, and they discover a secret, moss-covered trail leading deeper into Whistlewood Forest.]"
+      },
+      "img_request": {
+        "bg_details": "lush green foliage, cascading waterfall, mist rising, dappled sunlight, cavernous space behind waterfall, echoing sound waves",
+        "action": "Alice writing in notebook, Peter making silly faces, Peter pointing towards waterfall, Alice looking surprised, Peter tilting head, curious expression",
+        "composition": "medium shot, eye-level view, focus on expressions, dynamic composition, sense of depth"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green foliage, cascading waterfall, mist rising, dappled sunlight, cavernous space behind waterfall, echoing sound waves. ACTION: Alice writing in notebook, Peter making silly faces, Peter pointing towards waterfall, Alice looking surprised, Peter tilting head, curious expression. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926ff75-318feb38746217a04a0d76fd;7df7b92c-6441-40a2-ad86-4c4387d3ab79)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 17,
+      "part": "6. Moral",
+      "text": "Peter put on his pilot goggles, using them as pretend binoculars. Then, he spotted a tiny path behind the waterfall. Next, he used his plane's propeller to make a big gust of wind. The water moved aside, and Alice happily wrote down the path's place in her notebook. \"I've got it!\" she said.",
+      "imageFileName": "page_017.png",
+      "audioFileName": "page_017.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, dappling the mossy rocks around Echo Falls in shimmering light. The air smells of damp earth and sweet honeysuckle, carried on the mist rising from the base of the falls. Tiny, glowing dust motes dance in the sunbeams, making the air feel like a living, breathing tapestry.",
+        "Overcome": "Peter, using his pilot goggles as makeshift binoculars, spots a faint outline of a path hidden behind the cascading water. He then uses his plane's small propeller (detached for safety) to create a strong gust of wind, temporarily pushing the waterfall aside just enough for Alice to quickly jot down the exact location of the hidden path in her notebook.",
+        "SequenceEvents": "First [Hook: The echoing laughter from the falls bounces back to them, slightly distorted]... | Then [Action: Alice, intrigued, tries to record the echo's strange pattern in her notebook, while Peter tries to mimic the echo with silly faces]... | Next [Twist: They notice that one particular echo seems to be coming *from* behind the waterfall itself]... | Finally [Resolution: Peter uses his plane propeller to move the water temporarily, Alice notes the path, and they discover a secret, moss-covered trail leading deeper into Whistlewood Forest.]"
+      },
+      "img_request": {
+        "fallback": true
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: A mystical waterfall that echoes back your laughter.. ACTION: Peter Pan and Alice together. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: red hood cape, blue dress, white apron, wavy brown hair, blue eyes, holding a small brown notebook and silver pocket watch on a chain. ENV_HINTS: waterfall, rainbow mist, echoing sound visuals. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6926ff98-3d4e2c870315926c3afebd63;5f2bfa43-e3af-4e6a-b466-ab4bc900690b)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "storyId": "story_12",
+  "title": "Peter Pan's Adventure in Berry Patch",
+  "characters": [
+    "Peter Pan (Pilot)",
+    "Cinderella (Mechanic)"
+  ],
+  "location": "Berry Patch",
+  "pages": [
+    {
+      "pageNumber": 0,
+      "part": "1. Setup",
+      "text": "Page 1: Sunlight peeked through the leaves, making bright patterns on the berry patch. The air buzzed with sleepy bumblebees, smelling sweet with ripe berries. Suddenly, a bright, musical buzz led Peter and Cinderella to a gate. It was made of the twistiest berry vines!",
+      "imageFileName": "page_000.png",
+      "audioFileName": "page_000.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in shifting patterns of light. The air hummed with the drowsy buzz of bumblebees, heavy with the scent of ripe berries. Fuzzy moss cushioned the ground beneath their feet, dotted with plump, glistening berries that looked like tiny jewels.",
+        "Overcome": "Peter, impatient, tries to 'fly' open the gate by revving his plane's miniature propeller at the lock, creating a whirlwind of leaves and berries. Cinderella, annoyed but amused, uses a tiny wrench she made from a pumpkin seed to quickly unlatch the simple latch, revealing the berries.",
+        "SequenceEvents": "First [Hook]...A shimmering, almost musical buzzing draws Peter and Cinderella to a gate woven from berry vines.| Then [Action]...Peter, eager to get to the berries, tries to blow the gate open with his airplane's propeller. | Next [Twist]...The propeller's backdraft scatters ripe berries everywhere, revealing they glow softly when separated from the vine.| Finally [Resolution]...Cinderella easily opens the latch with a tiny pumpkin-seed wrench, and they realize the glowing berries are even more magical up close."
+      },
+      "img_request": {
+        "bg_details": "berry patch, twisty berry vines, sunlight filtering through leaves, dappled shadows, bumblebees buzzing, bright musical light, gate made of vines",
+        "action": "looking curiously, pointing, smiling, surprised expression, walking",
+        "composition": "medium shot, eye-level, focus on the gate, leading lines"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, twisty berry vines, sunlight filtering through leaves, dappled shadows, bumblebees buzzing, bright musical light, gate made of vines. ACTION: looking curiously, pointing, smiling, surprised expression, walking. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927dff2-76768a57656e7bc9426aea98;43a95d76-67b3-49b2-b752-00f73a5bb8e2)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 1,
+      "part": "1. Setup",
+      "text": "Page 2: Peter wanted to taste the berries! So, he had an idea. He started his little airplane's propeller and pointed it at the gate. 'Cinderella, move back!' he called. Leaves and berries flew around. But instead of opening, the berries fell off the vines!",
+      "imageFileName": "page_001.png",
+      "audioFileName": "page_001.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in shifting patterns of light. The air hummed with the drowsy buzz of bumblebees, heavy with the scent of ripe berries. Fuzzy moss cushioned the ground beneath their feet, dotted with plump, glistening berries that looked like tiny jewels.",
+        "Overcome": "Peter, impatient, tries to 'fly' open the gate by revving his plane's miniature propeller at the lock, creating a whirlwind of leaves and berries. Cinderella, annoyed but amused, uses a tiny wrench she made from a pumpkin seed to quickly unlatch the simple latch, revealing the berries.",
+        "SequenceEvents": "First [Hook]...A shimmering, almost musical buzzing draws Peter and Cinderella to a gate woven from berry vines.| Then [Action]...Peter, eager to get to the berries, tries to blow the gate open with his airplane's propeller. | Next [Twist]...The propeller's backdraft scatters ripe berries everywhere, revealing they glow softly when separated from the vine.| Finally [Resolution]...Cinderella easily opens the latch with a tiny pumpkin-seed wrench, and they realize the glowing berries are even more magical up close."
+      },
+      "img_request": {
+        "bg_details": "berry patch, lush green foliage, dappled sunlight, scattered berries, soft volumetric lighting, dynamic wind",
+        "action": "pointing forward, mischievous expression, shouting, dynamic motion blur, propeller spinning",
+        "composition": "medium shot, child eye-level, focus on Peter, motion lines"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, lush green foliage, dappled sunlight, scattered berries, soft volumetric lighting, dynamic wind. ACTION: pointing forward, mischievous expression, shouting, dynamic motion blur, propeller spinning. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e001-7b17d81f6091da15412ab944;399b74c9-6604-47d5-b3f3-370f5d165f14)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 2,
+      "part": "1. Setup",
+      "text": "Page 3: Oh no! The dropped berries glowed softly as they landed on the soft ground. Cinderella giggled. Just then, she pulled a small wrench from her pocket. 'Silly,' she said. 'Sometimes the easiest way happened to be the best!' With a quick twist of her wrench, the gate swung open.",
+      "imageFileName": "page_002.png",
+      "audioFileName": "page_002.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the leaves, painting the berry patch in shifting patterns of light. The air hummed with the drowsy buzz of bumblebees, heavy with the scent of ripe berries. Fuzzy moss cushioned the ground beneath their feet, dotted with plump, glistening berries that looked like tiny jewels.",
+        "Overcome": "Peter, impatient, tries to 'fly' open the gate by revving his plane's miniature propeller at the lock, creating a whirlwind of leaves and berries. Cinderella, annoyed but amused, uses a tiny wrench she made from a pumpkin seed to quickly unlatch the simple latch, revealing the berries.",
+        "SequenceEvents": "First [Hook]...A shimmering, almost musical buzzing draws Peter and Cinderella to a gate woven from berry vines.| Then [Action]...Peter, eager to get to the berries, tries to blow the gate open with his airplane's propeller. | Next [Twist]...The propeller's backdraft scatters ripe berries everywhere, revealing they glow softly when separated from the vine.| Finally [Resolution]...Cinderella easily opens the latch with a tiny pumpkin-seed wrench, and they realize the glowing berries are even more magical up close."
+      },
+      "img_request": {
+        "bg_details": "lush berry bushes, glowing berries, soft ground, dappled sunlight, gentle breeze, cinematic lighting",
+        "action": "giggling, crouching, reaching into pocket, holding wrench, twisting wrist, smiling mischievously, gate swinging open",
+        "composition": "medium shot, eye-level, focus on wrench, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush berry bushes, glowing berries, soft ground, dappled sunlight, gentle breeze, cinematic lighting. ACTION: giggling, crouching, reaching into pocket, holding wrench, twisting wrist, smiling mischievously, gate swinging open. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e00f-6e0a7b1b6f2705b8322c758d;c134b1ae-2866-4b48-b8d7-2586ca085b0e)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 3,
+      "part": "2. Conflict",
+      "text": "Sunlight shone through the berry bushes, painting the field in warm, rosy colors. A thick, sweet scent of ripe berries filled the air, buzzing with busy bumblebees. Peter's wooden plane sat tilted, its wheels coated in glistening, sticky jam. Suddenly, tiny giggles echoed from deep within the berry bushes, like something fun was about to happen.",
+      "imageFileName": "page_003.png",
+      "audioFileName": "page_003.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the field in warm, rosy hues. A thick, sweet scent of ripe berries hung in the air, buzzing with busy bumblebees. Peter's wooden plane sat lopsided, its wheels coated in a glistening, sticky jam.",
+        "Overcome": "Peter, using his natural ability to fly, hovers just above the ground while revving the plane's engine. The wind from the propeller blows away the sticky berry jam, freeing the wheels.",
+        "SequenceEvents": "First [Hook: A chorus of tiny giggles echoes from deep within the berry bushes.] | Then [Action: Cinderella, covered in berry juice, examines the plane's wheels with a wrench, muttering about 'infernal berry goo'.] | Next [Twist: Peter suggests using pixie dust, but Cinderella insists on a mechanical solution, leading to a playful argument about engines vs. magic.] | Finally [Resolution: Peter, tired of arguing, uses the plane's propeller to blow the jam off the wheels, proving that sometimes a bit of pilot ingenuity is all that's needed.]"
+      },
+      "img_request": {
+        "bg_details": "berry bushes, ripe berries, bumblebees, sunlight, dappled sunlight, warm rosy colors, sweet scent, field, soft lighting",
+        "action": "giggling, hidden in bushes, playful expression, peeking, curious, dynamic pose",
+        "composition": "medium shot, eye-level, focus on bushes, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry bushes, ripe berries, bumblebees, sunlight, dappled sunlight, warm rosy colors, sweet scent, field, soft lighting. ACTION: giggling, hidden in bushes, playful expression, peeking, curious, dynamic pose. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e02d-39953b3a5297477053ddd6df;37e37779-d2f3-43f8-81fd-37b18eedc4d3)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 4,
+      "part": "2. Conflict",
+      "text": "Page 2: So, Cinderella came out, covered in berry juice! She looked at the plane's wheels with a wrench, muttering about 'yucky berry goo.' \"Oh dear, this is quite a sticky situation!\" she said, trying to wipe the jam off her face. Next, Peter suggested using pixie dust to wash away the jam, but Cinderella shook her head, wanting to fix it with tools.",
+      "imageFileName": "page_004.png",
+      "audioFileName": "page_004.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the field in warm, rosy hues. A thick, sweet scent of ripe berries hung in the air, buzzing with busy bumblebees. Peter's wooden plane sat lopsided, its wheels coated in a glistening, sticky jam.",
+        "Overcome": "Peter, using his natural ability to fly, hovers just above the ground while revving the plane's engine. The wind from the propeller blows away the sticky berry jam, freeing the wheels.",
+        "SequenceEvents": "First [Hook: A chorus of tiny giggles echoes from deep within the berry bushes.] | Then [Action: Cinderella, covered in berry juice, examines the plane's wheels with a wrench, muttering about 'infernal berry goo'.] | Next [Twist: Peter suggests using pixie dust, but Cinderella insists on a mechanical solution, leading to a playful argument about engines vs. magic.] | Finally [Resolution: Peter, tired of arguing, uses the plane's propeller to blow the jam off the wheels, proving that sometimes a bit of pilot ingenuity is all that's needed.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, scattered berries, plane wheels, soft natural lighting, dappled shadows, sweet-smelling field, wild berries",
+        "action": "looking at plane wheels, crouching, holding wrench, muttering, wiping jam off face, frustrated expression",
+        "composition": "medium shot, child eye-level, focus on face, slight upward angle"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, scattered berries, plane wheels, soft natural lighting, dappled shadows, sweet-smelling field, wild berries. ACTION: looking at plane wheels, crouching, holding wrench, muttering, wiping jam off face, frustrated expression. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e03c-13558ca30096734306b52f2b;d2595b10-58ed-4d4f-9932-de922db6ace3)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 5,
+      "part": "2. Conflict",
+      "text": "\"Engines are better than magic, Peter!\" she said with a smile. Peter was tired, but his eyes twinkled. He floated up, revving the plane. Whoosh! The wind blew the jam away! The wheels were free! \"Sometimes,\" Peter laughed, \"a little cleverness helps!\"",
+      "imageFileName": "page_005.png",
+      "audioFileName": "page_005.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the field in warm, rosy hues. A thick, sweet scent of ripe berries hung in the air, buzzing with busy bumblebees. Peter's wooden plane sat lopsided, its wheels coated in a glistening, sticky jam.",
+        "Overcome": "Peter, using his natural ability to fly, hovers just above the ground while revving the plane's engine. The wind from the propeller blows away the sticky berry jam, freeing the wheels.",
+        "SequenceEvents": "First [Hook: A chorus of tiny giggles echoes from deep within the berry bushes.] | Then [Action: Cinderella, covered in berry juice, examines the plane's wheels with a wrench, muttering about 'infernal berry goo'.] | Next [Twist: Peter suggests using pixie dust, but Cinderella insists on a mechanical solution, leading to a playful argument about engines vs. magic.] | Finally [Resolution: Peter, tired of arguing, uses the plane's propeller to blow the jam off the wheels, proving that sometimes a bit of pilot ingenuity is all that's needed.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, sweet-smelling field, soft natural lighting, gentle glows, sunny day, dappled shadows",
+        "action": "floating up, revving the plane, smiling, eyes twinkling, looking excited, dynamic pose",
+        "composition": "medium shot, child eye-level, clear focal point, upward angle"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, sweet-smelling field, soft natural lighting, gentle glows, sunny day, dappled shadows. ACTION: floating up, revving the plane, smiling, eyes twinkling, looking excited, dynamic pose. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e04f-1a1559a61f1cbbd01ab7920c;18417b11-66d8-4145-8f7e-a902291eb26e)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 6,
+      "part": "3. Complication",
+      "text": "Sunlight shines through the leaves, painting the berry patch in speckled gold. The air hums with the busy buzz of bees, busy with flowers. Suddenly, a rainbow sparkle appeared above the bushes, making all the berries ripen! It was a beautiful thing to see. Fuzzy moss clung to the roots of the berry bushes, soft like a kitten.",
+      "imageFileName": "page_006.png",
+      "audioFileName": "page_006.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, painting the berry patch in dappled gold. The air hums with the lazy buzz of bees, drunk on nectar. Fuzzy moss clings to the roots of berry bushes, soft as a kitten's ear.",
+        "Overcome": "Peter Pan uses his wooden plane to create a gust of wind, blowing away the leaves to reveal the hidden entrance.",
+        "SequenceEvents": "First [Hook]... The air shimmers with a rainbow sheen as a thousand berries ripen at once. | Then [Action]... Cinderella, meticulously checking her pumpkin-powered berry-picker, notices a strange energy reading near a cluster of bushes. Peter, bored, starts doing loop-de-loops around the patch in his plane. | Next [Twist]... Cinderella's instruments go haywire as she approaches the bushes; Peter's plane sputters and stalls near the same spot. They discover a thick layer of leaves is causing the interference. | Finally [Resolution]... Peter uses his plane's propeller to blow the leaves away, revealing a hidden, moss-covered doorway leading to a glowing grove filled with oversized, luminous berries."
+      },
+      "img_request": {
+        "bg_details": "berry patch, sunlight filtering through leaves, dappled sunlight, buzzing bees, ripening berries, rainbow sparkle, fuzzy moss",
+        "action": "looking up, surprised expression, pointing, mouth agape, wide-eyed",
+        "composition": "medium shot, eye-level angle, focus on the children, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, sunlight filtering through leaves, dappled sunlight, buzzing bees, ripening berries, rainbow sparkle, fuzzy moss. ACTION: looking up, surprised expression, pointing, mouth agape, wide-eyed. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e070-08603cef6c3648a16297e2a0;a58e380c-1816-41f8-8a27-4968d15e37bc)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 7,
+      "part": "3. Complication",
+      "text": "Cinderella looked at her berry-picker and saw something shiny by the bushes. \"Oh my! What could this be?\" she said. So, Peter Pan was restless and started flying around the berry patch in his little wooden airplane. Zoom! Zoom!",
+      "imageFileName": "page_007.png",
+      "audioFileName": "page_007.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, painting the berry patch in dappled gold. The air hums with the lazy buzz of bees, drunk on nectar. Fuzzy moss clings to the roots of berry bushes, soft as a kitten's ear.",
+        "Overcome": "Peter Pan uses his wooden plane to create a gust of wind, blowing away the leaves to reveal the hidden entrance.",
+        "SequenceEvents": "First [Hook]... The air shimmers with a rainbow sheen as a thousand berries ripen at once. | Then [Action]... Cinderella, meticulously checking her pumpkin-powered berry-picker, notices a strange energy reading near a cluster of bushes. Peter, bored, starts doing loop-de-loops around the patch in his plane. | Next [Twist]... Cinderella's instruments go haywire as she approaches the bushes; Peter's plane sputters and stalls near the same spot. They discover a thick layer of leaves is causing the interference. | Finally [Resolution]... Peter uses his plane's propeller to blow the leaves away, revealing a hidden, moss-covered doorway leading to a glowing grove filled with oversized, luminous berries."
+      },
+      "img_request": {
+        "bg_details": "berry bushes, wild berries, sunny day, soft natural lighting, dappled shadows, sweet-smelling field, lush green grass",
+        "action": "looking, curious expression, crouching, reaching forward, surprised",
+        "composition": "medium shot, child eye-level, clear focal point"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry bushes, wild berries, sunny day, soft natural lighting, dappled shadows, sweet-smelling field, lush green grass. ACTION: looking, curious expression, crouching, reaching forward, surprised. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e080-08b810f17a1c396e123a26f3;14fa4cfb-44c8-4f21-80cb-15bae64f2252)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 8,
+      "part": "3. Complication",
+      "text": "Page 3: But suddenly, as Cinderella got close to the bushes, her music went wonky! Oh no! At the same time, Peter’s plane sputtered and stopped near the same spot. \"Oh no! What's happening to my plane!\" he cried. They saw the thick leaves messing things up. Peter had an idea. \"I'll blow them away!\"",
+      "imageFileName": "page_008.png",
+      "audioFileName": "page_008.mp3",
+      "plan": {
+        "Details": "Sunlight drizzles through the leaves, painting the berry patch in dappled gold. The air hums with the lazy buzz of bees, drunk on nectar. Fuzzy moss clings to the roots of berry bushes, soft as a kitten's ear.",
+        "Overcome": "Peter Pan uses his wooden plane to create a gust of wind, blowing away the leaves to reveal the hidden entrance.",
+        "SequenceEvents": "First [Hook]... The air shimmers with a rainbow sheen as a thousand berries ripen at once. | Then [Action]... Cinderella, meticulously checking her pumpkin-powered berry-picker, notices a strange energy reading near a cluster of bushes. Peter, bored, starts doing loop-de-loops around the patch in his plane. | Next [Twist]... Cinderella's instruments go haywire as she approaches the bushes; Peter's plane sputters and stalls near the same spot. They discover a thick layer of leaves is causing the interference. | Finally [Resolution]... Peter uses his plane's propeller to blow the leaves away, revealing a hidden, moss-covered doorway leading to a glowing grove filled with oversized, luminous berries."
+      },
+      "img_request": {
+        "bg_details": "lush green bushes, dense thicket, berry patch, soft sunlight, dappled shadows, volumetric light",
+        "action": "pointing, determined expression, surprised expression, dynamic pose, mouth open, looking up, worried",
+        "composition": "medium shot, eye-level, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: lush green bushes, dense thicket, berry patch, soft sunlight, dappled shadows, volumetric light. ACTION: pointing, determined expression, surprised expression, dynamic pose, mouth open, looking up, worried. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e090-2f98c01c0c2502c263f48fb7;58b697b2-cc9d-421d-8970-e78c064528e0)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 9,
+      "part": "4. Climax",
+      "text": "Page 1: Sunlight was peeking through the berry bushes, covering the ground in warm light. The air buzzed with the sleepy hum of bees, heavy with the sweet smell of berries. Dew sat on the plump fruit, making them shine like tiny jewels. Suddenly, Peter sneezed a big sneeze!",
+      "imageFileName": "page_009.png",
+      "audioFileName": "page_009.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the ground in pools of warm light. The air buzzed with the drowsy hum of bees, heavy with the sugary scent of ripe berries. Dew clung to the plump fruit, making them sparkle like tiny jewels.",
+        "Overcome": "Cinderella adjusts the pumpkin-powered propeller on Peter's plane, using her oil can to lubricate the gears. The engine sputters to life, blowing a cloud of sweet-smelling berry vapor into the air, allowing Peter to steer the plane through the thicket.",
+        "SequenceEvents": "First [Hook: The overwhelming sweet smell of the berries makes Peter sneeze uncontrollably, causing him to lose his grip on the map.]... | Then [Action: Cinderella, thinking the map is just covered in berry juice, tries to wipe it clean with an oily rag, smearing the ink.]... | Next [Twist: Peter realizes the smeared ink reveals a hidden layer on the map, showing a secret path only visible when covered in oil.]... | Finally [Resolution: They use Cinderella's oil and Peter's plane to follow the hidden path, working together to navigate the now-visible route.]"
+      },
+      "img_request": {
+        "bg_details": "berry bushes, plump berries, dew drops, sunlight peeking through, warm light, sleepy bees, sweet smell, dappled sunlight",
+        "action": "sneezing, covering mouth with hand, eyes squeezed shut, head tilted back, surprised expression",
+        "composition": "medium shot, eye-level, focus on Peter, shallow depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry bushes, plump berries, dew drops, sunlight peeking through, warm light, sleepy bees, sweet smell, dappled sunlight. ACTION: sneezing, covering mouth with hand, eyes squeezed shut, head tilted back, surprised expression. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e0ad-7a284002670b9073411f04b0;cc76ef1e-e38a-42c5-9fdc-390eafc1bbdf)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 10,
+      "part": "4. Climax",
+      "text": "Page 2: \"Ah-choo!\" Peter said, and the map slipped. It fell to the ground. Cinderella was surprised. \"Don't worry!\" she called, grabbing her oil can. Cinderella fixed the pumpkin propeller on Peter's plane. She used the oil can. Suddenly, the engine started! Vroom!",
+      "imageFileName": "page_010.png",
+      "audioFileName": "page_010.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the ground in pools of warm light. The air buzzed with the drowsy hum of bees, heavy with the sugary scent of ripe berries. Dew clung to the plump fruit, making them sparkle like tiny jewels.",
+        "Overcome": "Cinderella adjusts the pumpkin-powered propeller on Peter's plane, using her oil can to lubricate the gears. The engine sputters to life, blowing a cloud of sweet-smelling berry vapor into the air, allowing Peter to steer the plane through the thicket.",
+        "SequenceEvents": "First [Hook: The overwhelming sweet smell of the berries makes Peter sneeze uncontrollably, causing him to lose his grip on the map.]... | Then [Action: Cinderella, thinking the map is just covered in berry juice, tries to wipe it clean with an oily rag, smearing the ink.]... | Next [Twist: Peter realizes the smeared ink reveals a hidden layer on the map, showing a secret path only visible when covered in oil.]... | Finally [Resolution: They use Cinderella's oil and Peter's plane to follow the hidden path, working together to navigate the now-visible route.]"
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, soft natural lighting, gentle glows, pumpkin propeller airplane, oil can, engine",
+        "action": "Peter sneezing, map slipping from hands, Cinderella surprised, Cinderella grabbing oil can, Cinderella fixing propeller, engine starting, vroom sound effect, dynamic movement, focused expressions",
+        "composition": "medium shot, child eye-level, clear focal point, action shot"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, soft natural lighting, gentle glows, pumpkin propeller airplane, oil can, engine. ACTION: Peter sneezing, map slipping from hands, Cinderella surprised, Cinderella grabbing oil can, Cinderella fixing propeller, engine starting, vroom sound effect, dynamic movement, focused expressions. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e0bc-0f24a2ae4b5fd8216e5940be;41e279c3-d1c6-4b66-9a21-9b941985eb89)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 11,
+      "part": "4. Climax",
+      "text": "A cloud of sweet berry smell puffed into the air. Then, Cinderella tried to wipe the map with a rag, but she smeared the ink. \"Oops!\" she giggled. Peter's eyes opened wide. \"Wait!\" he said. \"Look! The oil showed a secret path!\" Just then they began to follow it.",
+      "imageFileName": "page_011.png",
+      "audioFileName": "page_011.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the ground in pools of warm light. The air buzzed with the drowsy hum of bees, heavy with the sugary scent of ripe berries. Dew clung to the plump fruit, making them sparkle like tiny jewels.",
+        "Overcome": "Cinderella adjusts the pumpkin-powered propeller on Peter's plane, using her oil can to lubricate the gears. The engine sputters to life, blowing a cloud of sweet-smelling berry vapor into the air, allowing Peter to steer the plane through the thicket.",
+        "SequenceEvents": "First [Hook: The overwhelming sweet smell of the berries makes Peter sneeze uncontrollably, causing him to lose his grip on the map.]... | Then [Action: Cinderella, thinking the map is just covered in berry juice, tries to wipe it clean with an oily rag, smearing the ink.]... | Next [Twist: Peter realizes the smeared ink reveals a hidden layer on the map, showing a secret path only visible when covered in oil.]... | Finally [Resolution: They use Cinderella's oil and Peter's plane to follow the hidden path, working together to navigate the now-visible route.]"
+      },
+      "img_request": {
+        "bg_details": "sweet berry bushes, ripe berries, sun-drenched meadow, dappled sunlight, soft volumetric fog",
+        "action": "giggling, wiping with rag, surprised expression, pointing, following path",
+        "composition": "medium shot, eye-level, focus on map, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: sweet berry bushes, ripe berries, sun-drenched meadow, dappled sunlight, soft volumetric fog. ACTION: giggling, wiping with rag, surprised expression, pointing, following path. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e0cb-2fe3deea6298132956434e28;7dd64181-1a0f-4f6f-a2ba-35a119b959fa)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 12,
+      "part": "5. Resolution",
+      "text": "The air filled with the sweet, strong scent of ripe berries, hiding the usual woodsy smell. Sunlight dripped through the berry bushes, painting the ground in sunny spots! Fuzzy moss clung to the twisty roots of old berry trees, while a thousand tiny berries glistened like jewels. So, it was the Berry Patch, Peter Pan's favorite place to fly!",
+      "imageFileName": "page_012.png",
+      "audioFileName": "page_012.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the ground in dappled gold. Fuzzy moss clung to the gnarled roots of ancient berry trees. A thousand tiny berries glistened like jewels, their sweet scent heavy in the air.",
+        "Overcome": "Peter used his knowledge of flight to angle the plane just so, while Cinderella directed the pumpkin-powered winch she'd attached to a nearby tree. Together, they gently coaxed the plane free, the whirring of gears mixing with Peter's encouraging shouts.",
+        "SequenceEvents": "First [Hook]... The air vibrated with the sweet, almost overwhelming, scent of ripe berries, overpowering the usual woodsy smell. | Then [Action]... Peter Pan attempted a daring landing in the Berry Patch, but his wooden plane got its wheel stuck in a patch of particularly sticky berry jam. | Next [Twist]... Cinderella arrived, her face lighting up, but she also noticed the plane was stuck, she suggested a plan to use a pumpkin-powered winch to pull it free. | Finally [Resolution]... With a final tug, the plane popped free, leaving a trail of berry jam in its wake. Peter and Cinderella cheered, ready for their next adventure."
+      },
+      "img_request": {
+        "bg_details": "berry patch, sunlight streaming, dappled shadows, ripe berries, fuzzy moss, twisty roots, glistening berries, sunny spots",
+        "action": "flying, looking down, smiling, pointing, carefree, dynamic pose",
+        "composition": "medium shot, eye-level, focus on character, dynamic angle"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, sunlight streaming, dappled shadows, ripe berries, fuzzy moss, twisty roots, glistening berries, sunny spots. ACTION: flying, looking down, smiling, pointing, carefree, dynamic pose. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e0e7-1e31550b73eb950c7fb7de97;961ca9ec-caf8-4512-8f44-3a35aeedbbcd)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 13,
+      "part": "5. Resolution",
+      "text": "Page 2: But as Peter Pan tried to land in the Berry Patch, his wooden plane got its wheel stuck. It was trapped in very sticky jam! \"Oh dear!\" said Peter, wiggling the joystick. Suddenly, Cinderella arrived, her face lighting up at the sight of so many berries. But she noticed the plane was stuck. What happened?",
+      "imageFileName": "page_013.png",
+      "audioFileName": "page_013.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the ground in dappled gold. Fuzzy moss clung to the gnarled roots of ancient berry trees. A thousand tiny berries glistened like jewels, their sweet scent heavy in the air.",
+        "Overcome": "Peter used his knowledge of flight to angle the plane just so, while Cinderella directed the pumpkin-powered winch she'd attached to a nearby tree. Together, they gently coaxed the plane free, the whirring of gears mixing with Peter's encouraging shouts.",
+        "SequenceEvents": "First [Hook]... The air vibrated with the sweet, almost overwhelming, scent of ripe berries, overpowering the usual woodsy smell. | Then [Action]... Peter Pan attempted a daring landing in the Berry Patch, but his wooden plane got its wheel stuck in a patch of particularly sticky berry jam. | Next [Twist]... Cinderella arrived, her face lighting up, but she also noticed the plane was stuck, she suggested a plan to use a pumpkin-powered winch to pull it free. | Finally [Resolution]... With a final tug, the plane popped free, leaving a trail of berry jam in its wake. Peter and Cinderella cheered, ready for their next adventure."
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, lush green foliage, morning light, dappled sunlight, jam covered plane wheel",
+        "action": "peter pan wiggling joystick, frustrated expression, cinderella looking surprised, pointing, mouth agape, concerned expression",
+        "composition": "medium shot, eye-level, focus on plane wheel, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, lush green foliage, morning light, dappled sunlight, jam covered plane wheel. ACTION: peter pan wiggling joystick, frustrated expression, cinderella looking surprised, pointing, mouth agape, concerned expression. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e0f6-4d824fc90a09683b67b116ee;21b39175-ed84-4bb8-9ba1-0cb375b0feca)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 14,
+      "part": "5. Resolution",
+      "text": "“Don't worry, Peter!” Cinderella said with a smile. “I have an idea!” She suggested using a pumpkin to help pull the plane free. Then, Peter Pan used his flying to angle the plane. Cinderella helped with the winch on a tree. With a tug, the plane popped free!",
+      "imageFileName": "page_014.png",
+      "audioFileName": "page_014.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the ground in dappled gold. Fuzzy moss clung to the gnarled roots of ancient berry trees. A thousand tiny berries glistened like jewels, their sweet scent heavy in the air.",
+        "Overcome": "Peter used his knowledge of flight to angle the plane just so, while Cinderella directed the pumpkin-powered winch she'd attached to a nearby tree. Together, they gently coaxed the plane free, the whirring of gears mixing with Peter's encouraging shouts.",
+        "SequenceEvents": "First [Hook]... The air vibrated with the sweet, almost overwhelming, scent of ripe berries, overpowering the usual woodsy smell. | Then [Action]... Peter Pan attempted a daring landing in the Berry Patch, but his wooden plane got its wheel stuck in a patch of particularly sticky berry jam. | Next [Twist]... Cinderella arrived, her face lighting up, but she also noticed the plane was stuck, she suggested a plan to use a pumpkin-powered winch to pull it free. | Finally [Resolution]... With a final tug, the plane popped free, leaving a trail of berry jam in its wake. Peter and Cinderella cheered, ready for their next adventure."
+      },
+      "img_request": {
+        "bg_details": "berry patch, wild berries, green grass, puffy white clouds, soft natural lighting, sunbeams, dappled shadows, cinematic lighting",
+        "action": "smiling, pointing, looking at peter pan, confident pose, helping, pulling rope, determined expression",
+        "composition": "medium shot, eye-level, focus on cinderella, dynamic angle"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, wild berries, green grass, puffy white clouds, soft natural lighting, sunbeams, dappled shadows, cinematic lighting. ACTION: smiling, pointing, looking at peter pan, confident pose, helping, pulling rope, determined expression. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e104-5afe298435909fee4def7b90;568942c1-6ce5-41a1-b788-88e4a28b6205)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 15,
+      "part": "6. Moral",
+      "text": "Sunlight peeked through the berry bushes, making happy spots on the ground! A sweet smell filled the air, like yummy candy. Suddenly, right in the berry patch, a giant berry glowed! \"Wow!\" Peter Pan said. \"Look how big and shiny it is!\"",
+      "imageFileName": "page_015.png",
+      "audioFileName": "page_015.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the ground in dappled patterns of light and shadow. A sweet, tangy smell hung heavy in the air, almost thick enough to taste. In the center of the patch, a giant, hollowed-out berry glowed with a soft, internal light, its surface shimmering with sugary crystals.",
+        "Overcome": "Cinderella uses her pumpkin-carved oil can to carefully drip berry juice into the lock's gears, while Peter Pan, using his plane's propeller as a makeshift fan, blows away the excess sticky residue. The lock clicks open with a satisfying pop.",
+        "SequenceEvents": "First [Hook: A faint, melodic hum emanates from the giant berry.]... | Then [Action: Peter tries to yank open the berry, but it's firmly locked. He pulls and pulls, his wooden plane bumping against the lock.]... | Next [Twist: Cinderella notices tiny gears made of berry seeds embedded in the lock. She realizes it's a 'berry juice lock' and needs lubrication.]... | Finally [Resolution: Cinderella oils the lock, Peter uses his propeller, and the lock opens, revealing a hidden passage into a sparkling cavern filled with even more berries.]..."
+      },
+      "img_request": {
+        "bg_details": "berry bushes, sunlight filtering through leaves, dappled shadows, sweet-smelling air, giant glowing berry, soft natural lighting",
+        "action": "pointing, wide-eyed, surprised expression, mouth open in awe, leaning forward, dynamic pose",
+        "composition": "medium shot, eye-level, focus on berry, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry bushes, sunlight filtering through leaves, dappled shadows, sweet-smelling air, giant glowing berry, soft natural lighting. ACTION: pointing, wide-eyed, surprised expression, mouth open in awe, leaning forward, dynamic pose. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e120-3728597d2d1e61b165551339;73b9acf5-c37e-4244-89a6-2d56502456aa)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 16,
+      "part": "6. Moral",
+      "text": "Page 2: Peter tried to pull the giant berry open, but it wouldn't move! He pulled and pulled, his little wooden airplane bumping against the berry. \"Oh dear,\" said Cinderella, watching him struggle. \"It seems to be locked! So, maybe we need a key,\" she said, tilting her head.",
+      "imageFileName": "page_016.png",
+      "audioFileName": "page_016.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the ground in dappled patterns of light and shadow. A sweet, tangy smell hung heavy in the air, almost thick enough to taste. In the center of the patch, a giant, hollowed-out berry glowed with a soft, internal light, its surface shimmering with sugary crystals.",
+        "Overcome": "Cinderella uses her pumpkin-carved oil can to carefully drip berry juice into the lock's gears, while Peter Pan, using his plane's propeller as a makeshift fan, blows away the excess sticky residue. The lock clicks open with a satisfying pop.",
+        "SequenceEvents": "First [Hook: A faint, melodic hum emanates from the giant berry.]... | Then [Action: Peter tries to yank open the berry, but it's firmly locked. He pulls and pulls, his wooden plane bumping against the lock.]... | Next [Twist: Cinderella notices tiny gears made of berry seeds embedded in the lock. She realizes it's a 'berry juice lock' and needs lubrication.]... | Finally [Resolution: Cinderella oils the lock, Peter uses his propeller, and the lock opens, revealing a hidden passage into a sparkling cavern filled with even more berries.]..."
+      },
+      "img_request": {
+        "bg_details": "berry patch, giant berries, sunny day, soft natural lighting, dappled sunlight, sweet-smelling field, lush foliage",
+        "action": "pulling, straining, determined expression, looking frustrated, tilting head, thoughtful pose, hands on berry, reaching",
+        "composition": "medium shot, eye-level, focus on Peter, Cinderella in background, depth of field"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, giant berries, sunny day, soft natural lighting, dappled sunlight, sweet-smelling field, lush foliage. ACTION: pulling, straining, determined expression, looking frustrated, tilting head, thoughtful pose, hands on berry, reaching. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e12e-19a801192523f55942b806b8;ef6e82d1-50a6-4b9e-9c9e-2342bead9995)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    },
+    {
+      "pageNumber": 17,
+      "part": "6. Moral",
+      "text": "Cinderella saw tiny gears made of berry seeds near the lock. \"Look, Peter!\" she said. \"It's a hard berry juice lock! We need to make it work!\" Then, Cinderella dripped berry juice into the gears from her pumpkin oil can. Peter used his airplane propeller as a fan, blowing away the goo.",
+      "imageFileName": "page_017.png",
+      "audioFileName": "page_017.mp3",
+      "plan": {
+        "Details": "Sunlight dripped through the berry bushes, painting the ground in dappled patterns of light and shadow. A sweet, tangy smell hung heavy in the air, almost thick enough to taste. In the center of the patch, a giant, hollowed-out berry glowed with a soft, internal light, its surface shimmering with sugary crystals.",
+        "Overcome": "Cinderella uses her pumpkin-carved oil can to carefully drip berry juice into the lock's gears, while Peter Pan, using his plane's propeller as a makeshift fan, blows away the excess sticky residue. The lock clicks open with a satisfying pop.",
+        "SequenceEvents": "First [Hook: A faint, melodic hum emanates from the giant berry.]... | Then [Action: Peter tries to yank open the berry, but it's firmly locked. He pulls and pulls, his wooden plane bumping against the lock.]... | Next [Twist: Cinderella notices tiny gears made of berry seeds embedded in the lock. She realizes it's a 'berry juice lock' and needs lubrication.]... | Finally [Resolution: Cinderella oils the lock, Peter uses his propeller, and the lock opens, revealing a hidden passage into a sparkling cavern filled with even more berries.]..."
+      },
+      "img_request": {
+        "bg_details": "berry patch, lush vegetation, dappled sunlight, soft shadows, berry vines, sweet-smelling air, golden hour",
+        "action": "crouching, pointing, smiling, looking down, dripping liquid, focused expression",
+        "composition": "medium shot, eye-level, focus on hands, rule of thirds"
+      },
+      "sd_prompt": "whimsical children's book illustration, soft painterly style, warm and inviting. SCENE: berry patch, lush vegetation, dappled sunlight, soft shadows, berry vines, sweet-smelling air, golden hour. ACTION: crouching, pointing, smiling, looking down, dripping liquid, focused expression. CHARACTER_HINTS: messy red hair, green eyes, mischievous grin, brown leather jacket, green shirt, tan pants, aviator goggles around neck, small wooden toy airplane nearby; SUPPORT_HINTS: blonde ponytail, blue eyes, blue overalls with grease stains, white shirt underneath, brass steampunk goggles on head, holding a silver wrench. ENV_HINTS: berry bushes, butterflies, sunny sky. Whimsical children's book illustration, highly detailed.",
+      "sd_result": {
+        "status": "failed",
+        "error": "Client error '402 Payment Required' for url 'https://router.huggingface.co/nscale/v1/images/generations' (Request ID: Root=1-6927e13c-02ef5a624ac4d99b34b1f8ca;5ad39825-3534-4179-bbc8-70424eb95960)\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402\n\nYou have reached the free monthly usage limit for nscale. Subscribe to PRO to get 20x more included usage, or add pre-paid credits to your account."
+      }
+    }
+  ]
+}
