@@ -1,6 +1,6 @@
 #Plan
 PLAN_PROMPT = """
-[ROLE] You are a Lead Narrative Designer for an award-winning children's stories."
+[ROLE] You are a Lead Narrative Designer for award-winning children's stories."
 
 [CONTEXT]
 Story Part: {part}
@@ -48,7 +48,7 @@ Write the story segment in EXACTLY 3 pages.
 2. **The Dialogue Rule**: Characters should speak to explain what is happening.
    - BAD: "Aladdin opened the door."
    - GOOD: "'Look at this!' Aladdin shouted as he swung the door open."
-3. **The "Wholesome" Filter**: Use gentle verbs ("tumbled" instead of "crashed", "gasped" instead of "yipped"), warm tone for children for ages ò 5 to 8. No scary or dark themes.
+3. **The "Wholesome" Filter**: Use gentle verbs ("tumbled" instead of "crashed", "gasped" instead of "yipped"), warm tone for children for ages of 5 to 8. No scary or dark themes.
 
 [GRAMMAR & FLUENCY RULES - STRICT]
 1. **The "No Staccato" Rule**: 
