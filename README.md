@@ -40,19 +40,20 @@ UI: TextMeshPro (TMP)
 
 Navigate to the AI_Pipeline folder and install dependencies:
 
-cd AI_Pipeline
+```cd AI_Pipeline```
 
 (Dependencies: google-genai, huggingface_hub, python-dotenv, edge-tts)
 
 Create a .env file with your keys:
 
-GEMINI_API_KEY=your_google_key
-HF_TOKEN=your_hugging_face_key
+```GEMINI_API_KEY=your_google_key```
+
+```HF_TOKEN=your_hugging_face_key```
 
 
 Run the generator:
 
-python main.py
+```python main.py```
 
 
 The system will generate stories and automatically save them into ../Unity_Project/Assets/StreamingAssets/StoryData.
@@ -68,7 +69,7 @@ Open MainScene.
 Press Play. The menu will automatically detect and list the stories generated in Step 1.
 
 📂 Project Structure
-
+```
 Repo_Root/
 ├── .gitignore              # Configured for Unity & Python
 ├── AI_Pipeline/            # Python Source Code
@@ -84,7 +85,7 @@ Repo_Root/
     │   ├── Scripts/        # C# Logic (StoryManager.cs)
     │   └── StreamingAssets/# GENERATED CONTENT REPOSITORY
     │       └── StoryData/  # Folders containing JSON, PNG, MP3s
-    └── ProjectSettings/
+    └── ProjectSettings/```
 
 
 🎥 Demo Preview
