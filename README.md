@@ -85,8 +85,8 @@ Repo_Root/
     │   ├── Scripts/        # C# Logic (StoryManager.cs)
     │   └── StreamingAssets/# GENERATED CONTENT REPOSITORY
     │       └── StoryData/  # Folders containing JSON, PNG, MP3s
-    └── ProjectSettings/```
-
+    └── ProjectSettings/
+```
 
 🎥 Demo Preview
 
